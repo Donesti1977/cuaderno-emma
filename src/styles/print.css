@@ -1,0 +1,83 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000;
+  }
+
+  body::before {
+    display: none !important;
+  }
+
+  .rail,
+  .mobile-head,
+  .mobile-nav,
+  .skip-link,
+  .toast,
+  .offline-notice,
+  .no-print {
+    display: none !important;
+  }
+
+  .shell {
+    display: block;
+  }
+
+  .shell__body {
+    background: #fff;
+    background-image: none;
+  }
+
+  .shell__content {
+    max-width: none;
+    padding: 0;
+  }
+
+  .page,
+  .session__card {
+    animation: none;
+  }
+
+  .btn,
+  .icon-btn,
+  .subject-card,
+  .unit-card,
+  .panel,
+  .settings-card,
+  .mission,
+  .week-card,
+  .focus-card,
+  .sticker,
+  .session__card,
+  .summary,
+  .tool-card {
+    box-shadow: none !important;
+  }
+
+  .subject-card,
+  .unit-card,
+  .panel,
+  .settings-card,
+  .mission,
+  .week-card,
+  .focus-card,
+  .sticker,
+  .tool-card {
+    break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

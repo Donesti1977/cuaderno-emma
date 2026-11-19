@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Fondo completo para que iOS y el icono maskable no recorten con negro. -->
+  <rect width="64" height="64" fill="#faf4e6"/>
+  <rect width="64" height="64" rx="14" fill="#fff8ec"/>
+
+  <!-- orejas -->
+  <ellipse cx="15.5" cy="14" rx="5.4" ry="4.4" fill="#a06d43" stroke="#2b2a27" stroke-width="3"/>
+  <ellipse cx="48.5" cy="14" rx="5.4" ry="4.4" fill="#a06d43" stroke="#2b2a27" stroke-width="3"/>
+
+  <!-- cabeza -->
+  <rect x="12" y="14" width="40" height="38" rx="15" fill="#b68052" stroke="#2b2a27" stroke-width="3"/>
+
+  <!-- hocico -->
+  <rect x="21" y="34" width="22" height="16" rx="7.5" fill="#d9a97a"/>
+  <rect x="28" y="34" width="8" height="4.6" rx="2.3" fill="#2b2a27"/>
+  <path d="M27.5 41Q32 44.5 36.5 41" stroke="#2b2a27" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- mejillas -->
+  <ellipse cx="17" cy="33.5" rx="3.4" ry="2.2" fill="#e79a92"/>
+  <ellipse cx="47" cy="33.5" rx="3.4" ry="2.2" fill="#e79a92"/>
+
+  <!-- ojos y gafas -->
+  <circle cx="24" cy="27" r="2.7" fill="#2b2a27"/>
+  <circle cx="40" cy="27" r="2.7" fill="#2b2a27"/>
+  <circle cx="24" cy="27" r="6.2" stroke="#2b2a27" stroke-width="2.1"/>
+  <circle cx="40" cy="27" r="6.2" stroke="#2b2a27" stroke-width="2.1"/>
+  <path d="M30.2 27h3.6M17.8 27h-4M46.2 27h4" stroke="#2b2a27" stroke-width="2.1" stroke-linecap="round"/>
+</svg>

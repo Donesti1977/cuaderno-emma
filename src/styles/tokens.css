@@ -1,0 +1,71 @@
+/* --------------------------------------------------------------------------
+   El cuaderno de Emma · sistema visual
+   Papel cálido, tinta de imprenta y colores de riso. Nada de crema genérico:
+   aquí hay verde de cuaderno, coral de sello y una capibara que estudia.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --paper: #faf4e6;
+  --paper-2: #f3ead8;
+  --paper-3: #e7d9c0;
+  --white: #fffdf7;
+  --cream: #f8f0df;
+
+  --ink: #2b2a27;
+  --ink-soft: #59554c;
+  --ink-faint: #6f6a5e;
+
+  --cover: #22382d;
+  --cover-2: #2c4638;
+  --cover-line: rgba(248, 240, 223, 0.18);
+
+  --coral: #c9553d;
+  --coral-deep: #a63b28;
+  --coral-soft: #f6ddd6;
+  --marigold: #e8b23f;
+  --marigold-soft: #f9ecc9;
+  --leaf: #4c8356;
+  --leaf-soft: #dcebdd;
+  --sky: #2f6f99;
+  --sky-soft: #d9e8f1;
+  --plum: #87506c;
+  --plum-soft: #f0dfe7;
+  --sage: #d7e3da;
+
+  --line: rgba(43, 42, 39, 0.14);
+  --line-strong: rgba(43, 42, 39, 0.45);
+
+  --font-display: "Bricolage Grotesque Variable", "Bricolage Grotesque",
+    "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Nunito", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-read: "Atkinson Hyperlegible", "Nunito", ui-sans-serif, sans-serif;
+
+  --shadow-card: 4px 4px 0 rgba(43, 42, 39, 0.16);
+  --shadow-hard: 4px 4px 0 var(--ink);
+  --shadow-lift: 6px 6px 0 var(--line-strong);
+
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 16px;
+
+  --rail: 268px;
+  --content-max: 1160px;
+
+  --subject: var(--coral);
+  --subject-soft: var(--coral-soft);
+
+  color-scheme: light;
+}
+
+html[data-font-size="grande"] {
+  font-size: 18px;
+}
+
+html[data-font-size="muy-grande"] {
+  font-size: 20px;
+}
+
+html[data-dyslexia="true"] {
+  --font-body: var(--font-read);
+  --font-display: var(--font-read);
+}
