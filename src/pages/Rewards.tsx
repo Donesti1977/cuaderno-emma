@@ -2,13 +2,14 @@ import { Capybara } from "../components/Capybara";
 import { Icon } from "../components/Icon";
 import { PageHeader } from "../components/PageHeader";
 import { StickerBadge } from "../components/StickerBadge";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats } from "../db/hooks";
 import { evaluateStickers, stickerProgressText } from "../lib/rewards";
 
 export function Rewards() {
   const profile = useProfileContext();
-  const stats = useLearningStats(profile.id);
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
   const stickers = evaluateStickers(stats);
   const unlocked = stickers.filter((sticker) => sticker.unlocked);
   const next = stickers

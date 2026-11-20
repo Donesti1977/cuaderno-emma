@@ -1,6 +1,7 @@
-import { curriculum } from "../data/curriculum";
+import { curriculumForGrade } from "../data/curriculum";
 import type {
   Attempt,
+  Grade,
   LearningSession,
   SkillProgress,
   Unit,
@@ -47,8 +48,8 @@ export function unitSkills(unit: Unit) {
   return unit.skills;
 }
 
-export function allUnits(): Unit[] {
-  return curriculum.subjects.flatMap((subject) => subject.units);
+export function allUnits(grade: Grade): Unit[] {
+  return curriculumForGrade(grade).subjects.flatMap((subject) => subject.units);
 }
 
 export function computeUnitMastery(
@@ -88,6 +89,7 @@ export function computeStats(
   progress: SkillProgress[],
   attempts: Attempt[],
   now = new Date(),
+  grade: Grade = 3,
 ): LearningStats {
   const mySessions = sessions
     .filter((session) => session.profileId === profileId)
@@ -109,7 +111,7 @@ export function computeStats(
   );
 
   const unitMastery: Record<string, number> = {};
-  for (const unit of allUnits()) {
+  for (const unit of allUnits(grade)) {
     unitMastery[unit.id] = computeUnitMastery(unit, myProgress);
   }
 

@@ -4,7 +4,7 @@ import { Dialog } from "../components/Dialog";
 import { Icon } from "../components/Icon";
 import { PageHeader } from "../components/PageHeader";
 import { StatCard } from "../components/StatCard";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats } from "../db/hooks";
 import { getFrequentErrors, resetProgress } from "../db/repo";
 import {
@@ -25,7 +25,8 @@ interface ErrorRow {
 
 export function Parent() {
   const profile = useProfileContext();
-  const stats = useLearningStats(profile.id);
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
   const showToast = useAppStore((state) => state.showToast);
   const [unlocked, setUnlocked] = useState(false);
   const [pin, setPin] = useState("");
@@ -73,7 +74,7 @@ export function Parent() {
   async function confirmImport() {
     if (!pendingImport) return;
     try {
-      await importBackup(profile.id, pendingImport);
+      await importBackup(profile.id, pendingImport, grade);
       setPendingImport(null);
       showToast("Copia restaurada. El progreso ya está de vuelta.", "success");
     } catch {
@@ -228,7 +229,7 @@ export function Parent() {
           {errors.length > 0 ? (
             <ul className="error-list">
               {errors.map((row) => {
-                const activity = findActivity(row.activityId);
+                const activity = findActivity(row.activityId, grade);
                 return (
                   <li key={row.activityId}>
                     <span className="error-list__count">{row.count}×</span>
@@ -253,7 +254,7 @@ export function Parent() {
           {stats.weakSkills.length > 0 ? (
             <ul className="weak-list">
               {stats.weakSkills.slice(0, 6).map((item) => {
-                const skill = findSkill(item.skillId);
+                const skill = findSkill(item.skillId, grade);
                 return (
                   <li key={item.skillId}>
                     <span>
@@ -284,7 +285,7 @@ export function Parent() {
           {stats.sessions.length > 0 ? (
             <ul className="session-list">
               {stats.sessions.slice(0, 6).map((session) => {
-                const unit = findUnit(session.unitId);
+                const unit = findUnit(session.unitId, grade);
                 return (
                   <li key={session.id}>
                     <span className="session-list__date">

@@ -1,8 +1,9 @@
+import { Icon } from "../components/Icon";
 import { PageHeader } from "../components/PageHeader";
 import { SubjectCard } from "../components/SubjectCard";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats } from "../db/hooks";
-import { subjects } from "../data/lookup";
+import { studyableSubjects } from "../data/lookup";
 import type { Subject } from "../data/types";
 
 function subjectMastery(subject: Subject, unitMastery: Record<string, number>) {
@@ -16,17 +17,30 @@ function subjectMastery(subject: Subject, unitMastery: Record<string, number>) {
 
 export function Subjects() {
   const profile = useProfileContext();
-  const stats = useLearningStats(profile.id);
-  const ready = subjects.filter((subject) => subject.status === "ready");
-  const soon = subjects.filter((subject) => subject.status === "soon");
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
+  const ready = studyableSubjects(grade).filter(
+    (subject) => subject.status === "ready",
+  );
+  const soon = studyableSubjects(grade).filter(
+    (subject) => subject.status === "soon",
+  );
+  const empty = ready.length === 0 && soon.length === 0;
 
   return (
     <div className="page">
       <PageHeader
-        eyebrow="3º de Primaria"
+        eyebrow={`${grade}º de Primaria`}
         title="Materias"
         description="Todo lo que hay en el cuaderno, ordenado como en el colegio. Lo que todavía no está listo se irá abriendo poco a poco."
       />
+
+      {empty ? (
+        <div className="notice">
+          <Icon name="spark" size={18} />
+          <p>El contenido de {grade}º todavía se está preparando.</p>
+        </div>
+      ) : null}
 
       <section className="section">
         <div className="section__head">
@@ -61,8 +75,9 @@ export function Subjects() {
       </section>
 
       <p className="footnote">
-        El mapa sigue la programación anual de 3º que compartiste. Si el libro
-        de este curso cambia de orden, se ajusta sin rehacer la aplicación.
+        {grade === 3
+          ? "El mapa sigue la programación anual de 3º que compartiste. Si el libro de este curso cambia de orden, se ajusta sin rehacer la aplicación."
+          : `El mapa de ${grade}º se irá llenando a medida que llegue contenido.`}
       </p>
     </div>
   );

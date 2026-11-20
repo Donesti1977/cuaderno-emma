@@ -5,7 +5,7 @@ import { Capybara } from "../components/Capybara";
 import { Dialog } from "../components/Dialog";
 import { Icon } from "../components/Icon";
 import { ProgressBar } from "../components/ProgressBar";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats, useProgressState } from "../db/hooks";
 import { recordAnswer, saveSession } from "../db/repo";
 import { findSubjectOfUnit, findUnit } from "../data/lookup";
@@ -33,10 +33,11 @@ export function SessionPage() {
   const { unitId } = useParams();
   const navigate = useNavigate();
   const profile = useProfileContext();
-  const unit = findUnit(unitId);
+  const grade = useActiveGrade();
+  const unit = findUnit(unitId, grade);
   const subject = unit ? findSubjectOfUnit(unit) : undefined;
   const { progress, loading } = useProgressState(profile.id);
-  const stats = useLearningStats(profile.id);
+  const stats = useLearningStats(profile.id, grade);
   const showToast = useAppStore((state) => state.showToast);
 
   const [items, setItems] = useState<Activity[] | null>(null);
@@ -75,9 +76,12 @@ export function SessionPage() {
       <div className="session-empty">
         <Capybara size={200} />
         <h1>Esta unidad todavía se está preparando</h1>
-        <p>Mientras tanto, la unidad de numeración ya está lista.</p>
-        <Link className="btn btn--primary" to={`/materias/${subject.id}`}>
-          Volver a {subject.shortName}
+        <p>
+          Mientras tanto, puedes practicar con {subject.shortName} desde
+          Materias.
+        </p>
+        <Link className="btn btn--primary" to={`/materias/${unit.subjectId}`}>
+          Volver a materias
         </Link>
       </div>
     );

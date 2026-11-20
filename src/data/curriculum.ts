@@ -3,6 +3,7 @@ import type {
   ChoiceActivity,
   Curriculum,
   Difficulty,
+  Grade,
   InputActivity,
   MatchActivity,
   Skill,
@@ -596,6 +597,7 @@ const subjects: Subject[] = [
     soft: "#f6ddd6",
     icon: "calculator",
     status: "ready",
+    studyable: true,
     units: [
       mathUnit,
       soonUnit(
@@ -665,6 +667,7 @@ const subjects: Subject[] = [
     soft: "#f3e3d3",
     icon: "pen",
     status: "soon",
+    studyable: true,
     units: [
       soonUnit(
         "len-3-u1-narracion",
@@ -696,6 +699,7 @@ const subjects: Subject[] = [
     soft: "#d9e8f1",
     icon: "speak",
     status: "soon",
+    studyable: true,
     units: [
       soonUnit(
         "ing-3-u0-welcome",
@@ -745,6 +749,7 @@ const subjects: Subject[] = [
     soft: "#dcebdd",
     icon: "leaf",
     status: "soon",
+    studyable: true,
     units: [
       soonUnit(
         "nat-3-u1-cuerpo",
@@ -776,6 +781,7 @@ const subjects: Subject[] = [
     soft: "#d7ece9",
     icon: "globe",
     status: "soon",
+    studyable: true,
     units: [
       soonUnit(
         "soc-3-u1-tierra",
@@ -807,6 +813,7 @@ const subjects: Subject[] = [
     soft: "#f0dfe7",
     icon: "palette",
     status: "soon",
+    studyable: false,
     units: [
       soonUnit(
         "art-3-u1-figura",
@@ -838,6 +845,7 @@ const subjects: Subject[] = [
     soft: "#e8ecd7",
     icon: "run",
     status: "soon",
+    studyable: false,
     units: [
       soonUnit(
         "ef-3-u1-movimiento",
@@ -852,10 +860,25 @@ const subjects: Subject[] = [
   },
 ];
 
-export const curriculum: Curriculum = {
-  grade: 3,
-  subjects,
+/**
+ * Currículo por curso. Los cursos sin contenido llevan lista vacía: el mapa
+ * de estado los muestra como «En preparación».
+ */
+export const curricula: Record<Grade, Curriculum> = {
+  1: { grade: 1, subjects: [] },
+  2: { grade: 2, subjects: [] },
+  3: { grade: 3, subjects },
+  4: { grade: 4, subjects: [] },
+  5: { grade: 5, subjects: [] },
+  6: { grade: 6, subjects: [] },
 };
+
+/** Currículo del curso activo; por ahora solo 3º tiene contenido. */
+export const curriculum: Curriculum = curricula[3];
+
+export function curriculumForGrade(grade: Grade): Curriculum {
+  return curricula[grade];
+}
 
 export const mathSubject = subjects.find(
   (subject) => subject.id === "matematicas",

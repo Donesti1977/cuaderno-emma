@@ -134,6 +134,7 @@ export const subjectSchema = z.object({
   soft: z.string().regex(/^#[0-9a-fA-F]{6}$/),
   icon: z.string().min(1),
   status: statusSchema,
+  studyable: z.boolean(),
   units: z.array(unitSchema).min(1),
   tools: z.array(toolSchema).optional(),
 });

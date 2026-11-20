@@ -89,6 +89,8 @@ export interface Subject {
   soft: string;
   icon: string;
   status: SubjectStatus;
+  /** false para materias que no se estudian en el cuaderno (EF, Artística). */
+  studyable: boolean;
   units: Unit[];
   tools?: Tool[];
 }

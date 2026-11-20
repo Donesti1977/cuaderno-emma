@@ -4,10 +4,9 @@ import { Icon } from "../components/Icon";
 import { ProgressBar } from "../components/ProgressBar";
 import { StatCard } from "../components/StatCard";
 import { SubjectCard } from "../components/SubjectCard";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats } from "../db/hooks";
-import { findSkill, subjects } from "../data/lookup";
-import { mathUnit1 } from "../data/curriculum";
+import { findSkill, readyUnits, studyableSubjects } from "../data/lookup";
 import type { Subject } from "../data/types";
 import { formatLongDate, formatMinutes, greeting } from "../lib/dates";
 import { evaluateStickers } from "../lib/rewards";
@@ -25,26 +24,25 @@ function subjectMastery(subject: Subject, unitMastery: Record<string, number>) {
 
 export function Dashboard() {
   const profile = useProfileContext();
-  const stats = useLearningStats(profile.id);
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
+  const heroUnit = readyUnits(grade)[0] ?? null;
   const stickers = evaluateStickers(stats);
   const unlocked = stickers.filter((sticker) => sticker.unlocked).length;
   const size = sessionSize(profile.settings.dailyGoal);
   const minutes = estimatedMinutes(size);
-  const unitMastery = stats.unitMastery[mathUnit1.id] ?? 0;
+  const unitMastery = heroUnit ? (stats.unitMastery[heroUnit.id] ?? 0) : 0;
   const studiedToday = stats.todaySessions > 0;
   const dueCount = stats.dueSkills.length;
   const nextSkill =
-    findSkill(stats.weakSkills[0]?.skillId) ?? mathUnit1.skills[0];
+    findSkill(stats.weakSkills[0]?.skillId, grade) ?? heroUnit?.skills[0];
 
   return (
     <div className="page page--dashboard">
-      {profile.grade !== 3 ? (
+      {!heroUnit ? (
         <div className="notice">
           <Icon name="spark" size={18} />
-          <p>
-            El contenido completo de {profile.grade}º está en camino. Mientras
-            tanto, puedes practicar con 3º desde Materias.
-          </p>
+          <p>El contenido de {grade}º todavía se está preparando.</p>
         </div>
       ) : null}
 
@@ -77,111 +75,120 @@ export function Dashboard() {
         </div>
       </section>
 
-      <div className="dashboard-grid">
-        <section className="mission" aria-labelledby="mission-title">
-          <div className="mission__head">
-            <span className="mission__label">La misión de hoy</span>
-            <span className="mission__time">
-              <Icon name="clock" size={15} /> {minutes} min
-            </span>
-          </div>
-          <h2 id="mission-title">
-            {studiedToday
-              ? "Ya has estudiado hoy. Puedes cerrar aquí."
-              : dueCount > 0
-                ? "Repasar lo que ya sabes"
-                : "Avanzar en los números"}
-          </h2>
-          <p className="mission__text">
-            {studiedToday
-              ? "Si te apetece una vuelta más, siempre es corta. Si no, mañana seguimos."
-              : `Una sesión de ${size} preguntas sobre ${mathUnit1.title.toLowerCase()}, con repaso de lo que está a punto de olvidarse.`}
-          </p>
-          <ol className="mission__steps">
-            <li>
-              <span className="mission__num">1</span>
-              <span>Calentar con algo que ya sabes</span>
-            </li>
-            <li>
-              <span className="mission__num">2</span>
-              <span>Practicar: {nextSkill.short}</span>
-            </li>
-            <li>
-              <span className="mission__num">3</span>
-              <span>Cerrar con una victoria</span>
-            </li>
-          </ol>
-          <div className="mission__actions">
-            <Link className="btn btn--primary" to={`/sesion/${mathUnit1.id}`}>
-              {studiedToday ? "Hacer una sesión corta" : "Empezar la misión"}
-              <Icon name="arrow-right" size={18} />
-            </Link>
-            <Link className="btn btn--ghost" to={`/materias/matematicas/${mathUnit1.id}`}>
-              Ver la unidad
-            </Link>
-          </div>
-          <div className="mission__stamp" aria-hidden="true">
-            <span>{studiedToday ? "Hecho" : "Hoy"}</span>
-          </div>
-        </section>
-
-        <aside className="dashboard-side">
-          <div className="stats-row">
-            <StatCard
-              icon="flame"
-              value={stats.streak > 0 ? `${stats.streak}` : "0"}
-              label={stats.streak === 1 ? "día seguido" : "días seguidos"}
-              tone="coral"
-            />
-            <StatCard
-              icon="clock"
-              value={formatMinutes(stats.todayMinutes)}
-              label="hoy"
-              tone="marigold"
-            />
-            <StatCard
-              icon="target"
-              value={stats.totalAttempts > 0 ? `${stats.accuracy}%` : "—"}
-              label="aciertos"
-              tone="sky"
-            />
-            <StatCard
-              icon="star"
-              value={`${unlocked}`}
-              label="pegatinas"
-              tone="leaf"
-            />
-          </div>
-
-          <section className="continue-card">
-            <div className="continue-card__head">
-              <span className="continue-card__icon">
-                <Icon name="book" size={20} />
+      {heroUnit ? (
+        <div className="dashboard-grid">
+          <section className="mission" aria-labelledby="mission-title">
+            <div className="mission__head">
+              <span className="mission__label">La misión de hoy</span>
+              <span className="mission__time">
+                <Icon name="clock" size={15} /> {minutes} min
               </span>
-              <div>
-                <p className="continue-card__eyebrow">Sigue donde lo dejaste</p>
-                <h2>{mathUnit1.title}</h2>
-              </div>
             </div>
-            <div className="continue-card__progress">
-              <ProgressBar
-                value={unitMastery}
-                label="Dominio de la unidad"
-                size="md"
-              />
-              <span>{unitMastery}%</span>
-            </div>
-            <p className="continue-card__hint">
-              {unitMastery === 0
-                ? "Aún no hay huella. La primera sesión abre el camino."
-                : masteryLabel(unitMastery)}
+            <h2 id="mission-title">
+              {studiedToday
+                ? "Ya has estudiado hoy. Puedes cerrar aquí."
+                : dueCount > 0
+                  ? "Repasar lo que ya sabes"
+                  : `Avanzar en ${heroUnit.title.toLowerCase()}`}
+            </h2>
+            <p className="mission__text">
+              {studiedToday
+                ? "Si te apetece una vuelta más, siempre es corta. Si no, mañana seguimos."
+                : `Una sesión de ${size} preguntas sobre ${heroUnit.title.toLowerCase()}, con repaso de lo que está a punto de olvidarse.`}
             </p>
-            <Link className="link-arrow" to={`/materias/matematicas/${mathUnit1.id}`}>
-              Ver las 6 habilidades <Icon name="arrow-right" size={16} />
-            </Link>
+            <ol className="mission__steps">
+              <li>
+                <span className="mission__num">1</span>
+                <span>Calentar con algo que ya sabes</span>
+              </li>
+              <li>
+                <span className="mission__num">2</span>
+                <span>Practicar: {nextSkill?.short}</span>
+              </li>
+              <li>
+                <span className="mission__num">3</span>
+                <span>Cerrar con una victoria</span>
+              </li>
+            </ol>
+            <div className="mission__actions">
+              <Link className="btn btn--primary" to={`/sesion/${heroUnit.id}`}>
+                {studiedToday ? "Hacer una sesión corta" : "Empezar la misión"}
+                <Icon name="arrow-right" size={18} />
+              </Link>
+              <Link
+                className="btn btn--ghost"
+                to={`/materias/${heroUnit.subjectId}/${heroUnit.id}`}
+              >
+                Ver la unidad
+              </Link>
+            </div>
+            <div className="mission__stamp" aria-hidden="true">
+              <span>{studiedToday ? "Hecho" : "Hoy"}</span>
+            </div>
           </section>
-        </aside>
-      </div>
+
+          <aside className="dashboard-side">
+            <div className="stats-row">
+              <StatCard
+                icon="flame"
+                value={stats.streak > 0 ? `${stats.streak}` : "0"}
+                label={stats.streak === 1 ? "día seguido" : "días seguidos"}
+                tone="coral"
+              />
+              <StatCard
+                icon="clock"
+                value={formatMinutes(stats.todayMinutes)}
+                label="hoy"
+                tone="marigold"
+              />
+              <StatCard
+                icon="target"
+                value={stats.totalAttempts > 0 ? `${stats.accuracy}%` : "—"}
+                label="aciertos"
+                tone="sky"
+              />
+              <StatCard
+                icon="star"
+                value={`${unlocked}`}
+                label="pegatinas"
+                tone="leaf"
+              />
+            </div>
+
+            <section className="continue-card">
+              <div className="continue-card__head">
+                <span className="continue-card__icon">
+                  <Icon name="book" size={20} />
+                </span>
+                <div>
+                  <p className="continue-card__eyebrow">Sigue donde lo dejaste</p>
+                  <h2>{heroUnit.title}</h2>
+                </div>
+              </div>
+              <div className="continue-card__progress">
+                <ProgressBar
+                  value={unitMastery}
+                  label="Dominio de la unidad"
+                  size="md"
+                />
+                <span>{unitMastery}%</span>
+              </div>
+              <p className="continue-card__hint">
+                {unitMastery === 0
+                  ? "Aún no hay huella. La primera sesión abre el camino."
+                  : masteryLabel(unitMastery)}
+              </p>
+              <Link
+                className="link-arrow"
+                to={`/materias/${heroUnit.subjectId}/${heroUnit.id}`}
+              >
+                Ver las {heroUnit.skills.length} habilidades{" "}
+                <Icon name="arrow-right" size={16} />
+              </Link>
+            </section>
+          </aside>
+        </div>
+      ) : null}
 
       <section className="section">
         <div className="section__head">
@@ -191,7 +198,7 @@ export function Dashboard() {
           </Link>
         </div>
         <div className="subject-grid">
-          {subjects.map((subject) => (
+          {studyableSubjects(grade).map((subject) => (
             <SubjectCard
               key={subject.id}
               subject={subject}

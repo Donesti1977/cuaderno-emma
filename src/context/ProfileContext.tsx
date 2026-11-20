@@ -1,5 +1,6 @@
 import { createContext, useContext, type ReactNode } from "react";
-import type { Profile } from "../data/types";
+import type { Grade, Profile } from "../data/types";
+import { useAppStore } from "../store/appStore";
 
 const ProfileContext = createContext<Profile | null>(null);
 
@@ -23,4 +24,14 @@ export function useProfileContext(): Profile {
     throw new Error("useProfileContext necesita un perfil activo.");
   }
   return profile;
+}
+
+/**
+ * Curso activo: la selección del menú izquierdo; si el usuario nunca la
+ * cambia, sigue el curso del perfil activo.
+ */
+export function useActiveGrade(): Grade {
+  const grade = useAppStore((state) => state.grade);
+  const profile = useProfileContext();
+  return grade ?? profile.grade;
 }

@@ -1,6 +1,7 @@
 import { findUnit } from "../data/lookup";
 import type {
   Attempt,
+  Grade,
   LearningSession,
   Profile,
   SkillProgress,
@@ -60,6 +61,7 @@ export function downloadBackup(backup: Backup): void {
 export async function importBackup(
   profileId: string,
   raw: unknown,
+  grade: Grade,
 ): Promise<void> {
   if (!raw || typeof raw !== "object") {
     throw new Error("El archivo no tiene el formato esperado.");
@@ -89,7 +91,7 @@ export async function importBackup(
         item &&
         typeof item.id === "string" &&
         typeof item.unitId === "string" &&
-        findUnit(item.unitId),
+        findUnit(item.unitId, grade),
     )
     .map((item) => ({
       ...item,

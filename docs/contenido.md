@@ -47,11 +47,13 @@ Los identificadores no se reutilizan entre unidades. Si se renombra una habilida
   subtitle: "Tema 1 · Numeración",
   description: "Leer, escribir, comparar, ordenar y aproximar…",
   status: "ready",
+  studyable: true,
   skills: [ /* … */ ],
   activities: [ /* … */ ],
 }
 ```
 
+- `studyable` es `false` para materias que no se estudian en el cuaderno (Educación Física y Artística): no aparecen en Dashboard ni en Materias, y se filtran en `src/data/lookup.ts` via `studyableSubjects()`.
 - `order` ordena las unidades dentro de la materia.
 - `term` es texto libre: «Primer trimestre», «Segundo trimestre»…
 - `subtitle` aparece pequeño, encima del título.

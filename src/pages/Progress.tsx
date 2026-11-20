@@ -5,30 +5,31 @@ import { PageHeader } from "../components/PageHeader";
 import { ProgressBar } from "../components/ProgressBar";
 import { SkillRow } from "../components/SkillRow";
 import { StatCard } from "../components/StatCard";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats } from "../db/hooks";
-import { findSkill, findUnitOfSkill, subjects } from "../data/lookup";
+import { findSkill, findUnitOfSkill, studyableSubjects } from "../data/lookup";
 import { formatMinutes } from "../lib/dates";
 import { evaluateStickers } from "../lib/rewards";
 import { masteryLabel } from "../lib/srs";
 
 export function Progress() {
   const profile = useProfileContext();
-  const stats = useLearningStats(profile.id);
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
   const stickers = evaluateStickers(stats);
   const unlocked = stickers.filter((sticker) => sticker.unlocked).length;
   const progressBySkill = new Map(
     stats.progress.map((item) => [item.skillId, item]),
   );
   const maxWeek = Math.max(1, ...stats.week.map((day) => day.minutes));
-  const readySubjects = subjects.filter((subject) =>
+  const readySubjects = studyableSubjects(grade).filter((subject) =>
     subject.units.some((unit) => unit.status === "ready"),
   );
   const weak = stats.weakSkills
     .map((item) => ({
       item,
-      skill: findSkill(item.skillId),
-      unit: findUnitOfSkill(item.skillId),
+      skill: findSkill(item.skillId, grade),
+      unit: findUnitOfSkill(item.skillId, grade),
     }))
     .filter((entry) => entry.skill && entry.unit)
     .slice(0, 4);
@@ -183,7 +184,7 @@ export function Progress() {
       <section className="section">
         <div className="section__head">
           <h2>Mapa de habilidades</h2>
-          <span className="chip chip--soft">3º de Primaria</span>
+          <span className="chip chip--soft">{grade}º de Primaria</span>
         </div>
         <div className="skill-map">
           {readySubjects.map((subject) => (

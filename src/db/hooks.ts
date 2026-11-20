@@ -2,6 +2,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { useMemo } from "react";
 import type {
   Attempt,
+  Grade,
   LearningSession,
   SkillProgress,
 } from "../data/types";
@@ -77,14 +78,18 @@ export function useAttempts(profileId: string | null) {
   return attempts ?? [];
 }
 
-export function useLearningStats(profileId: string | null): LearningStats {
+export function useLearningStats(
+  profileId: string | null,
+  grade: Grade,
+): LearningStats {
   const sessions = useSessions(profileId);
   const progress = useProgress(profileId);
   const attempts = useAttempts(profileId);
 
   return useMemo(
-    () => computeStats(profileId ?? "", sessions, progress, attempts),
-    [profileId, sessions, progress, attempts],
+    () =>
+      computeStats(profileId ?? "", sessions, progress, attempts, undefined, grade),
+    [profileId, sessions, progress, attempts, grade],
   );
 }
 

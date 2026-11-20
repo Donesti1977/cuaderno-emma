@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { curriculum, mathUnit1 } from "./curriculum";
+import { curriculum, curriculumForGrade, mathUnit1 } from "./curriculum";
 import { curriculumSchema } from "./schema";
 import {
   allActivities,
@@ -10,6 +10,7 @@ import {
   findUnitOfActivity,
   findUnitOfSkill,
   readyUnits,
+  studyableSubjects,
 } from "./lookup";
 
 describe("currículo", () => {
@@ -21,8 +22,16 @@ describe("currículo", () => {
     expect(result.success).toBe(true);
   });
 
+  it("entrega los currículos por curso", () => {
+    expect(curriculumForGrade(3)).toBe(curriculum);
+    for (const grade of [1, 2, 4, 5, 6] as const) {
+      expect(curriculumForGrade(grade).grade).toBe(grade);
+      expect(curriculumForGrade(grade).subjects).toEqual([]);
+    }
+  });
+
   it("no repite identificadores", () => {
-    const activities = allActivities();
+    const activities = allActivities(3);
     const ids = activities.map((activity) => activity.id);
     expect(new Set(ids).size).toBe(ids.length);
 
@@ -51,7 +60,7 @@ describe("currículo", () => {
   });
 
   it("las opciones y las parejas no se repiten", () => {
-    for (const activity of allActivities()) {
+    for (const activity of allActivities(3)) {
       if (activity.type === "choice") {
         expect(new Set(activity.options).size).toBe(activity.options.length);
         expect(activity.correct).toBeGreaterThanOrEqual(0);
@@ -78,7 +87,7 @@ describe("currículo", () => {
   });
 
   it("las unidades listas tienen contenido suficiente", () => {
-    const ready = readyUnits();
+    const ready = readyUnits(3);
     expect(ready.length).toBeGreaterThan(0);
 
     for (const unit of ready) {
@@ -108,14 +117,31 @@ describe("currículo", () => {
 
 describe("búsquedas", () => {
   it("encuentra materias, unidades, habilidades y actividades", () => {
-    expect(findSubject("matematicas")?.id).toBe("matematicas");
-    expect(findSubject("no-existe")).toBeUndefined();
-    expect(findUnit(mathUnit1.id)?.title).toBe(mathUnit1.title);
-    expect(findUnit("no-existe")).toBeUndefined();
-    expect(findSkill("m3-u1-leer")?.name).toBe("Leer y escribir");
-    expect(findActivity("m3-u1-a01")?.type).toBe("choice");
-    expect(findActivity("m3-u1-a41")?.type).toBe("input");
-    expect(findUnitOfActivity("m3-u1-a01")?.id).toBe(mathUnit1.id);
-    expect(findUnitOfSkill("m3-u1-problemas")?.id).toBe(mathUnit1.id);
+    expect(findSubject("matematicas", 3)?.id).toBe("matematicas");
+    expect(findSubject("no-existe", 3)).toBeUndefined();
+    expect(findUnit(mathUnit1.id, 3)?.title).toBe(mathUnit1.title);
+    expect(findUnit("no-existe", 3)).toBeUndefined();
+    expect(findSkill("m3-u1-leer", 3)?.name).toBe("Leer y escribir");
+    expect(findActivity("m3-u1-a01", 3)?.type).toBe("choice");
+    expect(findActivity("m3-u1-a41", 3)?.type).toBe("input");
+    expect(findUnitOfActivity("m3-u1-a01", 3)?.id).toBe(mathUnit1.id);
+    expect(findUnitOfSkill("m3-u1-problemas", 3)?.id).toBe(mathUnit1.id);
+  });
+
+  it("excluye las materias no estudiables del cuaderno", () => {
+    expect(studyableSubjects(3).map((subject) => subject.id)).toEqual([
+      "matematicas",
+      "lengua",
+      "ingles",
+      "naturales",
+      "sociales",
+    ]);
+    expect(
+      curriculum.subjects.find((subject) => subject.id === "artistica")
+        ?.studyable,
+    ).toBe(false);
+    expect(curriculum.subjects.find((subject) => subject.id === "ef")?.studyable).toBe(
+      false,
+    );
   });
 });

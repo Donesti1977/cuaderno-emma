@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Dialog } from "../components/Dialog";
 import { Icon } from "../components/Icon";
 import { PageHeader } from "../components/PageHeader";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useProfiles } from "../db/hooks";
 import { deleteProfile, updateProfile, updateSettings } from "../db/repo";
 import { GRADES, type Grade } from "../data/types";
@@ -93,9 +93,11 @@ function InstallCard() {
 
 export function Settings() {
   const profile = useProfileContext();
+  const grade = useActiveGrade();
   const { profiles } = useProfiles();
   const showToast = useAppStore((state) => state.showToast);
   const setProfileId = useAppStore((state) => state.setProfileId);
+  const setGrade = useAppStore((state) => state.setGrade);
   const [name, setName] = useState(profile.name);
   const [pin, setPin] = useState(profile.settings.parentPin);
   const [deleteOpen, setDeleteOpen] = useState(false);
@@ -140,7 +142,7 @@ export function Settings() {
         <section className="settings-card">
           <div className="section__head">
             <h2>Tu perfil</h2>
-            <span className="chip chip--soft">{profile.grade}º de Primaria</span>
+            <span className="chip chip--soft">{grade}º de Primaria</span>
           </div>
           <label className="field">
             <span className="field__label">Nombre</span>
@@ -160,24 +162,24 @@ export function Settings() {
             <span className="field__label">Curso</span>
             <select
               className="input"
-              value={profile.grade}
-              onChange={(event) =>
-                void updateProfile(profile.id, {
-                  grade: Number(event.target.value) as Grade,
-                })
-              }
+              value={grade}
+              onChange={(event) => {
+                const nextGrade = Number(event.target.value) as Grade;
+                void setGrade(nextGrade);
+                void updateProfile(profile.id, { grade: nextGrade });
+              }}
             >
-              {GRADES.map((grade) => (
-                <option key={grade} value={grade}>
-                  {grade}º de Primaria
+              {GRADES.map((value) => (
+                <option key={value} value={value}>
+                  {value}º de Primaria
                 </option>
               ))}
             </select>
           </label>
-          {profile.grade !== 3 ? (
+          {grade !== 3 ? (
             <p className="field__hint">
-              El contenido completo de 3º es el que está listo. El resto se irá
-              añadiendo al mapa.
+              El contenido de {grade}º todavía se está preparando. Vuelve en
+              un rato: los cursos se van añadiendo poco a poco.
             </p>
           ) : null}
         </section>

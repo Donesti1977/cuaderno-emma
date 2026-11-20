@@ -4,7 +4,7 @@ import { Icon } from "../components/Icon";
 import { PageHeader } from "../components/PageHeader";
 import { ProgressBar } from "../components/ProgressBar";
 import { SkillRow } from "../components/SkillRow";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats } from "../db/hooks";
 import { findSubjectOfUnit, findUnit } from "../data/lookup";
 import { isDue } from "../lib/srs";
@@ -13,8 +13,9 @@ import { estimatedMinutes, sessionSize } from "../lib/session";
 export function UnitPage() {
   const { subjectId, unitId } = useParams();
   const profile = useProfileContext();
-  const stats = useLearningStats(profile.id);
-  const unit = findUnit(unitId);
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
+  const unit = findUnit(unitId, grade);
   const subject = unit ? findSubjectOfUnit(unit) : undefined;
 
   if (!unit || !subject) {

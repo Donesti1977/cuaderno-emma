@@ -35,7 +35,7 @@ export function ActivityView({
   const [showHint, setShowHint] = useState(false);
   const [selected, setSelected] = useState<number | null>(null);
   const [text, setText] = useState("");
-  const [matched, setMatched] = useState<string[]>([]);
+  const [connections, setConnections] = useState<string[]>([]);
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null);
   const [mistakes, setMistakes] = useState(0);
   const [wrongRight, setWrongRight] = useState<string | null>(null);
@@ -59,7 +59,7 @@ export function ActivityView({
   }, [activity]);
 
   const allMatched =
-    activity.type === "match" && matched.length === activity.pairs.length;
+    activity.type === "match" && connections.length === activity.pairs.length;
 
   const canCheck =
     !checked &&
@@ -71,7 +71,7 @@ export function ActivityView({
     if (activity.type === "choice") return selected === activity.correct;
     if (activity.type === "input")
       return checkInputAnswer(text, activity.answers);
-    return mistakes === 0;
+    return allMatched;
   }
 
   function check() {
@@ -86,15 +86,25 @@ export function ActivityView({
     if (!selectedLeft || checked || !("pairs" in activity)) return;
     if (activity.type !== "match") return;
 
-    const leftPair = activity.pairs.find((pair) => pair.id === selectedLeft);
-    if (leftPair?.id === pairId) {
-      setMatched((current) => [...current, pairId]);
+    // Antes de comprobar, una conexión ya hecha puede deshacerse para
+    // corregirla: desconectar o volver a elegir.
+    if (connections.includes(pairId)) {
+      setConnections((current) => current.filter((id) => id !== pairId));
       setSelectedLeft(null);
       setWrongRight(null);
-    } else {
-      setMistakes((value) => value + 1);
-      setWrongRight(pairId);
+      return;
     }
+
+    const selectedPair = activity.pairs.find((pair) => pair.id === selectedLeft);
+    if (selectedPair && selectedPair.id === pairId) {
+      setConnections((current) => [...current, pairId]);
+      setSelectedLeft(null);
+      setWrongRight(null);
+      return;
+    }
+
+    setMistakes((value) => value + 1);
+    setWrongRight(pairId);
   }
 
   function submitInput(event: FormEvent) {
@@ -191,7 +201,7 @@ export function ActivityView({
           <div className="match__column">
             <p className="match__label">Columna A</p>
             {activity.pairs.map((pair) => {
-              const done = matched.includes(pair.id);
+              const done = connections.includes(pair.id);
               return (
                 <button
                   key={pair.id}
@@ -215,7 +225,7 @@ export function ActivityView({
           <div className="match__column">
             <p className="match__label">Columna B</p>
             {rightOrder.map((pair) => {
-              const done = matched.includes(pair.id);
+              const done = connections.includes(pair.id);
               return (
                 <button
                   key={pair.id}

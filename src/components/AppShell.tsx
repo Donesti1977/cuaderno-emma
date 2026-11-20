@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { useLearningStats } from "../db/hooks";
 import type { Profile } from "../data/types";
-import { ProfileProvider } from "../context/ProfileContext";
+import { ProfileProvider, useActiveGrade } from "../context/ProfileContext";
+import { CourseSelector } from "./CourseSelector";
 import { Icon } from "./Icon";
 import { Toast } from "./Toast";
 
@@ -39,7 +40,7 @@ function Brand({ compact = false }: { compact?: boolean }) {
       />
       <span className="brand__text">
         <span className="brand__name">El cuaderno de Emma</span>
-        <span className="brand__sub">3º de Primaria</span>
+        <span className="brand__sub">{useActiveGrade()}º de Primaria</span>
       </span>
     </Link>
   );
@@ -79,11 +80,13 @@ function navClass({ isActive }: { isActive: boolean }) {
 }
 
 function RailNav({ profile }: { profile: Profile }) {
-  const stats = useLearningStats(profile.id);
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
 
   return (
     <aside className="rail">
       <Brand />
+      <CourseSelector />
       <nav className="rail__nav" aria-label="Principal">
         <p className="rail__label">Estudiar</p>
         {primaryNav.map((item) => (
@@ -105,7 +108,7 @@ function RailNav({ profile }: { profile: Profile }) {
           <Avatar name={profile.name} />
           <span className="profile-chip__text">
             <strong>{profile.name}</strong>
-            <span>3º de Primaria</span>
+            <span>{useActiveGrade()}º de Primaria</span>
           </span>
           <StreakPill streak={stats.streak} />
         </Link>
@@ -115,7 +118,7 @@ function RailNav({ profile }: { profile: Profile }) {
 }
 
 function MobileHeader({ profile }: { profile: Profile }) {
-  const stats = useLearningStats(profile.id);
+  const stats = useLearningStats(profile.id, useActiveGrade());
 
   return (
     <header className="mobile-head">

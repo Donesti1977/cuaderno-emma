@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { Icon } from "../components/Icon";
 import { PageHeader } from "../components/PageHeader";
 import { ProgressBar } from "../components/ProgressBar";
-import { useProfileContext } from "../context/ProfileContext";
+import { useActiveGrade, useProfileContext } from "../context/ProfileContext";
 import { useLearningStats } from "../db/hooks";
 import { findSubject } from "../data/lookup";
 import type { Unit } from "../data/types";
@@ -85,8 +85,9 @@ function UnitCard({
 export function SubjectPage() {
   const { subjectId } = useParams();
   const profile = useProfileContext();
-  const stats = useLearningStats(profile.id);
-  const subject = findSubject(subjectId);
+  const grade = useActiveGrade();
+  const stats = useLearningStats(profile.id, grade);
+  const subject = findSubject(subjectId, grade);
 
   if (!subject) {
     return (
@@ -94,6 +95,18 @@ export function SubjectPage() {
         <PageHeader
           title="Esta materia no existe"
           description="Puede que el enlace esté mal o que la materia haya cambiado de nombre."
+          back={{ to: "/materias", label: "Volver a materias" }}
+        />
+      </div>
+    );
+  }
+
+  if (!subject.studyable) {
+    return (
+      <div className="page">
+        <PageHeader
+          title={`${subject.shortName} no está en el cuaderno`}
+          description="Esta materia no se estudia en el cuaderno de Emma."
           back={{ to: "/materias", label: "Volver a materias" }}
         />
       </div>
