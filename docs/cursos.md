@@ -29,7 +29,13 @@ El currículo ya no es único de 3º. `src/data/curriculum.ts` exporta `curricul
 - Subjects: «Listas para practicar» y «En camino» vacías con aviso.
 - SessionPage para una sesión de otro curso: «Esta unidad no existe» (consulta con el curso activo).
 - Estadísticas: `computeStats` devuelve cero/vacío para cursos sin contenido (`allUnits(grade)`).
-- Al crear el perfil, Onboarding permite elegir curso y ya explicaba que «los demás cursos irán llegando a su ritmo».
+- Al crear el perfil, Onboarding permite elegir curso y explica que «los demás cursos irán llegando a su ritmo»; tanto el sello como las etiquetas «Contenido listo / En camino» salen de los cursos que de verdad tienen materias.
+
+## Fuentes de contenido
+
+`docs/programaciones/` guarda el texto de las programaciones de 2º a 6º
+(extraído de los PDFs de `Primaria/`) y un resumen de asignaturas y unidades
+por curso: es el punto de partida para escribir el currículo de cada nivel.
 
 ## Pruebas
 

@@ -4,6 +4,7 @@ import { Icon } from "../components/Icon";
 import { createProfile, updateSettings } from "../db/repo";
 import { useProfiles } from "../db/hooks";
 import { GRADES, type Grade } from "../data/types";
+import { curriculumForGrade } from "../data/curriculum";
 import { useAppStore } from "../store/appStore";
 
 const goals = [
@@ -21,6 +22,11 @@ export function Onboarding() {
   const [grade, setGrade] = useState<Grade>(3);
   const [goal, setGoal] = useState<5 | 10 | 15 | 20>(10);
   const [saving, setSaving] = useState(false);
+  const readyGrades = GRADES.filter(
+    (value) => curriculumForGrade(value).subjects.length > 0,
+  );
+  const readyLabel = readyGrades.map((value) => `${value}º`).join(", ");
+  const gradeReady = readyGrades.includes(grade);
 
   async function submit(event: FormEvent) {
     event.preventDefault();
@@ -44,7 +50,7 @@ export function Onboarding() {
   return (
     <div className="onboarding">
       <div className="onboarding__art">
-        <div className="onboarding__stamp">3º de Primaria</div>
+        <div className="onboarding__stamp">{grade}º de Primaria</div>
         <Capybara size={340} className="onboarding__capybara" />
         <p className="onboarding__quote">
           «Estudiar no tiene que ser una carrera. Solo hay que volver mañana.»
@@ -126,8 +132,12 @@ export function Onboarding() {
               <p className="onboarding__kicker">Tu curso</p>
               <h1>¿En qué curso estás?</h1>
               <p className="onboarding__text">
-                El contenido de 3º es el primero que está listo. Los demás
-                cursos irán llegando a su ritmo.
+                {readyGrades.length === 1
+                  ? `El contenido de ${readyLabel} ya está listo.`
+                  : readyGrades.length > 1
+                    ? `De momento hay contenido en ${readyLabel}.`
+                    : "Todavía no hay contenido completo."}{" "}
+                Los demás cursos irán llegando a su ritmo.
               </p>
               <div className="grade-grid" role="radiogroup" aria-label="Curso">
                 {GRADES.map((value) => (
@@ -140,14 +150,20 @@ export function Onboarding() {
                     onClick={() => setGrade(value)}
                   >
                     <span>{value}º</span>
-                    {value === 3 ? <small>Contenido listo</small> : <small>En camino</small>}
+                    {readyGrades.includes(value) ? (
+                      <small>Contenido listo</small>
+                    ) : (
+                      <small>En camino</small>
+                    )}
                   </button>
                 ))}
               </div>
-              {grade !== 3 ? (
+              {!gradeReady ? (
                 <p className="onboarding__note">
-                  Puedes empezar igualmente, pero por ahora las actividades
-                  completas son de 3º.
+                  Puedes empezar igualmente, pero por ahora{" "}
+                  {readyGrades.length > 0
+                    ? `las actividades completas son de ${readyLabel}.`
+                    : "todavía no hay actividades completas."}
                 </p>
               ) : null}
               <div className="onboarding__actions">

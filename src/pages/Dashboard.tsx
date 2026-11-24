@@ -72,6 +72,9 @@ export function Dashboard() {
         </div>
         <div className="hero__art">
           <Capybara size={230} />
+          <span className="hero__grade" aria-hidden="true">
+            {grade}º
+          </span>
         </div>
       </section>
 
