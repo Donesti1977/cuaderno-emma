@@ -5,6 +5,7 @@ import {
   type FormEvent,
 } from "react";
 import type { Activity } from "../../data/types";
+import { theoryOf } from "../../data/theory";
 import { useProfileContext } from "../../context/ProfileContext";
 import {
   activityTypeLabel,
@@ -30,6 +31,7 @@ export function ActivityView({
   isLast: boolean;
 }) {
   const profile = useProfileContext();
+  const theory = theoryOf(activity);
   const [checked, setChecked] = useState(false);
   const [correct, setCorrect] = useState(false);
   const [showHint, setShowHint] = useState(false);
@@ -119,6 +121,13 @@ export function ActivityView({
         <span className="activity__type">{activityTypeLabel(activity)}</span>
         <span className="activity__skill">{skillName}</span>
       </div>
+
+      {theory ? (
+        <div className="activity__theory">
+          <Icon name="book" size={17} />
+          <p>{theory}</p>
+        </div>
+      ) : null}
 
       <div className="activity__prompt-row">
         <h2 className="activity__prompt" ref={promptRef} tabIndex={-1}>

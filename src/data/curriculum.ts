@@ -25,6 +25,7 @@ const choice = (
   correct: number,
   explanation: string,
   hint?: string,
+  theory?: string,
 ): ChoiceActivity => ({
   type: "choice",
   id,
@@ -35,6 +36,7 @@ const choice = (
   correct,
   explanation,
   hint,
+  theory,
 });
 
 const input = (
@@ -45,6 +47,7 @@ const input = (
   answers: string[],
   explanation: string,
   options: { hint?: string; placeholder?: string; suffix?: string } = {},
+  theory?: string,
 ): InputActivity => ({
   type: "input",
   id,
@@ -53,6 +56,7 @@ const input = (
   prompt,
   answers,
   explanation,
+  theory,
   ...options,
 });
 
@@ -63,6 +67,7 @@ const match = (
   prompt: string,
   pairs: [string, string][],
   explanation: string,
+  theory?: string,
 ): MatchActivity => ({
   type: "match",
   id,
@@ -70,6 +75,7 @@ const match = (
   difficulty,
   prompt,
   explanation,
+  theory,
   pairs: pairs.map(([left, right], index) => ({
     id: `${id}-p${index + 1}`,
     left,

@@ -12,6 +12,7 @@ import {
   readyUnits,
   studyableSubjects,
 } from "./lookup";
+import { theoryOf } from "./theory";
 
 describe("currículo", () => {
   it("cumple el esquema de contenido", () => {
@@ -99,6 +100,14 @@ describe("currículo", () => {
         ).length;
         expect(count).toBeGreaterThanOrEqual(3);
       }
+    }
+  });
+
+  it("tiene teoría previa en cada actividad del currículo de 3.º", () => {
+    for (const activity of allActivities(3)) {
+      const theory = theoryOf(activity);
+      expect(theory, activity.id).toBeTruthy();
+      expect((theory ?? "").trim().length).toBeGreaterThan(0);
     }
   });
 

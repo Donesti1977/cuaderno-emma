@@ -89,6 +89,7 @@ Todas comparten estos campos:
 | `prompt` | string | El enunciado; admite texto y símbolos |
 | `explanation` | string | Se muestra al corregir |
 | `hint` | string opcional | Pista que se puede abrir antes de responder |
+| `theory` | string opcional | Teoría previa que se muestra antes del ejercicio |
 
 ### Opción múltiple (`choice`)
 
@@ -160,6 +161,14 @@ Esto significa que `35.207`, `35207`, `35 207` y `35207 ` se consideran iguales.
 - Entre 3 y 6 parejas.
 - `left` y `right` no se repiten dentro de la actividad.
 - La actividad cuenta como correcta cuando se han unido todas las parejas. Los intentos fallidos dan pista inmediata, pero no convierten la actividad en incorrecta.
+
+### Teoría previa (opcional)
+
+Las actividades pueden llevar un `theory`: un texto breve que se muestra
+en la sesión, antes de la pregunta. El contenido del currículo de 3.º
+que tenemos ahora está en `src/data/theory.ts` (`theoryByActivity`);
+`theoryOf` devuelve el `theory` de la actividad o el de la tabla. El texto
+está en español de España, en el tono del cuaderno.
 
 ## 5. Dificultad y progreso
 

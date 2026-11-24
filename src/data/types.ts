@@ -29,6 +29,8 @@ interface BaseActivity {
   prompt: string;
   explanation: string;
   hint?: string;
+  /** Teoría previa que se muestra antes del ejercicio (opcional). */
+  theory?: string;
 }
 
 export interface ChoiceActivity extends BaseActivity {
