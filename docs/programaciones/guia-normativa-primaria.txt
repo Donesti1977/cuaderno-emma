@@ -1,0 +1,1605 @@
+[paginas: 34]
+
+===== PAGINA 1 =====
+
+Educación Primaria
+Guía de normativa aplicable
+Curso 2026-2027
+ANPE-Madrid,
+siempre contigo
+
+===== PAGINA 2 =====
+
+ANPE-Madrid ha elaborado esta guía
+con fines orientativos, no tiene valor jurídico, solo informativo.
+Es importante consultar la normativa vigente,
+en cada momento.
+
+===== PAGINA 3 =====
+
+ÍNDICE
+Presentación ...............................................................................................................................................................
+5
+1.. Normas que regulan la Educación Primaria .......................................................................................................
+6
+1.1.. Normas de la Comunidad de Madrid ........................................................................................................... 6
+1.2.. Normativa estatal ......................................................................................................................................... 7
+2.. Organización e implantación de la etapa ...........................................................................................................
+8
+2.1.. Disposiciones generales ............................................................................................................................... 8
+2.2.. Objetivos de la etapa (art. 5 del Decreto 61/2022) ...................................................................................... 8
+2.3.. Competencias clave y perfil de salida .......................................................................................................... 9
+2.4.. Escolarización e incorporación del alumnado a la etapa ............................................................................. 12
+2.5.. Acción tutorial y orientación ......................................................................................................................... 13
+2.6.. Áreas ............................................................................................................................................................. 14
+2.7.. Enseñanzas de religión y atención educativa alternativa ............................................................................. 14
+2.8.. Enseñanzas en lengua extranjera ................................................................................................................. 15
+2.9.. CEIP bilingües ............................................................................................................................................... 15
+2.10..Principios pedagógicos ................................................................................................................................ 16
+2.11..Contenidos transversales .............................................................................................................................. 17
+2.12..El horario ...................................................................................................................................................... 17
+2.13..Programaciones didácticas ........................................................................................................................... 18
+2.14..Evaluación de la práctica docente ................................................................................................................ 19
+2.15..Coordinación entre las distintas etapas educativas ...................................................................................... 19
+2.16..Calendario escolar ........................................................................................................................................ 19
+3.. Atención educativa a las diferencias individuales .............................................................................................
+19
+3.1.. Principios generales ...................................................................................................................................... 19
+3.2.. Medidas ordinarias ....................................................................................................................................... 20
+3.3.. 3.4.. Medidas específicas de atención al alumnado con necesidades educativas especiales ............................. 20
+Medidas específicas de atención al alumnado con necesidades educativas por altas capacidades intelec-
+tuales ............................................................................................................................................................ 21
+3.5.. Medidas específicas de atención al alumnado con necesidades educativas por integración tardía en el
+sistema educativo español ........................................................................................................................... 22
+3.6.. Medidas específicas de atención al alumnado con necesidades educativas asociadas a dificultades espe-
+cíficas de aprendizaje por trastorno del desarrollo del lenguaje y la comunicación, trastorno de atención
+o trastorno de aprendizaje ........................................................................................................................... 3.7.. Plan de atención al alumnado con necesidad de compensación educativa ................................................ 22
+23
+3.8.. Plan IncluY0 .................................................................................................................................................. 24
+4.. Evaluación del aprendizaje ..................................................................................................................................
+4.1.. Características y procedimiento de evaluación ............................................................................................ 4.2.. Resultados de la evaluación ......................................................................................................................... 4.3.. Objetividad de la evaluación ........................................................................................................................ 25
+25
+26
+26
+3
+
+===== PAGINA 4 =====
+
+Guía Educación Primaria
+4.4.. Evaluación inicial ........................................................................................................................................... 27
+4.5.. Promoción del alumnado ............................................................................................................................. 4.6.. Documentos oficiales de evaluación ............................................................................................................ 4.6.1.. Actas de evaluación .......................................................................................................................... 4.6.2.. Expediente académico del alumno ................................................................................................... 4.6.3.. Historial académico del alumno ........................................................................................................ 4.6.4.. Informe personal por traslado ........................................................................................................... 4.6.5.. Movilidad del alumnado .................................................................................................................... 4.6.6.. Diligencias cuando se cursen las enseñanzas en una lengua extranjera ........................................... 4.6.7.. Autenticidad, seguridad y confidencialidad ...................................................................................... 4.6.8.. Validez de los anteriores documentos oficiales de evaluación ......................................................... 4.7. Evaluación de diagnóstico .............................................................................................................................. 27
+28
+28
+28
+29
+29
+29
+30
+30
+30
+30
+5.. Autonomía de los centros ...................................................................................................................................
+. 30
+5.1.. 5.3.. Autonomía de los centros docentes en la organización de las enseñanzas de Educación Primaria ............ 5.2.. Proyectos integrados .................................................................................................................................... 31
+Autorización de modificación horaria de las áreas ....................................................................................... 30
+31
+4
+
+===== PAGINA 5 =====
+
+Presentación
+Como consecuencia de la entrada en vigor de la ordenación derivada de la Ley Orgánica 3/2020, de 29 de diciembre,
+por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación (en adelante LOMLOE), se han publicado
+una serie de normas que desarrollan lo establecido respecto a la Educación Primaria en la LOE.
+Estas normas son:
+–
+–
+–
+El Real Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la
+Educación Primaria (BOE del día 3).
+El Decreto 61/2022, de 13 de julio, del Consejo de Gobierno, por el que se establece para la Comunidad de Ma-
+drid la ordenación y el currículo de la etapa de Educación Primaria (BOCM del día 18).
+La Orden 130/2023, de 23 de enero, de la Vicepresidencia, Consejería de Educación y Universidades, por la que
+se regulan aspectos de organización y funcionamiento, evaluación y autonomía pedagógica en la etapa de Edu-
+cación Primaria en la Comunidad de Madrid (BOCM del día 30).
+La Comunidad de Madrid ha aprobado también el Decreto 23/2023, de 22 de marzo, del Consejo de Gobierno, por
+el que se regula la atención educativa a las diferencias individuales del alumnado en la Comunidad de Madrid (BOCM
+del día 24), en cuyo marco han de desarrollarse la atención a la diversidad en las distintas enseñanzas y la orientación
+educativa.
+Además, siguen siendo de aplicación varias normas anteriores a la LOMLOE que regulan diversos aspectos de la Educa-
+ción Primaria en nuestra Comunidad. Por otra parte, otra serie de normas tanto propias de la Comunidad de Madrid como
+estatales, así como instrucciones anuales de los diversos órganos directivos de la Consejería de Educación, Ciencia y Uni-
+versidades (no publicadas en el BOCM) inciden en la organización y el funcionamiento de los centros en los que se imparte
+Educación Primaria. Se puede consultar la normativa educativa vigente en la siguiente página de la Comunidad de Madrid
+(adviértase que suele incluir referencias a normativa derogada):
+https://link.anpemadrid.es/regulacion_primaria
+A continuación de esta presentación, enumeramos todas estas normas, con un enlace, para que el profesorado y los equi-
+pos directivos de los centros puedan tener fácil acceso a ellas. Es importante señalar que son las normas de la Comunidad
+de Madrid las que concretan la acción educativa en el aula.
+ANPE-Madrid ha elaborado esta Guía para facilitar a los docentes y a los equipos directivos el conocimiento de los aspec-
+tos esenciales de las normas que regulan en la Comunidad de Madrid la Educación Primaria, especialmente el Decreto
+61/2022, de 13 de julio, y sobre todo, la Orden 130/2023, de 23 de enero. Esta última es la norma cuyo conocimiento
+es más útil al profesorado de Educación Primaria. Asimismo, se han incluido las partes de otras normas y de las instruc-
+ciones de inicio de curso que hemos considerado que aportan información adicional de interés.
+La Dirección General de Educación Infantil, Primaria y Especial publicó en marzo de 2023 un documento con Orientacio-
+nes para la elaboración de programaciones docentes en las etapas de Educación Infantil y Educación Primaria.
+5
+
+===== PAGINA 6 =====
+
+Guía Educación Primaria
+Recordamos que ANPE ha editado la Ley orgánica 2/2006, de 3 de mayo, de Educación, actualizada con la redacción que
+ha dado la LOMLOE. Esta edición, que se ha entregado a nuestros afiliados, puede consultarse en:
+https://link.anpemadrid.es/anpe_lomloe
+En la Guía del Profesorado 2026-2027 de ANPE-Madrid puede consultarse la normativa que afecta al profesorado
+tanto en el desarrollo de su labor docente como en su vida profesional como trabajadores.
+Todas las referencias que en esta guía se hacen a los padres de los alumnos son extensibles a sus tutores legales.
+1. Normas que regulan la Educación Primaria
+Los enlaces dirigen a la versión consolidada de cada norma, en la que se han introducido las modificaciones realizadas
+tras su publicación. Es preciso recordar que algunas normas han sido modificadas sustancialmente desde su publicación,
+por lo que siempre ha de tenerse presente la versión consolidada.
+1.1. Normas de la Comunidad de Madrid
+Normas cuyo conocimiento resulta esencial
+–
+–
+–
+Decreto 61/2022, de 13 de julio, del Consejo de Gobierno, por el que se establece para la Comunidad de Madrid
+la ordenación y el currículo de la etapa de Educación Primaria (BOCM del día 18).
+Decreto 23/2023, de 22 de marzo, del Consejo de Gobierno, por el que se regula la atención educativa a las di-
+ferencias individuales del alumnado en la Comunidad de Madrid (BOCM del día 24).
+Orden 130/2023, de 23 de enero, de la Vicepresidencia, Consejería de Educación y Universidades, por la que se
+regulan aspectos de organización y funcionamiento, evaluación y autonomía pedagógica en la etapa de Educa-
+ción Primaria en la Comunidad de Madrid (BOCM del día 30).
+Instrucciones no publicadas en el BOCM
+–
+–
+–
+–
+Instrucciones de la Dirección General de Bilingüismo y Calidad de la Enseñanza, de 30 de julio de 2026, sobre
+la organización de las enseñanzas en colegios públicos e institutos bilingües español-inglés de la Comunidad de
+Madrid para el curso escolar 2026-2027.
+Instrucciones de la Viceconsejería de Política y Organización Educativa, de 30 de junio de 2026, sobre comienzo
+del curso escolar 2026-2027 en centros docentes públicos no universitarios de la Comunidad de Madrid.
+Orientaciones para la elaboración de programaciones didácticas en Educación Primaria, elaboradas por el equipo
+de Ámbito Específico de Supervisión de la organización y resultados de los centros de Educación Infantil y Primaria
+o Especial de la Inspección Educativa de la Comunidad de Madrid.
+Instrucciones de la Dirección General de Educación Infantil, Primaria y Especial, de 26 de junio de 2024, sobre el
+funcionamiento del servicio de comedor escolar en centros educativos públicos no universitarios a partir del curso
+2024/2025.
+–
+–
+–
+–
+Orientaciones de la Viceconsejería de Política Educativa, de 4 de diciembre de 2023, para el diseño, elaboración y
+aplicación del Plan IncluYO y sus correspondientes anexos.
+Resolución conjunta de las Viceconsejerías de Política Educativa y de Organización Educativa, de 1 de septiembre
+de 2023, por la que se dictan instrucciones sobre la autorización de las aulas de enlace, incorporación del alumnado
+a las mismas y atención educativa a partir del curso escolar 2023-2024.
+Instrucciones de la Dirección General de Educación Infantil, Primaria y Especial, de 26 de junio de 2023, para la or-
+ganización de los grupos de apoyo específico para la atención educativa a las diferencias individuales del alumnado
+con necesidades educativas especiales y con necesidad de compensación educativa en centros públicos que impar-
+ten las enseñanzas de 2º ciclo de Educación Infantil y Educación Primaria en la Comunidad de Madrid.
+Orientaciones de la Dirección General de Educación Infantil, Primaria y Especial, de 15 de marzo de 2023, para la
+elaboración de programaciones docentes en las etapas de Educación Infantil y Educación Primaria.
+6
+
+===== PAGINA 7 =====
+
+Guía Educación Primaria
+Otras normas de la Comunidad de Madrid que regulan la Educación Primaria
+–
+–
+–
+–
+–
+–
+–
+–
+–
+Decreto 94/2025, de 23 de diciembre, del Consejo de Gobierno, por el que se regula la jornada escolar en los
+centros docentes que imparten segundo ciclo de Educación Infantil y Educación Primaria y en centros de Educa-
+ción Especial en la Comunidad de Madrid (BOCM del día 26).
+Orden 2034/2026, de 25 de mayo, del Consejero de Educación, Ciencia y Universidades, por la que se establece
+el calendario escolar para el curso 2026/2027 en los centros educativos no universitarios sostenidos con fondos
+públicos de la Comunidad de Madrid (BOCM del 5 de junio)- Resolución de 21 de julio de 2006, de la Vicecon-
+sejería de Educación, por la que se dictan instrucciones para la organización de las actuaciones de compensación
+educativa en el ámbito de la enseñanza básica en los centros docentes sostenidos con fondos públicos de la Co-
+munidad de Madrid (BOCM de 14 de agosto de 2006).
+Orden 4192/2025, de 18 de septiembre, de la Consejería de Educación, Ciencia y Universidades, por la que se re-
+gulan determinados aspectos de la ordenación, organización, evaluación y funcionamiento de los centros integra-
+dos de enseñanzas artísticas de música y de Educación Primaria, Educación Secundaria Obligatoria y Bachillerato
+en la Comunidad de Madrid (BOCM de 9 de octubre).
+Orden 2808/2023, de 30 de julio, de la Consejería de Educación, Ciencia y Universidades, por la que se regula la
+escolarización y la atención educativa a las diferencias individuales del alumnado en centros de educación especial
+y unidades de educación especial en centros ordinarios, así como la escolarización combinada en la Comunidad
+de Madrid (BOCM de 10 de agosto).
+Orden 1977/2023, de 5 de junio, del Vicepresidente, Consejero de Educación y Universidades, por la que se es-
+tablece el precio del menú escolar en los centros docentes públicos no universitarios de la Comunidad de Madrid
+(BOCM del día 7).
+Orden 547/2019, de 24 de febrero, de la Consejería de Educación e Investigación, por la que se regulan los crite-
+rios para la organización y funcionamiento de la orientación en Educación Primaria en centros privados concerta-
+dos de la Comunidad de Madrid, así como las líneas generales para su financiación (BOCM del día 28).
+Orden 763/2015, de 24 de marzo, de la Consejería de Educación, Juventud y Deporte, por la que se regulan los
+centros privados concertados bilingües del ámbito de gestión de la Comunidad de Madrid (BOCM de 9 de abril).
+Orden 5958/2010, de 7 de diciembre, de la Consejería de Educación, por la que se regulan los colegios públicos
+bilingües de la Comunidad de Madrid (BOCM 21 de enero de 2011).
+Resolución de 21 de julio de 2006, de la Viceconsejería de Educación, por la que se dictan instrucciones para la
+organización de las actuaciones de compensación educativa en el ámbito de la enseñanza básica en los centros
+docentes sostenidos con fondos públicos de la Comunidad de Madrid (BOCM de 14 de agosto de 2006).
+1.2. Normativa estatal
+Son aquellas que aprueba el Estado en el ejercicio de sus competencias exclusivas, establecidas en el artículo 149.1 de la
+Constitución. Constituyen el marco normativo común para toda España y su contenido debe ser respetado por las normas
+autonómicas que las desarrollen.
+–
+–
+–
+–
+–
+–
+–
+Ley Orgánica 2/2006, de 3 de mayo, de Educación (BOE de día 4).
+El capítulo segundo del título I (arts. 16 a 22) está dedicado a la Educación Primaria. Fue modificado por la LOMLOE.
+Real Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la
+Educación Primaria (BOE del día 3).
+Real Decreto 1594/2011, de 4 de noviembre, por el que se establecen las especialidades docentes del Cuerpo de
+Maestros que desempeñan sus funciones en etapas de Educación Infantil y de Educación Primaria (BOE del día 9).
+Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que im-
+partan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria
+(BOE de 12 de marzo).
+Resolución de 3 de abril de 2024, de la Secretaría de Estado de Educación, por la que se publican los currículos
+de la enseñanza de Religión Evangélica correspondientes a Educación Infantil, Educación Primaria, Educación
+Secundaria Obligatoria y Bachillerato (BOE del día 5).
+Resolución de 16 de septiembre de 2022, de la Secretaría de Estado de Educación, por la que se publican los cu-
+rrículos de la enseñanza de religión islámica correspondientes a Educación Infantil, Educación Primaria, Educación
+Secundaria Obligatoria y Bachillerato (BOE del día 22).
+Resolución de 21 de junio de 2022, de la Secretaría de Estado de Educación, por la que se publican los currículos
+de las enseñanzas de religión católica correspondientes a Educación Infantil, Educación Primaria, Educación Se-
+cundaria Obligatoria y Bachillerato (BOE del día 24).
+7
+
+===== PAGINA 8 =====
+
+Guía Educación Primaria
+Normas estatales aplicables en la Comunidad de Madrid con carácter supletorio
+Son normas que la Administración Central del Estado dicta para su propio ámbito territorial de gestión y que solo resultan
+de aplicación en la Comunidad de Madrid respecto a aquellos aspectos en los que esta no ha establecido en su propia
+regulación.
+–
+–
+Real Decreto 82/1996, de 26 de enero, por el que se aprueba el Reglamento Orgánico de las Escuelas de Educa-
+ción Infantil y de los Colegios de Educación Primaria (BOE de 20 de febrero).
+Orden de 29 de junio de 1994, por la que se aprueban las instrucciones que regulan la organización y funciona-
+miento de las escuelas de Educación Infantil y de los colegios de Educación Primaria (BOE de 6 de julio).
+2. Organización e implantación de la etapa
+2.1. Disposiciones generales (art. 3 del Decreto 61/2022 y de la Orden 130/20223)
+La etapa de Educación Primaria forma parte de la enseñanza básica, de carácter obligatorio y gratuito, comprende tres
+ciclos de dos años académicos de duración cada uno y, en general, se cursará entre los 6 y los 12 años de edad.
+La acción educativa en esta etapa procurará la integración de las distintas experiencias y aprendizajes del alumnado con
+una visión global y se adaptará a sus ritmos de trabajo.
+La orientación y la acción tutorial acompañarán el proceso educativo del alumnado.
+La intervención educativa en esta etapa buscará desarrollar y asentar las bases que contribuyan a una adecuada adquisi-
+ción de las competencias, según lo dispuesto en el anexo I del Decreto 61/2022.
+El currículo de la etapa se organiza en áreas de aprendizaje orientadas al desarrollo de competencias específicas del
+alumnado. Cada una de las áreas se impartirá en cada curso por un único profesor, salvo el área de “Educación Artística”,
+que podrá impartirse por dos profesores, uno por cada bloque que la conforman.
+Los aprendizajes asociados a las competencias específicas de las áreas de “Lengua Castellana y Literatura” y “Matemáti-
+cas” tendrán carácter instrumental, por lo que recibirán, por parte de los centros, especial consideración. En los centros
+que se impartan enseñanzas en inglés, el área de “Lengua Extranjera: Inglés” tendrá, también, carácter instrumental y
+recibirá, asimismo, especial consideración.
+Sin perjuicio de su tratamiento en alguna de las áreas, la comprensión lectora, la expresión oral y escrita, la comunicación
+audiovisual, la competencia digital, el fomento de la creatividad, del espíritu científico y del emprendimiento se trabaja-
+rán en todas ellas.
+A fin de fomentar el hábito y el dominio de la lectura, los centros dedicarán un tiempo diario a la misma en los términos
+que recoja su proyecto educativo.
+Se pondrá especial énfasis en los principios de equidad e inclusión educativa, y se adoptarán las medidas organizativas,
+metodológicas y curriculares que se precisen para atender a las diferencias individuales del alumnado.
+Los métodos pedagógicos que los centros acuerden, asentados en el principio de autonomía, favorecerán modelos de
+intervención educativa dirigidos a la consecución de aprendizajes significativos que promuevan la autonomía, la reflexión
+y la responsabilidad. A su vez, fomentarán la paulatina adquisición de hábitos de trabajo adecuados a su edad y momento
+evolutivo.
+Con el fin de respetar la responsabilidad de los padres en la educación de sus hijos, los centros docentes establecerán
+mecanismos para favorecer su colaboración y participación. Entre ellos, promoverán compromisos educativos con las
+familias para facilitar el progreso académico del alumnado.
+2.2. Objetivos de la etapa (art. 5 del Decreto 61/2022)
+La Educación Primaria contribuirá a desarrollar las siguientes capacidades:
+a) Conocer y apreciar los valores y las normas de convivencia, aprender a obrar poniéndose en el lugar del otro,
+prepararse para el ejercicio activo de la ciudadanía y respetar los derechos humanos, así como su participación en
+una sociedad democrática.
+b) Desarrollar hábitos de trabajo individual y de equipo, de esfuerzo y de responsabilidad en el estudio, así como
+actitudes de confianza en sí mismo, sentido crítico, iniciativa personal, curiosidad, interés y creatividad en el apren-
+dizaje, y espíritu emprendedor.
+8
+
+===== PAGINA 9 =====
+
+Guía Educación Primaria
+c) d) e) f) g) h) i) j) Adquirir habilidades para la resolución pacífica de conflictos y la prevención de la violencia, que les permitan
+desenvolverse con autonomía en el ámbito escolar y familiar, así como en los grupos sociales con los que se re-
+lacionan.
+Conocer, comprender y respetar las diferentes culturas y las diferencias entre las personas, la igualdad de dere-
+chos y oportunidades de hombres y mujeres, y la no discriminación de personas por motivos de etnia, orientación
+o identidad sexual, religión o creencias, discapacidad u otras condiciones.
+Conocer y utilizar de manera apropiada la lengua española y desarrollar hábitos de lectura.
+Adquirir en, al menos, la lengua inglesa, la competencia comunicativa básica que les permita expresar y compren-
+der mensajes sencillos y desenvolverse en situaciones cotidianas en este idioma.
+Desarrollar las competencias matemáticas básicas e iniciarse en la resolución de problemas que requieran la reali-
+zación de operaciones elementales de cálculo, conocimientos geométricos y estimaciones, así como ser capaces
+de aplicarlos a las situaciones de su vida cotidiana.
+Conocer los aspectos fundamentales de las Ciencias de la Naturaleza, las Ciencias Sociales, la Geografía, la His-
+toria y la Cultura.
+Desarrollar las competencias tecnológicas básicas e iniciarse en su utilización, para el aprendizaje, desarrollando
+un espíritu crítico ante su funcionamiento y los mensajes que reciben y elaboran.
+Utilizar diferentes representaciones y expresiones artísticas e iniciarse en la construcción de propuestas visuales y
+audiovisuales.
+k) Valorar la higiene y la salud, aceptar el propio cuerpo y el de los otros, respetar las diferencias y utilizar la educa-
+ción física, el deporte y la alimentación como medios para favorecer el desarrollo personal y social.
+l) Conocer y valorar los animales más próximos al ser humano y adoptar modos de comportamiento que favorezcan
+la empatía y su cuidado.
+m) Desarrollar sus capacidades afectivas en todos los ámbitos de la personalidad y en sus relaciones con las demás
+personas, así como una actitud contraria a la violencia, a los prejuicios y estereotipos de cualquier tipo.
+n) Desarrollar hábitos cotidianos de movilidad activa autónoma saludable, fomentando la educación vial y actitudes
+de respeto que incidan en la prevención de los accidentes de tráfico.
+2.3. Competencias clave y perfil de salida (art. 5 del Decreto 61/2022)
+Las competencias clave, de acuerdo con el Real Decreto 157/2022, de 1 de marzo, a efectos de este Decreto, son las
+siguientes:
+a) Competencia en comunicación lingüística.
+b) Competencia plurilingüe.
+c) Competencia matemática y competencia en ciencia, tecnología e ingeniería.
+d) Competencia digital.
+e) Competencia personal, social y de aprender a aprender.
+f) Competencia ciudadana.
+g) Competencia emprendedora.
+h) Competencia en conciencia y expresión culturales.
+Las competencias clave se caracterizan por su transversalidad, no existe jerarquía alguna entre ellas, ni puede establecer-
+se una correspondencia exclusiva con una única área, sino que engloban los aprendizajes de las distintas áreas y, a su vez,
+se adquieren a partir de las competencias específicas propias de cada área.
+El perfil de salida determina el nivel esperado al término de la educación obligatoria. Se establece un perfil de salida
+esperado al finalizar la Educación Primaria en el Anexo I del Decreto 61/2022. A cada una de las competencias clave
+se asocian unos descriptores operativos que, en conjunto, concretan las capacidades que el alumnado debe adquirir al
+término de la etapa de Educación Primaria. La concreción de los currículos que los centros acuerden en sus proyectos
+educativos tendrá como referente el perfil de salida diseñado para la Educación Primaria.
+A continuación, se transcribe el Anexo I del Decreto 61/2022:
+El perfil de salida al término de la Educación Primaria es la herramienta que permite la identificación del nivel de aprendi-
+zaje esperado en el alumnado al completar esta fase de su itinerario formativo. Se concibe como el elemento que debe
+fundamentar las decisiones curriculares, así como las orientaciones metodológicas que guían la práctica educativa. Debe
+9
+
+===== PAGINA 10 =====
+
+Guía Educación Primaria
+ser, además, el referente último de la evaluación de los aprendizajes del alumnado y ha de considerarse en la toma de
+decisiones sobre la promoción a la etapa de Educación Secundaria Obligatoria.
+A cada una de las competencias clave se asocian unos descriptores operativos que orientan sobre las capacidades
+que debiera adquirir el alumnado al finalizar la etapa. Estos descriptores han sido el referente para determinar las
+competencias específicas de cada área; la correlación entre los descriptores operativos y las competencias específicas
+conlleva que, de la valoración de estas últimas a través de los criterios de evaluación asociados, pueda concluirse el
+grado de adquisición de las competencias clave y, por tanto, la consecución de los objetivos previstos para la etapa
+de Educación Primaria.
+En el anexo I del Real Decreto 157/2022, de 1 de marzo, se describen las competencias clave y los descriptores opera-
+tivos que, con carácter prescriptivo, se exigen al término de la enseñanza básica. A continuación, para cada una de las
+citadas competencias, se presentan los descriptores operativos que orientan sobre el grado de desarrollo competencial
+esperado al término de la etapa de Educación Primaria en la Comunidad de Madrid:
+a) Competencia en comunicación lingüística (CCL)
+Descriptores operativos
+CCL1. Expresa hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o mul-
+timodal, con claridad y adecuación a diferentes contextos cotidianos de su entorno personal, social y educativo, y
+participa con respeto en interacciones e comunicación, tanto para intercambiar información y crear conocimiento
+como para construir vínculos personales.
+CCL2. Comprende, interpreta y valora textos orales, escritos, signados o multimodales sencillos de los ámbitos per-
+sonal, social, y educativo, con acompañamiento puntual, para participar en contextos cotidianos para construir cono-
+cimiento.
+CCL3. Localiza, selecciona y contrasta, con el debido acompañamiento, información sencilla procedente de dos o
+más fuentes, evaluando su fiabilidad y utilidad en función de los objetivos de lectura, y la integra y transforma en
+conocimiento para comunicarla adoptando un punto de vista creativo, crítico y personal.
+CCL4. Lee obras diversas adecuadas a su desarrollo madurativo, seleccionando aquellas que mejor se ajustan a sus
+gustos e intereses; reconoce el patrimonio literario como fuente de disfrute y aprendizaje; y moviliza su experiencia
+personal y lectora para construir y compartir su interpretación de las obras y para crear textos de intención literaria a
+partir de modelos sencillos.
+CCL5. Pone sus prácticas comunicativas al servicio de la convivencia, la gestión dialogada de los conflictos y la igual-
+dad de derechos de todas las personas, para favorecer un uso eficaz y no discriminatorio de los diferentes sistemas
+de comunicación.
+b) Competencia plurilingüe (CP)
+Descriptores operativos
+CP1. Usa, al menos, una lengua, además de la lengua propia, en su caso, y el español, para responder a necesidades
+comunicativas sencillas y predecibles, de manera adecuada tanto a su desarrollo e intereses como a situaciones y
+contextos cotidianos de los ámbitos personal, social y educativo.
+CP2. A partir de sus experiencias, reconoce las diferentes lenguas y experimenta estrategias que, de manera guiada,
+le permiten realizar transferencias sencillas entre distintas lenguas para comunicarse en contextos cotidianos y ampliar
+su repertorio del lenguaje.
+CP3. Conoce y respeta la variedad de las lenguas presentes en su entorno, reconociendo y comprendiendo su valor
+como factor de diálogo, para mejorar la convivencia.
+10
+
+===== PAGINA 11 =====
+
+Guía Educación Primaria
+c) Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM)
+Descriptores operativos
+STEM1. Utiliza, de manera guiada, algunos métodos inductivos y deductivos propios del razonamiento matemático
+en situaciones conocidas, y selecciona y emplea algunas estrategias para resolver problemas reflexionando sobre las
+soluciones obtenidas.
+STEM2. Utiliza el pensamiento científico para entender y explicar algunos de los fenómenos que ocurren a su alrede-
+dor, con uso de herramientas e instrumentos adecuados, planteándose preguntas y realizando experimentos sencillos
+de forma guiada.
+STEM3. Realiza, de forma guiada, proyectos, diseñando, fabricando y evaluando diferentes prototipos o modelos,
+adaptándose ante la incertidumbre, para generar un producto creativo con un objetivo concreto, procurando la par-
+ticipación de todo el grupo.
+STEM4. Interpreta y transmite los elementos más relevantes de algunos métodos y resultados científicos, matemáti-
+cos y tecnológicos de forma clara y veraz, utilizando la terminología científica apropiada, en diferentes formatos (dibu-
+jos, diagramas, gráficos, símbolos…) y aprovechando de forma crítica y responsable la cultura digital para compartir
+y construir nuevos conocimientos.
+STEM5. Participa en acciones fundamentadas científicamente para promover la salud y preservar el medio ambiente
+y los seres vivos.
+d) Competencia digital (CD)
+Descriptores operativos
+CD1. Realiza búsquedas guiadas en internet y hace uso de estrategias sencillas para el tratamiento digital de la in-
+formación (palabras clave, selección de información relevante, organización de datos...) con una actitud crítica sobre
+los contenidos obtenidos.
+CD2. Crea, integra y reelabora contenidos digitales en distintos formatos (texto, tabla, imagen, audio, vídeo, progra-
+ma informático...) mediante el uso de diferentes herramientas digitales para expresar ideas, sentimientos y conoci-
+mientos, respetando la propiedad intelectual y los derechos de autor de los contenidos que reutiliza.
+CD3. Participa en actividades y/o proyectos escolares mediante el uso de herramientas o plataformas virtuales que le
+permitan construir nuevo conocimiento, comunicarse, trabajar en grupo, y compartir datos y contenidos en entornos
+digitales restringidos y supervisados de manera segura y responsable ante su uso.
+CD4. Conoce los riesgos y adopta, con la orientación del docente, medidas preventivas al usar las tecnologías digi-
+tales para proteger los dispositivos, los datos personales, la salud y el medioambiente, y se inicia en la adopción de
+hábitos saludables de las mismas.
+CD5. Se inicia en el desarrollo de soluciones digitales sencillas y sostenibles (reutilización de materiales tecnológicos,
+programación informática por bloques, robótica educativa…) para resolver problemas concretos o retos propuestos
+de manera creativa, solicitando ayuda en caso necesario.
+11
+
+===== PAGINA 12 =====
+
+Guía Educación Primaria
+e) Competencia personal, social y de aprender a aprender (CPSAA)
+Descriptores operativos
+CPSAA1. Es consciente de las propias emociones, ideas y comportamientos personales y emplea estrategias para
+gestionarlas en situaciones de tensión o conflicto, adaptándose a los cambios y armonizándolos para alcanzar sus
+propios objetivos.
+CPSAA2. Conoce los riesgos más relevantes y los principales activos para la salud, adopta estilos de vida saludable,
+y detecta y busca apoyo ante situaciones negativas.
+CPSAA3. Reconoce y respeta las emociones y experiencias de los demás, participa activamente en el trabajo en
+grupo, asume las responsabilidades individuales asignadas y emplea estrategias dirigidas a la consecución de obje-
+tivos compartidos.
+CPSAA4. Reconoce el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje y adopta posturas
+críticas en procesos de reflexión guiados.
+CPSAA5. Planea objetivos a corto plazo, utiliza estrategias de aprendizaje autónomo y participa en procesos de
+autoevaluación y evaluación conjunta, reconociendo sus limitaciones y sabiendo buscar ayuda en el proceso de con-
+strucción del conocimiento.
+f) Competencia ciudadana (CC)
+Descriptores operativos
+CC1. Entiende los procesos históricos y sociales más relevantes relativos a su identidad y cultura, reflexiona sobre las
+normas de convivencia, y las aplica de manera constructiva, dialogante e inclusiva en cualquier contexto.
+CC2. Participa en actividades de su entorno cercano, en la toma de decisiones y la resolución de los conflictos de for-
+ma dialogada y respetuosa con los principios y valores de la Unión Europea y la Constitución Española, los derechos
+humanos y de la infancia, el valor a la diversidad y de la igualdad entre hombres y mujeres, la cohesión social y los
+Objetivos de Desarrollo Sostenible acordados por la ONU.
+CC3. Reflexiona y dialoga sobre valores y problemas de la actualidad, comprendiendo la necesidad de respetar
+diferentes culturas y creencias, cuidar el entorno, de rechazar prejuicios, y de oponerse a cualquier forma de discrim-
+inación y violencia.
+CC4. Comprende las relaciones entre las acciones humanas y el entorno, y se inicia en la adopción de estilos de vida
+adecuados, para conservar la biodiversidad.
+g) Competencia emprendedora (CE)
+Descriptores operativos
+CE1. Reconoce necesidades inherentes a los retos que debe afrontar y elabora ideas originales, utilizando destrezas
+creativas y tomando conciencia de las consecuencias y efectos que las ideas pudieran generar en el entono, para
+proponer soluciones valiosas que respondan a las necesidades detectadas.
+CE2. Identifica fortalezas y debilidades propias utilizando estrategias de autoconocimiento, y se inicia en el conoci-
+miento de elementos económicos y financieros básicos, aplicándolos a situaciones y problemas de la vida cotidiana.
+CE3. Crea ideas planifica tareas, colabora con otros y en equipo, valora el proceso realizado y el resultado obtenido
+para llevar a cabo iniciativas de emprendimiento, y considera la experiencia como una oportunidad para aprender.
+12
+
+===== PAGINA 13 =====
+
+Guía Educación Primaria
+h) Competencia en conciencia y expresión culturales (CCEC)
+Descriptores operativos
+CCEC1. Reconoce y aprecia los aspectos fundamentales del patrimonio cultural y artístico, comprendiendo las difer-
+encias culturales y la necesidad de respetarlas.
+CCEC2. Reconoce especificidades e intencionalidades de las manifestaciones artísticas y culturales más destacadas
+del patrimonio, y se interesa por ellas, identificando los medios y soportes, así como los lenguajes y elementos téc-
+nicos que las caracterizan.
+CCEC3. Expresa ideas, opiniones, sentimientos y emociones de forma creativa, empleando distintos lenguajes artísti-
+cos y culturales, integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas.
+CCEC4. Experimenta de forma creativa con diferentes medios y soportes, y diversas técnicas plásticas, visuales,
+audiovisuales, sonoras o corporales, para elaborar propuestas artísticas y culturales.
+2.4. Escolarización e incorporación del alumnado a la etapa (art. 4 de la Orden 130/2023)
+Con carácter general, la etapa de Educación Primaria se cursará entre los 6 y los 12 años de edad. El alumnado se incor-
+porará al primer curso de la etapa en el año natural en el que cumpla los 6 años.
+La incorporación del alumnado a los diferentes cursos de la etapa se hará efectiva con la matriculación en un centro au-
+torizado. Esta incorporación atenderá, como criterio general, a la edad cronológica. Considerados los años cumplidos en
+el año natural en el que se inicia la escolarización en Educación Primaria, se establece la siguiente correspondencia entre
+la edad cronológica del alumnado y los ciclos y cursos escolares de la etapa:
+Edad Cursos escolares
+6 años
+7 años
+1er curso de 1er ciclo de EP: 1º de EP
+2º curso de 1er ciclo de EP: 2º de EP
+8 años
+9 años
+1er curso de 2º ciclo de EP: 3º de EP
+2º curso de 2º ciclo de EP: 4º de EP
+10 años
+11 años
+1er curso de 3er ciclo de EP: 5º de EP
+2º curso de 3er ciclo de EP: 6º de EP
+2.5. Acción tutorial y orientación (art. 5 de la Orden 130/2023)
+La acción tutorial, inherente a la función docente, acompañará el proceso educativo individual y grupal del alumnado, fo-
+mentará la convivencia, el desarrollo personal, la integración y la participación en la vida del centro. Cada grupo de alum-
+nos tendrá un profesor tutor designado por el director del centro, preferentemente entre el profesorado que imparta más
+horas de docencia en el mismo. El tutor asignado al primer curso de cada uno de los ciclos continuará con el mismo grupo
+de alumnos hasta la finalización del ciclo, si bien el director del centro podrá resolver excepciones a dicha continuidad.
+El profesor tutor coordinará la intervención educativa del profesorado que atiende al grupo de alumnos y mantendrá una
+relación periódica con los padres. Le corresponde informar regularmente a las familias sobre la evolución del proceso
+de aprendizaje, así como trasladar al resto del profesorado las informaciones que aquellos le proporcionen con relación
+al proceso educativo. El resto del profesorado que imparte clase al alumno podrá mantener reuniones con las familias o
+participar en reuniones conjuntas, convocadas por el tutor, al objeto de valorar y realizar las aclaraciones precisas que, al
+respecto del proceso de enseñanza y aprendizaje de un área en concreto, sean necesarias.
+Desde la tutoría y a lo largo del tercer ciclo, se incorporarán elementos de orientación educativa, académica y profesional
+que incluyan, al menos, un acercamiento a los diferentes estudios y profesiones. Cada centro docente acordará criterios
+comunes para incorporar estos elementos a través de las áreas curriculares.
+13
+
+===== PAGINA 14 =====
+
+Guía Educación Primaria
+2.6. Áreas (art. 7 del Decreto 61/2022)
+El alumnado de Educación Primaria cursará las siguientes áreas en todos los cursos de la etapa:
+a) Ciencias de la Naturaleza.
+b) Ciencias Sociales.
+c) Educación Artística.
+d) Educación Física.
+e) Lengua Castellana y Literatura.
+f) Lengua Extranjera: Inglés.
+g) Matemáticas.
+En quinto curso se añadirá el área de Educación en Valores Cívicos y Éticos.
+Los centros podrán completar su oferta formativa en todos o alguno de los seis cursos de la etapa con las siguientes áreas:
+a) Segunda Lengua Extranjera.
+b) Tecnología y Robótica.
+La oferta formativa constará en el proyecto educativo de centro. En ningún caso supondrá un aumento adicional de los
+recursos disponibles, y se respetará lo establecido en la norma básica sobre especialidades y requisitos de titulación para
+impartir docencia, así como lo dispuesto en el artículo 28 del Decreto 61/2022.
+En el Anexo II del Decreto se fijan y describen, para cada ciclo, las competencias específicas de cada área, los cri-
+terios de evaluación asociados y los contenidos, elementos curriculares que, con carácter prescriptivo, se tendrán en
+cuenta en la elaboración de las programaciones didácticas de cada curso.
+2.7. Enseñanzas de religión y atención educativa alternativa (art. 8 del Decreto 61/2022)
+La enseñanza de la religión se impartirá en todos los cursos de la etapa. Al inicio de la etapa, los padres podrán manifestar
+la voluntad de que sus hijos reciban o no enseñanzas de religión. Dicha decisión será susceptible de ser modificada al co-
+mienzo de cada curso académico. Se garantizará que dichas enseñanzas se impartan en horario lectivo y en condiciones
+de igualdad con las demás áreas. La evaluación de la enseñanza de la religión católica se realizará en los mismos términos
+y con los mismos efectos que la de las otras áreas de Educación Primaria. La evaluación de la enseñanza de las diferentes
+confesiones religiosas se ajustará a lo establecido en los acuerdos de cooperación suscritos por el Estado.
+Las calificaciones que se hubieran obtenido en la evaluación de las enseñanzas de religión no se computarán en las con-
+vocatorias en las que deban entrar en concurrencia los expedientes académicos.
+Los centros docentes dispondrán las medidas organizativas para que el alumnado que no curse las enseñanzas de reli-
+gión pueda recibir la debida atención educativa. Esta atención se planificará y programará por parte de cada centro, y
+se dirigirá al desarrollo de las competencias clave a través de la realización de proyectos significativos para el alumnado
+y de la resolución colaborativa de problemas, y al refuerzo de la autoestima, la autonomía, la libertad, la reflexión y la
+responsabilidad. Las actividades que se propongan al efecto se caracterizarán por su transversalidad y, en ningún caso,
+comportarán el aprendizaje de contenidos curriculares asociados al conocimiento del hecho religioso ni a cualquier área
+de la etapa. En el art. 30 de la Orden 130/2023 se añade que la planificación y programación de la atención educativa
+alternativa a las enseñanzas de religión se incluirá en el proyecto educativo de cada centro.
+Las Instrucciones sobre comienzo de curso disponen que:
+–
+Los padres manifestarán su voluntad de recibir o no enseñanzas de religión, al inicio de cada curso, y dicha deci-
+sión se mantendrá durante el curso escolar completo.
+–
+El horario de los profesores de Religión de E. Primaria cuyo contrato no sea de jornada completa, o tengan que
+completar horario en más de un centro, deberá agruparse sin que se sobrepase el máximo de 5 horas de imparti-
+ción de clase diarias en los días en los que deban acudir a más de un centro. Excepcionalmente, los centros que
+imparten E. Infantil y Primaria que tengan asignado un tercio de jornada, podrán impartir a uno de los grupos de
+dicho horario parcial las 2 sesiones el mismo día. El horario de los profesores con jornada parcial se concentrará
+en un máximo de 2 días para un tercio de jornada, de 3 días para media jornada y de 4 días para dos tercios de
+jornada, salvo casos justificados.
+–
+Los centros deberán organizar los grupos de alumnos de enseñanzas de Religión de modo que la asignación
+horaria realizada por la Dirección General de Recursos Humanos sea utilizada para la impartición de estas ense-
+ñanzas. Se llevarán a cabo agrupaciones de alumnos del mismo curso cuando el número de horas asignadas no
+sea suficiente para impartir docencia a todos los grupos, siempre y cuando estas agrupaciones no superen la ratio
+prevista para cada etapa. Excepcionalmente, con el visto bueno del Servicio de Inspección Educativa y su pos-
+terior comunicación a la Dirección General de Recursos Humanos, se podrán hacer agrupaciones de alumnos de
+diferente curso, cuando el número de horas asignadas no sea suficiente para impartir docencia a todos los grupos,
+14
+
+===== PAGINA 15 =====
+
+Guía Educación Primaria
+el número de alumnos de un grupo matriculados en la asignatura de Religión sea inferior a 10 y no haya ninguna
+posibilidad de agruparlos con alumnos del mismo curso. En todo caso, este tipo de agrupaciones no superará la
+ratio prevista para cada etapa.
+2.8. Enseñanzas en lengua extranjera (art. 9 del Decreto 61/2022)
+Los centros docentes podrán impartir las áreas del currículo, a excepción de Matemáticas y Lengua Castellana y Literatu-
+ra, así como los contenidos relacionados con la Historia de España del área de Ciencias Sociales1, en lengua extranjera.
+En este caso, se procurará que a lo largo de la etapa los alumnos adquieran la terminología propia de las áreas en la
+lengua extranjera y en castellano. Los centros también podrán impartir únicamente el bloque I o el bloque II del área de
+Educación Artística en lengua extranjera.
+En los centros en los que se impartan alguna de las áreas o bloques en lengua extranjera se priorizará la comprensión y
+expresión oral en dicha lengua, y la lengua castellana se utilizará, en caso necesario, como apoyo a la lengua extranjera.
+El inglés será, con carácter general, el idioma en el que se impartan esas áreas o bloques en lengua extranjera. No obs-
+tante, se contemplará la posibilidad de que se impartan en el idioma de Segunda Lengua Extranjera, siempre que esta
+se incluya como área en la oferta educativa del centro.
+En los centros sostenidos con fondos públicos, el profesorado que imparta áreas en inglés o en el idioma de Segunda
+Lengua Extranjera deberá acreditar estar en posesión de un título o certificado equivalente al nivel C1 del Marco Común
+Europeo de Referencia de las Lenguas, o bien estar en posesión de la habilitación lingüística vigente para el desempeño
+de puestos bilingües de la Comunidad de Madrid en el idioma o idiomas en que dichas áreas se impartan.
+2.9. CEIP bilingües (Orden 5958/2010 e instrucciones para el curso 2026-2027 de la Dirección General de
+Bilingüismo y Calidad de la Enseñanza).
+La enseñanza del inglés como lengua extranjera, junto con las áreas que se impartan en inglés, ocupará al menos el 30%
+del horario lectivo.
+Las Instrucciones de la Dirección General de Bilingüismo y Calidad de la Enseñanza precisan que el número mínimo de
+horas lectivas semanales correspondientes al área Lengua Extranjera: Inglés será en cada curso de 3,75.
+Las modificaciones horarias que resulten de la implantación del Programa Bilingüe español-inglés no requerirán autoriza-
+ción por parte de la Dirección General de Educación de Educación Infantil, Primaria y Especial.
+Todos los colegios públicos bilingües español-inglés contarán con un coordinador de las enseñanzas en inglés y con
+auxiliares de conversación de lengua inglesa que desempeñarán funciones de apoyo a los maestros que impartan do-
+cencia en inglés. El coordinador de las enseñanzas en inglés será designado cada curso académico por el director entre
+los maestros del centro adscritos a la especialidad Lengua Extranjera: Inglés que estén en posesión de la habilitación lin-
+güística en lengua inglesa para el desempeño de puestos bilingües. En caso de que, debido a necesidades organizativas
+y de gestión del centro, el coordinador no fuera de la especialidad de Lengua Extranjera: Inglés, el director del centro
+deberá solicitar autorización a la dirección general competente en materia de bilingüismo. La figura del coordinador no
+será compatible con la pertenencia al equipo directivo, salvo en casos excepcionales expresamente autorizados.
+Son funciones del coordinador de las enseñanzas en inglés las siguientes:
+a) b) c) d) e) Impartir el mayor número de horas posible de áreas en inglés o del área Lengua Extranjera: Inglés.
+Colaborar con el equipo directivo en la revisión y elaboración de la Programación General Anual y la Memoria de
+final de curso en aquellos aspectos relacionados con el desarrollo del Programa Bilingüe.
+Coordinar el desarrollo de la programación de las áreas impartidas en inglés con el resto de los maestros.
+En el caso de contar con personal de apoyo para el desarrollo de la competencia lingüística de los alumnos, cola-
+borar con el equipo directivo en las funciones que le sean requeridas.
+Coordinar los programas que se implanten en el centro relacionados con el desarrollo de la competencia lingüís-
+tica de los alumnos, velando por la óptima utilización de los recursos del centro.
+1 La referencia a la Historia de España ha sido introducida por el Decreto 59/2024, de 12 de junio, del Consejo de Gobierno, por el
+que se modifica el Decreto 61/2022, de 13 de julio, del Consejo de Gobierno, por el que se establece para la Comunidad de Madrid la
+ordenación y el currículo de la etapa de Educación Primaria, el Decreto 65/2022, de 20 de julio, del Consejo de Gobierno, por el que se
+establecen para la Comunidad de Madrid la ordenación y el currículo de la Educación Secundaria Obligatoria, y el Decreto 64/2022, de
+20 de julio, del Consejo de Gobierno, por el que se establecen para la Comunidad de Madrid la ordenación y el currículo del Bachillerato
+(BOCM de 13 de junio de 2024).
+15
+
+===== PAGINA 16 =====
+
+Guía Educación Primaria
+f) Convocar, establecer el orden del día, presidir las reuniones del equipo docente bilingüe y levantar acta de los
+acuerdos alcanzados.
+g) Fomentar la reflexión sobre la práctica docente en el centro e impulsar iniciativas de innovación pedagógica y
+h) metodológica.
+Seleccionar recursos y materiales, en colaboración con el equipo docente, velando por su buen uso y manteni-
+miento.
+i) j) Organizar y supervisar en el centro, junto con el equipo directivo, la gestión de las pruebas de evaluación externa.
+Colaborar con el equipo directivo en el diseño, adecuación al contexto educativo y puesta en práctica de activida-
+des de formación dirigidas a los docentes adscritos al programa bilingüe, así como la difusión y aprovechamiento
+de dichas actividades formativas.
+k) Mantener informado al director de todos los aspectos relativos al Programa bilingüe español-inglés.
+Cuando proceda, el director facilitará al coordinador la asistencia a las reuniones de la Comisión de Coordinación Peda-
+gógica. El coordinador podrá elevar a la Comisión de Coordinación Pedagógica las propuestas organizativas y académi-
+cas formuladas por el equipo docente bilingüe.
+Se realizarán pruebas de evaluación externa de nivel lingüístico en sexto curso de Educación Primaria. Los CEIP bilingües
+español-inglés participarán y colaborarán en el desarrollo de los procesos de evaluación externa.
+El área Lengua Extranjera: Inglés tendrá carácter instrumental en los CEIP bilingües. Por ello, los centros podrán estable-
+cer las medidas de apoyo ordinario en esta área, en función de las características de su alumnado y los recursos disponi-
+bles en el centro.
+Con carácter general, el inglés será la lengua vehicular utilizada en la aplicación de las medidas de apoyo tanto ordinario
+como específico, salvo en casos debidamente justificados por el equipo docente, en los que podrá ser utilizada la lengua
+castellana como apoyo en el proceso de aprendizaje.
+Las medidas de apoyo específico para los alumnos con necesidades específicas de apoyo educativo se adecuarán a las
+características del alumno conforme a su evaluación psicopedagógica.
+Los maestros que impartan en inglés áreas distintas al área Lengua Extranjera: Inglés deberán estar en posesión de la
+habilitación lingüística para el desempeño de puestos bilingües, percibiendo el complemento de productividad. No se-
+rán acumulables los complementos asociados a impartir un número determinado de horas semanales en inglés de una
+asignatura y a ejercer funciones de maestro coordinador.
+Los maestros en posesión de la habilitación lingüística para el desempeño de puestos bilingües deberán impartir el mayor
+número de horas posible de asignaturas impartidas en lengua inglesa.
+Los maestros especialistas en inglés que no estén en posesión de la habilitación lingüística para el desempeño de puestos
+bilingües únicamente podrán impartir en lengua inglesa el área de su especialidad.
+2.10. Principios pedagógicos (art. 6 del Real Decreto 157/2021 y art. 10 del Decreto 61/2022)
+En esta etapa se pondrá especial énfasis en garantizar la inclusión educativa, la atención personalizada al alumnado y a
+sus necesidades de aprendizaje, la participación y la convivencia, la prevención de dificultades de aprendizaje y la puesta
+en práctica de mecanismos de refuerzo y flexibilización, alternativas metodológicas u otras medidas adecuadas tan pron-
+to como se detecten cualquiera de estas situaciones.
+La intervención educativa buscará desarrollar y asentar progresivamente las bases que faciliten a cada alumno una ade-
+cuada adquisición de las competencias clave previstas en el perfil de salida, teniendo siempre en cuenta su proceso
+madurativo individual y los niveles de desempeño esperados para esta etapa.
+Sin perjuicio de su tratamiento específico en algunas de las áreas de la etapa, la comprensión lectora, la expresión oral
+y escrita, la comunicación audiovisual, la competencia digital, el fomento de la creatividad, del espíritu científico y del
+emprendimiento se trabajarán en todas las áreas.
+Los aprendizajes que tengan carácter instrumental para la adquisición de otras competencias recibirán especial consideración.
+Desde todas las áreas se promoverá la igualdad entre hombres y mujeres, la educación para la paz, la educación para el
+consumo responsable y el desarrollo sostenible y la educación para la salud, incluida la afectivo-sexual.
+Se prestará especial atención a la orientación educativa, la acción tutorial y la educación emocional y en valores.
+Se potenciará el aprendizaje significativo que promueva la autonomía y la reflexión.
+A fin de fomentar el hábito y el dominio de la lectura, todos los centros educativos dedicarán un tiempo diario a la misma,
+en los términos recogidos en su proyecto educativo. Las administraciones educativas promoverán planes de fomento de
+16
+
+===== PAGINA 17 =====
+
+Guía Educación Primaria
+la lectura y de alfabetización en diversos medios, tecnologías y lenguajes. Para ello se contará, en su caso, con la colabo-
+ración de las familias y del voluntariado, así como con el intercambio de buenas prácticas.
+Con objeto de fomentar la integración de las competencias, se dedicará un tiempo del horario lectivo a la realización
+de proyectos significativos para el alumnado y a la resolución colaborativa de problemas, reforzando la autoestima, la
+autonomía, la reflexión y la responsabilidad.
+Los principios pedagógicos orientarán la elección de los métodos pedagógicos por parte de los centros para el desarro-
+llo del proceso de enseñanza-aprendizaje, así como las actividades curriculares que se propongan. Tendrán en cuenta,
+además del currículo establecido, los contenidos transversales.
+2.11. Contenidos transversales (art. 11 del decreto 61/2022)
+Contenidos transversales son los conocimientos, destrezas y actitudes que, de manera transversal, se deben incorpo-
+rar al proceso de enseñanza y aprendizaje en todas las áreas (art. 4 del Decreto 61/2022).
+Se integrarán de manera transversal los contenidos necesarios para que se eduque a los escolares en el respeto a la
+igualdad de oportunidades entre mujeres y hombres, y en la convicción de que la garantía de esa igualdad radica
+en compartir los mismos derechos y los mismos deberes. Se fomentará el aprendizaje de la prevención y resolución
+pacífica de conflictos en todos los ámbitos de la vida personal, familiar y social, así como de los valores que sustentan la
+libertad, la justicia, la igualdad, la paz, la democracia, el respeto a los derechos humanos, a la discapacidad y el rechazo a
+cualquier forma de violencia, terrorismo o xenofobia. Se incorporarán contenidos de carácter transversal relacionados con
+la salud y estilos de vida responsable, el cuidado del medio ambiente, con el reconocimiento de posibles situaciones
+de riesgo derivadas de la utilización de las tecnologías de la información y la comunicación, así como con la protección
+ante emergencias y catástrofes.
+Se fomentarán acciones y valores de respeto, deportividad y trabajo en equipo en todas las actividades deportivas, con
+la finalidad de prevenir actitudes y conductas antideportivas.
+Los centros educativos promoverán acciones para la mejora de la convivencia, la tolerancia, la prudencia, el autocontrol,
+el diálogo y la empatía. Asimismo, garantizarán la inclusión de contenidos transversales relacionados con la igualdad y la
+no discriminación.
+Se diseñarán situaciones de aprendizaje que permitan afianzar en el alumnado el espíritu emprendedor, la creatividad, la
+autonomía, la iniciativa, el trabajo en equipo y la confianza en sí mismo.
+Se incorporarán en las programaciones didácticas contenidos transversales relacionados con la educación vial y de prime-
+ros auxilios, al objeto de prevenir accidentes.
+2.12. El horario (art. 12 y anexos III y IV del Decreto 61/2022, y art. 7 de la Orden 130/2023)
+El horario lectivo dedicado a la impartición del conjunto de las áreas se fija en un mínimo de 22,5 horas semanales, a las
+que se sumarán un mínimo de 2,5 horas semanales repartidas en períodos de recreo diarios de 30 minutos. Con carácter
+general, los centros escolares que imparten Educación Primaria adoptarán el horario lectivo que figura en el Anexo III del
+Decreto 61/2022:
+Horas lectivas semanales
+Áreas
+1º 2º 3º 4º 5º 6º
+Ciencias de la Naturaleza 1,5 1,5 1,5 2 1,5 2
+Ciencias Sociales 1,5 1,5 1,5 2 1,5 2
+Educación Artística 2 2 2 2 1,5 2
+Educación Física 2,5 2,5 2,5 2,5 2,5 2,5
+Educación en Valores Cívicos y Éticos 0 0 0 0 1,5 0
+Lengua Castellana y Literatura 5,25 5,25 5,25 5 5 5
+Lengua Extranjera: Inglés 3 3 3 3 3 3
+Matemáticas 5,25 5,25 5,25 4,5 4,5 4,5
+Religión 1,5 1,5 1,5 1,5 1,5 1,5
+TOTAL 22,5 22,5 22,5 22,5 22,5 22,5
+17
+
+===== PAGINA 18 =====
+
+Guía Educación Primaria
+El horario lectivo semanal mínimo que deberán respetarse en cualquier caso es el siguiente (anexo IV del Decreto 61/2022):
+Horas lectivas semanales
+Áreas
+1º 2º 3º 4º 5º 6º
+Ciencias de la Naturaleza 1,5 1,5 1,5 1,5 1,5 1,5
+Ciencias Sociales 1,5 1,5 1,5 1,5 1,5 1,5
+Educación Artística 1,75 1,75 1,75 1,75 1,5 2
+Educación Física 2 2 2 2 2 1,75
+Educación en Valores Cívicos y Éticos 1,5
+Lengua Castellana y Literatura 4,25 4,25 4,25 4,25 4 4,25
+Lengua Extranjera: Inglés 3 3 3 3 3 3
+Matemáticas 4 4 4 4 4 4
+Religión 1,5 1,5 1,5 1,5 1,5 1,5
+La regulación sobre la organización de los Programas Bilingües en centros públicos y en centros privados concertados
+respetará, para cada área, esta dedicación horaria mínima.
+Los centros que incorporen en su oferta educativa las áreas de Tecnología y Robótica y/o Segunda Lengua Extranjera en
+todos o alguno de los cursos de la etapa, respetarán el horario mínimo, de tal forma que la dedicación horaria oscilará
+entre 0,75 y 3 horas semanales para los cursos de 1º, 2º, 3º, 4º y 6º y entre 0,75 y 2 horas semanales en 5º curso, con
+independencia de que se opte por incorporar una o ambas áreas en cada curso.
+Los centros podrán modificar la dedicación horaria de las áreas respetando, en todo caso, la dedicación horaria mínima
+establecida en el anexo IV del Decreto 61/2022. Las modificaciones horarias que lleven a la práctica los centros en ningún
+caso supondrán aportaciones de las familias ni obligación de financiación adicional para la Administración o incremento
+de recursos de profesorado.
+Los centros organizarán el horario semanal para cada curso de la Educación Primaria en sesiones lectivas de una duración
+no inferior a 0,75 horas ni superior a una hora. Los directores de los centros podrán determinar la impartición de, como
+máximo, dos sesiones lectivas consecutivas en el tiempo de la misma área a lo largo de la jornada escolar.
+2.13. Programaciones didácticas (art. 6 de la Orden 130/2023)
+Es competencia del profesorado tanto la programación como la enseñanza de las áreas.
+Las programaciones didácticas son los documentos institucionales de planificación de las enseñanzas en los que los cen-
+tros concretarán el currículo establecido en el Decreto 61/2022. El conjunto de programaciones didácticas de las áreas de
+un ciclo conformará la programación didáctica de ese ciclo. La suma de las programaciones didácticas de los tres ciclos
+de Educación Primaria constituirá la programación didáctica de la etapa.
+La programación didáctica de cada área en un ciclo incorporará los siguientes elementos:
+a) Unidades de programación didácticas secuenciadas para cada uno de los cursos que lo conforman.
+b) Tratamiento de los contenidos transversales.
+c) Métodos pedagógicos acordados.
+d) Estrategias para una adecuada atención a las diferencias individuales del alumnado.
+e) Criterios de calificación de la programación, entendidos como el valor que se otorga a cada unidad de programa-
+ción didáctica en la calificación del área en un trimestre, curso o ciclo.
+Cada unidad de programación didáctica incluirá, por su parte, los siguientes elementos:
+a) b) c) d) e) Relación de competencias específicas que abarca y criterios de evaluación asociados a las mismas.
+Los contenidos del ciclo que se van a movilizar (conocimientos, destrezas y actitudes).
+Las actividades y situaciones de aprendizaje, que se concretarán en actuaciones que permitan el desarrollo de las
+competencias y la movilización de los contenidos.
+Recursos propios y específicos, de acuerdo con las actuaciones planteadas.
+Instrumentos de evaluación que posibiliten la valoración del proceso de aprendizaje conforme a los criterios de
+evaluación establecidos. A cada instrumento de evaluación se asociará un criterio de calificación, entendido como
+la proporción del valor de la calificación total de la unidad de programación didáctica.
+18
+
+===== PAGINA 19 =====
+
+Guía Educación Primaria
+El equipo de profesores de un ciclo que imparta la misma área se coordinará en la elaboración de las unidades de pro-
+gramación didáctica. El director del centro, como responsable pedagógico, asegurará un adecuado diseño, desarrollo y
+evaluación de la programación didáctica y de la práctica docente.
+La Dirección General de Educación Infantil, Primaria y Especial ha publicado el documento Orientaciones para la elabo-
+ración de programaciones docentes en las etapas de Educación Infantil y Educación Primaria. Además, el equipo de Ám-
+bito Específico de Supervisión de la organización y resultados de los centros de Educación Infantil y Primaria o Especial
+de la Inspección Educativa de la Comunidad de Madrid ha elaborado el documento Orientaciones para la elaboración de
+programaciones didácticas en Educación Primaria.
+2.14. Evaluación de la práctica docente (art. 8 de la Orden 130/2022)
+En el marco de lo dispuesto en la programación didáctica del ciclo, el profesorado evaluará el proceso de enseñanza
+en su conjunto y su propia práctica docente, con la finalidad de mejorar y adecuar la intervención docente a la realidad
+educativa. Dicha evaluación tendrá lugar a lo largo del curso, y atenderá los siguientes aspectos:
+a) Diseño y desarrollo apropiado de actividades o situaciones de aprendizaje para movilizar los contenidos del ciclo
+en las diferentes unidades de programación didáctica.
+b) Adecuación de los instrumentos de evaluación.
+c) Idoneidad de los métodos pedagógicos acordados y de los materiales y recursos didácticos utilizados.
+d) Organización de los espacios, de los tiempos y adecuado aprovechamiento de los recursos del centro.
+e) Pertinencia de las medidas adoptadas para atender las diferencias individuales del alumnado.
+f) Eficacia de las actuaciones planteadas de colaboración con las familias.
+g) Coordinación del equipo docente.
+h) Otros ámbitos relacionados con el proceso de enseñanza que se estimen oportunos.
+2.15. Coordinación entre las distintas etapas educativas (art. 9 de la Orden 130/2022)
+Para garantizar una adecuada transición del alumnado entre las distintas etapas, en los centros educativos que impartan
+enseñanzas de Educación Infantil, Educación Primaria y ESO, se facilitará la celebración de reuniones de coordinación di-
+dáctica entre el profesorado de las etapas contiguas. En el resto de los centros, el director procurará facilitar la asistencia
+del profesorado de Educación Primaria a las reuniones de coordinación que desde el centro en el que se imparte ESO
+se convoquen.
+Las reuniones de coordinación didáctica entre las etapas se celebrarán al finalizar el curso escolar, con posterioridad a la
+celebración de la sesión de evaluación y antes del inicio de la actividad lectiva del curso siguiente.
+2.16. Calendario escolar (art. 29 de Decreto 61/2022)
+El calendario escolar, que fijará anualmente la consejería con competencia en materia educativa, comprenderá un mínimo
+de 175 días lectivos para la etapa de Educación Primaria.
+Para el curso 2026-2075 se ha dictado la Orden 2034/2026, de 25 de mayo, del Consejero de Educación, Ciencia y
+Universidades, por la que se establece el calendario escolar para el curso 2026/2027 en los centros educativos no uni-
+versitarios sostenidos con fondos públicos de la Comunidad de Madrid (BOCM del 5 de junio). La Orden dispone que
+las actividades escolares se desarrollarán entre los días 1 de septiembre de 2026 y 30 de junio de 2027. Las actividades
+lectivas en la Educación Primaria comenzarán el día 7 de septiembre de 2026 y finalizarán el día 18 de junio de 2027.
+3. Atención educativa a las diferencias individuales
+Poco después de la publicación de la Orden 130/2023 se aprobó el Decreto 23/2023, que precisa algunos conceptos y
+medidas. Deberá ser tenido en cuenta en la atención a las diferencias individuales.
+3.1. Principios generales (de modo general para el sistema educativo, el art. 2 del Decreto 23/2023; de
+modo específico para la Educación Primaria, art. 14 del Decreto 61/2022 y art. 10 de la Orden 130/2022)
+La intervención educativa pondrá especial énfasis en la atención individualizada, en la realización de diagnósticos precoces y
+en el establecimiento de mecanismos de apoyo y refuerzo que favorezcan la promoción de curso de todo el alumnado. Las
+medidas que se adopten por estarán orientadas a la consecución de las capacidades esperadas al término de la Educación
+Primaria de acuerdo con el perfil de salida, y a la consecución de los objetivos de la etapa. Estas medidas se adoptarán tan
+pronto como se detecten las dificultades de aprendizaje, y serán tanto organizativas como curriculares o metodológicas.
+19
+
+===== PAGINA 20 =====
+
+Guía Educación Primaria
+Entre ellas podrán considerarse el apoyo educativo en el grupo ordinario, los agrupamientos flexibles o las adaptaciones
+del currículo. Las medidas educativas de atención a las diferencias individuales podrán ser ordinarias o específicas y, en todo
+caso, se orientarán a la consecución de los objetivos generales de la etapa y el perfil de salida de la Educación Primaria.
+Se favorecerá la flexibilización de métodos pedagógicos en la enseñanza y evaluación de la lengua extranjera, especialmente
+con aquel alumnado que presente dificultades en su comprensión y expresión. Igualmente, se establecerán las medidas más
+adecuadas para que los procesos asociados a la evaluación del aprendizaje de cada alumno se adapten a sus necesidades.
+Los centros informarán a los padres sobre las medidas educativas más adecuadas, ordinarias o específicas, para atender
+las diferencias individuales de sus hijos o tutelados.
+Las medidas de atención a las diferencias individuales que se arbitren por parte de los centros, ya sean organizativas,
+curriculares o metodológicas, asegurarán el ajuste de la intervención educativa a las necesidades del alumnado. Podrán
+ser ordinarias o específicas (art. 7 del Decreto 23/2023).
+3.2. Medidas ordinarias (art. 11 de la Orden 130/2023)
+Los centros docentes, en el marco de la normativa vigente, podrán ordenar y disponer una organización de los espacios
+y de los tiempos, y decidir la metodología más adecuada para beneficio de todo el alumnado. La organización dispuesta
+por los centros posibilitará el refuerzo o el enriquecimiento del aprendizaje adquirido, de manera individual y grupal. Di-
+cho refuerzo o enriquecimiento podrá aplicarse tanto en el grupo ordinario como en los agrupamientos flexibles que
+se conformen por el alumnado que reciba simultáneamente enseñanzas de la misma área.
+El profesorado podrá adecuar las unidades de programación didácticas a las necesidades del alumnado, con la inclusión
+de actividades y situaciones de aprendizaje diversas y contextualizadas y con el impulso de distintas metodologías que
+se acompañen de diferentes agrupamientos dentro del aula.
+Se dispondrán medidas de acceso al contexto escolar con los recursos disponibles, de tal manera que los entornos, ma-
+teriales, procesos e instrumentos, incluidos los de evaluación, sean comprensibles, utilizables y practicables, y garanticen
+el acceso a la información, comunicación y participación.
+Las medidas ordinarias que se adopten para cada alumno en particular se registrarán por parte del profesor tutor,
+quien informará de las mismas a las familias y a otros profesionales que intervengan en el proceso educativo.
+El anexo III de las Orientaciones de la Viceconsejería de Política Educativa, de 4 de diciembre de 2023, para el diseño,
+elaboración y aplicación del Plan IncluYO muestra un modelo de registro de aplicación de las diferentes medidas educa-
+tivas ordinarias en un grupo clase según la clasificación que se deduce del art. 8 del Decreto 23/2023. No obstante, es
+preciso ajustar este modelo a lo que dispone la ordenación académica de la Educación Primaria.
+3.3. Medidas específicas de atención al alumnado con necesidades educativas especiales (art. 15 del
+Decreto 61/2022 y arts. 12 y 13 de la Orden 130/2022)
+El alumnado con necesidades educativas especiales podrá requerir determinados apoyos y atenciones educativas espe-
+cíficas para la consecución de los objetivos de aprendizaje, acordes a su desarrollo evolutivo. Las necesidades educativas
+especiales del alumnado se determinarán tras la realización de una evaluación psicopedagógica y su constatación en el
+correspondiente informe. Sin perjuicio de la aplicación de medidas ordinarias, entre las medidas específicas que podrán
+plantearse para atender a este alumnado se encuentran las siguientes:
+a) Adaptaciones curriculares significativas que modifiquen los contenidos y criterios de evaluación del ciclo,
+de acuerdo con el nivel competencial del alumno. A tales efectos, se elaborará una adaptación de las unidades
+de programación didáctica de las áreas afectadas en las que se incluirán contenidos y criterios de evaluación
+de ciclos anteriores.
+b) Adaptaciones curriculares no significativas que, sin modificar los contenidos y criterios de evaluación pres-
+criptivos del ciclo y de acuerdo con el nivel competencial del alumno, permitan movilizar en el segundo curso
+del ciclo los contenidos concretados en las unidades de programación didáctica del primer curso del ciclo.
+Esta medida podrá aplicarse únicamente en los cursos de 2º, 4º y 6º de la etapa.
+c) Apoyo específico al proceso de enseñanza y aprendizaje de las áreas en las que se haya propuesto una adapta-
+ción curricular significativa y se considere necesario, así como a las dificultades asociadas a la condición personal
+del alumno, por parte del profesorado especialista en Pedagogía Terapéutica y/o Audición y Lenguaje, según
+conste en el dictamen de escolarización.
+d) Aplicación de medidas específicas de acceso al contexto escolar, incluidas las relacionadas con los procesos
+de evaluación. Podrá suponer la provisión de recursos de difícil generalización o la puesta en práctica de meto-
+dologías específicas de accesibilidad cognitiva y sensorial. Cuando un centro no disponga de esos recursos, se
+propondrá la escolarización en un centro de atención preferente o un cambio en la modalidad de escolarización.
+e) Permanencia extraordinaria de un segundo año más en la etapa.
+20
+
+===== PAGINA 21 =====
+
+Guía Educación Primaria
+La decisión de prolongar la escolarización en la etapa un segundo año tendrá un carácter excepcional y se autorizará tras
+cursar sexto de Educación Primaria. Se adoptará por el equipo docente en la sesión de evaluación, una vez constatado
+que el alumno no promocionó en alguno de los dos primeros ciclos de la etapa. Se tendrá en cuenta el informe psicope-
+dagógico actualizado, y se tomará especialmente en consideración la información y el criterio del maestro tutor. El direc-
+tor del centro solicitará la permanencia de un segundo año más en la etapa al titular de la Dirección de Área Territorial en
+el último trimestre del correspondiente año académico, según el modelo del anexo I de la Orden 130/2023. La solicitud
+deberá ir acompañada de la siguiente documentación:
+a) Informe psicopedagógico actualizado, que recogerá de manera expresa la conveniencia de la permanencia de un
+año más en el tercer ciclo de la etapa.
+b) Informe rubricado por el tutor y, en su caso, por el equipo docente que atiende al alumno, en el que se ex-
+pongan los motivos por los que estima que esta permanencia excepcional resultará beneficiosa y ayudará a
+minimizar las barreras para el aprendizaje y la participación. El informe recogerá aspectos relacionados con el
+nivel de competencia curricular de las áreas, datos sobre su desarrollo evolutivo en los diferentes ámbitos de
+la personalidad, así como medidas educativas ordinarias y específicas adoptadas a lo largo de la escolarización
+en la etapa.
+El titular de la Dirección de Área Territorial resolverá la autorización de permanencia de un segundo año más en la etapa,
+previo informe favorable del Servicio Territorial de Inspección Educativa. El director del centro incorporará al expediente
+académico la resolución de autorización de permanencia de un segundo año más en la etapa e informará de la resolución
+a los padres.
+Para los alumnos con necesidades educativas especiales los referentes para la evaluación de los aprendizajes serán
+los criterios de evaluación establecidos en las adaptaciones curriculares que se realicen, sin que resulte impedimento
+para promocionar de ciclo o etapa.
+Las Instrucciones de la Dirección General de Educación Infantil, Primaria y Especial, de 26 de junio de 2023, para la or-
+ganización de los grupos de apoyo específico para la atención educativa a las diferencias individuales del alumnado con
+necesidades educativas especiales y con necesidad de compensación educativa en centros públicos que imparten las
+enseñanzas de 2º ciclo de Educación Infantil y Educación Primaria en la Comunidad de Madrid, disponen respecto a la
+organización de los grupos de apoyo específico para la atención a este alumnado en centros públicos:
+–
+Con carácter general, los grupos de apoyo específico que se constituyan y sean atendidos por los maestros
+especialistas en Pedagogía Terapéutica y Audición y Lenguaje se organizarán en agrupaciones de, al menos, 3
+alumnos.
+–
+El número de horas de atención educativa al alumnado en un grupo de apoyo específico por parte del maestro
+especialista en Pedagogía Terapéutica será el suficiente y necesario de acuerdo con las necesidades detectadas,
+hasta un máximo de 9 horas semanales.
+–
+En todo caso, la organización del centro procurará una eficiencia de los recursos de profesorado especialista en
+Pedagogía Terapéutica y Audición y Lenguaje. Los grupos que se constituyan podrán incorporar alumnado de di-
+ferentes cursos o ciclos, y tendrán en cuenta las barreras que limiten su aprendizaje y participación, así como otras
+medidas específicas de atención educativa que se hubieran adoptado.
+3.4. Medidas específicas de atención al alumnado con necesidades educativas por altas capacidades
+intelectuales (art. 18 del Decreto 61/2022 y arts. 14 y 15 de la Orden 130/2022)
+Con carácter general, para todo el alumnado identificado con necesidad específica de apoyo educativo por altas ca-
+pacidades intelectuales tras la correspondiente evaluación psicopedagógica y sin perjuicio de la posible aplicación de
+medidas ordinarias, los centros diseñarán un plan individualizado de enriquecimiento curricular en el que plantearán
+situaciones de aprendizaje o actividades que tendrán por objeto el máximo desarrollo de sus capacidades.
+Los centros podrán proponer como medida específica la flexibilización de las enseñanzas, por la que se reducirá en un
+curso académico la duración de esta etapa. Se solicitará una vez implantada la medida de enriquecimiento curricular y
+cuando se considere insuficiente para atender adecuadamente las necesidades de este alumnado y, en todo caso, se
+aplicará en el curso siguiente a aquel en que se haya llevado a cabo la evaluación psicopedagógica y realizado el corres-
+pondiente informe. La reducción de la etapa de Educación Primaria podrá proponerse en el último año de escolarización
+de la etapa de Educación Infantil. En este caso, el alumno completará el proceso de enseñanza y aprendizaje del primer
+ciclo de Educación Primaria en el segundo curso de esta etapa.
+La medida de flexibilización requerirá autorización de la dirección general competente en ordenación académica
+de Educación Primaria. El director del centro solicitará la autorización de flexibilización a la Dirección de Área Territorial
+correspondiente con anterioridad al 15 de abril de cada año académico. Se formulará según el modelo del anexo II de la
+Orden 130/2023. La solicitud deberá ir acompañada de la siguiente documentación:
+21
+
+===== PAGINA 22 =====
+
+Guía Educación Primaria
+a) b) c) El informe psicopedagógico actualizado, que recogerá de manera expresa la conveniencia de la flexibilización.
+Un informe rubricado por el tutor del grupo y el resto del equipo docente en el que se indique que el alumno tiene
+adquiridas las competencias del curso en el que está escolarizado y, observadas las unidades de programación
+didáctica que correspondan, también las del siguiente curso. Además, recogerá aspectos relacionados con datos
+sobre su desarrollo evolutivo en los diferentes ámbitos de la personalidad.
+La conformidad expresa de los padres o tutores legales del alumno, con la propuesta de flexibilización de la etapa
+de Educación Primaria.
+El titular de la Dirección de Área Territorial anexará a la documentación anterior un informe del Servicio Territorial de
+Inspección Educativa en el que constará, al menos, que la solicitud se ajusta a lo establecido en esta orden y que los dere-
+chos del alumno y de su familia han sido respetados, y la remitirá a la dirección general con competencias en ordenación
+académica en Educación Primaria a la mayor brevedad. La dirección general podrá requerir informes complementarios a
+la dirección del centro en el que el alumno se encuentre escolarizado o a la propia Dirección de Área Territorial y resolverá
+antes de la finalización del curso escolar. La resolución se notificará al centro docente, que informará a la familia, y a la
+Dirección de Área Territorial en el que este se ubique.
+Una vez solicitada la flexibilización, el centro educativo podrá organizar la atención educativa del alumnado propuesto en
+el curso superior al que le corresponde por edad hasta la finalización del curso escolar, si bien continuará matriculado en
+el curso en el que inició su escolarización ese año académico.
+Los centros educativos podrán proponer la incorporación del alumnado con necesidades específicas de apoyo educativo
+por altas capacidades intelectuales al Programa de Enriquecimiento educativo del alumnado con Altas Capacidades de
+la Comunidad de Madrid.
+3.5. Medidas específicas de atención al alumnado con necesidades educativas por integración tardía
+en el sistema educativo español (art. 17 del Decreto 61/2022 y art. 16 de la Orden 130/2023)
+Se considerará alumnado con necesidades educativas por integración tardía en Educación Primaria aquel que afronte
+barreras que limiten su aprendizaje o participación, derivadas de una incorporación atemporal al sistema educativo es-
+pañol en esta etapa.
+Los centros docentes podrán determinar como medida específica de atención a las diferencias individuales de este alum-
+nado que presente un desfase en su nivel de competencia curricular de un ciclo o más, la escolarización en un curso
+inferior al que le correspondería por edad. La medida se adoptará una vez conocidos los resultados de la evaluación ini-
+cial, consideradas la organización y funcionamiento del centro. Se diseñará un plan individualizado de recuperación de
+este desfase que favorezca la incorporación al curso que por edad le corresponde. El alumno al que se le haya aplicado
+esta medida específica y no se incorpore al curso que por edad le correspondería, no podrá permanecer un curso más en
+la etapa, por lo que promocionará al curso siguiente.
+En el caso de que la incorporación tardía del alumnado se acompañe del desconocimiento del idioma español y ello
+suponga una barrera para el aprendizaje y la participación, los centros informarán a las familias, antes de hacer efectiva la
+matrícula, de la posibilidad de escolarizarse en un centro que disponga de Aula de Enlace, en el que recibirán un apoyo
+específico.
+El Decreto 23/2023 precisa esta última medida en su art. 18: “Apoyo específico al proceso de enseñanza y aprendizaje
+de las áreas, materias o ámbitos en un aula determinada para el alumnado que se escolarice con desconocimiento de la
+lengua española en tercero de Educación Primaria o siguientes cursos de la enseñanza obligatoria, que se denominará
+Aula de Enlace. La atención educativa será, en todo caso, simultánea a su escolarización en el grupo ordinario, con el que
+compartirán el mayor tiempo posible del horario semanal”.
+En la actualidad, lo referente a las aulas de enlace está regulado en la Resolución conjunta de las Viceconsejerías de
+Política Educativa y de Organización Educativa, de 1 de septiembre de 2023, por la que se dictan instrucciones sobre
+la autorización de las aulas de enlace, incorporación del alumnado a las mismas y atención educativa a partir del curso
+escolar 2023-2024
+3.6. Medidas específicas de atención al alumnado con necesidades educativas asociadas a
+dificultades específicas de aprendizaje por trastorno del desarrollo del lenguaje y la
+comunicación, trastorno de atención o trastorno de aprendizaje (art. 16 del Decreto 61/2022 y art.
+17 de la Orden 130/2023)
+Para la atención educativa de este tipo de alumnado se podrán aplicar las medidas necesarias que garanticen el acceso a
+la evaluación, como la incrementación de los tiempos previstos para la realización de las pruebas de evaluación hasta en
+un máximo del 35 por 100 sobre el establecido, la adaptación de modelos o pruebas de evaluación a las necesidades del
+22
+
+===== PAGINA 23 =====
+
+Guía Educación Primaria
+alumnado, la adecuación de diferentes tipos y tamaños de fuente en el texto de las pruebas, el uso de materiales diversos
+que faciliten el proceso de evaluación y la habilitación de espacios diferenciados al efecto.
+Al expediente académico del alumnado se adjuntará un documento acreditativo de la aplicación de estas medidas por
+curso académico, rubricado por el profesor tutor y visado por el director del centro, según el modelo del anexo III de la
+Orden 130/2023.
+Si tras una evaluación psicopedagógica se constatara que el trastorno le produce un deterioro funcional muy significa-
+tivo en el entorno educativo y se acompañara de un desfase curricular respecto al nivel competencial que por edad le
+correspondería, se podrán plantear adaptaciones curriculares no significativas. El director del centro podrá acordar la
+incorporación de este alumnado a uno de los grupos de apoyo específico que se hubieran constituido en el centro, con
+los recursos disponibles y siempre que no se obstaculice la adecuada atención al alumnado con necesidades educativas
+especiales (en el mismo sentido, el art. 23 del Decreto 23/2023).
+3.7. Medidas de atención al alumnado con necesidad de compensación educativa.
+Conforme al artículo 24 del Decreto 23/2023, se considerará alumnado con necesidad de compensación educativa aquel
+que afronte barreras que limiten su aprendizaje y participación derivadas, especialmente, de factores sociales, culturales
+o étnicos. De no atender las necesidades educativas asociadas a esa condición, podrían originarse graves carencias en las
+competencias o conocimientos básicos del alumnado. Añade el artículo que las medidas para atender a este alumnado
+se centrarán, preferentemente, en la atención educativa en grupos de apoyo o aulas específicas de apoyo en las etapas
+de E. Primaria y en ESO que permitan adecuar la formación a su edad, nivel escolar e historial personal y académico. Se
+encomienda al titular de la consejería competente en materia de educación regular la organización de las medidas de
+atención educativa de carácter compensatorio para este alumnado.
+Por su parte, la Resolución de 21 de julio de 2006, de la Viceconsejería de Educación, por la que se dictan instrucciones
+para la organización de las actuaciones de compensación educativa en el ámbito de la enseñanza básica en los centros
+docentes sostenidos con fondos públicos de la Comunidad de Madrid, considera alumnado con necesidades de com-
+pensación educativa al escolarizado en Educación Primaria y en ESO que se encuentre en situación de desventaja socioe-
+ducativa por su pertenencia a minorías étnicas y/o culturales, por factores sociales, económicos o geográficos, y presente
+desfase escolar significativo, con dos o más cursos de diferencia entre su nivel de competencia curricular y el curso en el
+que está escolarizado, así como dificultades de inserción educativa y necesidades de apoyo específico derivadas de la
+incorporación tardía al sistema educativo o por una escolarización irregular. En ninguna circunstancia será determinante,
+para su inclusión como alumno con necesidades de compensación educativa, que un alumno únicamente acumule retra-
+so escolar, manifieste dificultades de convivencia o problemas de conducta en el ámbito escolar, si estos factores no van
+unidos a las situaciones descritas en el apartado anterior.
+La Resolución prevé la existencia de los siguientes modelos organizativos en Educación Primaria:
+a) b) c) Apoyo en grupos ordinarios, que es el que se realizará con carácter general.
+Grupos de apoyo. Para desarrollar actividades específicas relacionadas con la adquisición de competencias comu-
+nicativas en la lengua vehicular del proceso de enseñanza y con la adquisición o refuerzo de aprendizajes instru-
+mentales básicos, se podrá establecer apoyo educativo en grupos fuera del aula de referencia, durante un máximo
+de 15 horas semanales. El horario establecido para estos grupos de apoyo no será nunca coincidente con el de las
+áreas de Educación Artística, Educación Física, Religión o actividades alternativas. El número de alumnos en estos
+grupos no debe ser superior a 12, y su adscripción a los mismos se revisará periódicamente, coincidiendo con el
+calendario de evaluación que el centro tenga establecido con carácter general. De forma excepcional, se podrán
+establecer grupos de apoyo específicos para alumnos inmigrantes sin escolarización previa en su país de origen
+que se encuentren escolarizados en el tercer ciclo de Educación Primaria.
+Aulas de enlace, de las que ya se ha tratado en el apartado 3.5.
+La Resolución encomienda a la Dirección General de Educación Infantil y Primaria (actualmente Dirección General de
+Educación Infantil, Primaria y Especial) autorizar a los centros sostenidos con fondos públicos para que desarrollen ac-
+tuaciones de compensación educativa y sean dotados de los recursos de apoyo previstos en la propia Resolución. La
+solicitud deberá realizarse mediante propuesta conjunta del Servicio de Inspección Educativa y del Servicio de la Unidad
+de Programas Educativos de la Dirección del Área Territorial correspondiente.
+Los Resolución prevé que a los centros docentes que imparten E. Primaria y que desarrollen actuaciones de compensa-
+ción educativa se les adscriba un maestro de apoyo por cada 25 alumnos con necesidades de compensación educativa,
+hasta un máximo de un puesto de maestro de apoyo por cada ciclo educativo.
+La Resolución también prevé la elaboración de un plan anual de compensación educativa, que en la actualidad debe for-
+mar parte del Plan Incluyo, tratado en el apartado siguiente, y de una memoria de compensación educativa, que formará
+parte de la memoria anual del centro, en la que se incluirá una valoración de las actuaciones realizadas, conforme al plan
+anual de compensación educativa, y una propuesta de mejora en función de los resultados obtenidos.
+23
+
+===== PAGINA 24 =====
+
+Guía Educación Primaria
+La determinación de las necesidades de compensación educativa y la inclusión de un alumno en el programa de com-
+pensación educativa se realizará teniendo en cuenta las orientaciones siguientes:
+a) La determinación de las necesidades de compensación educativa del alumnado del centro se realizará a partir de
+una evaluación inicial individualizada, que se reflejará en un informe en el que constará el nivel de competencia
+curricular, los datos relativos al proceso de escolarización y al contexto sociofamiliar, y cualquier otro aspecto rele-
+vante para la toma de decisiones correspondiente (Anexos 1 y 2 de la Resolución).
+b) La evaluación inicial será realizada por el maestro tutor, con la colaboración del profesorado de apoyo de educa-
+ción compensatoria y el resto del equipo docente, bajo el asesoramiento del equipo de orientación educativa y
+psicopedagógica.
+c) Una vez realizada la evaluación inicial, se determinarán las medidas de refuerzo y las adaptaciones que sean ne-
+cesarias conforme a la normativa vigente de carácter general, y se establecerán las oportunas medidas de apoyo
+y atención educativa.
+La inclusión de un alumno en el programa de compensación educativa estará sujeta a revisión continua a lo largo de todo
+el nivel y, en cualquier caso, deberá revisarse al comienzo de cada curso escolar.
+Las Instrucciones de la Dirección General de Educación Infantil, Primaria y Especial, de 26 de junio de 2023, para la
+organización de los grupos de apoyo específico para la atención educativa a las diferencias individuales del alumnado
+con necesidades educativas especiales y con necesidad de compensación educativa en centros públicos que imparten
+las enseñanzas de 2º ciclo de Educación Infantil y Educación Primaria en la Comunidad de Madrid, regulan la atención
+educativa a las diferencias individuales del alumnado con necesidad de compensación educativa en grupos de apoyo
+específico estableciendo que:
+–
+Los grupos de apoyo que se constituyan se organizarán en el 2.º y 3.er ciclo de la etapa.
+–
+La participación del alumnado en estos grupos coincidirá, con carácter general, con el horario que su grupo de
+referencia tenga asignadas las áreas de Lengua Castellana y Literatura y Matemáticas. Se podrán sumar las de
+Ciencias de la Naturaleza y Ciencias Sociales. Salvo casos excepcionales debidamente justificados, las áreas de
+Lengua Extranjera: Inglés y Segunda Lengua Extranjera se cursarán en el grupo de referencia.
+–
+El número de horas de atención educativa al alumnado en estos grupos de apoyo por parte del maestro de com-
+pensación educativa será el suficiente y necesario de acuerdo con las necesidades detectadas, hasta un máximo
+de 15 horas semanales.
+–
+El número de alumnos en estos grupos de apoyo no será, salvo situaciones excepcionales, inferior a 8 ni superior
+a 12, y su adscripción a los mismos se revisará periódicamente, en todo caso en cada una de las sesiones de eva-
+luación.
+3.8. Plan IncluYO (arts. 32-35 del Decreto 23/2023)
+Dispone el Decreto 23/2023 que los centros determinen la forma de atención a la diversidad en un plan específico de
+atención a las diferencias individuales del alumnado que incorporarán a su proyecto educativo y se denominará “Plan
+Incluyo” (las Orientaciones a las que luego nos referiremos lo denominan “IncluYO”). Las finalidades de la elaboración
+del Plan son:
+a) Regular la atención educativa de un centro consideradas las enseñanzas que imparte, a fin de conseguir la plena
+participación y un óptimo desarrollo de todos y cada uno de los alumnos en él escolarizados, dentro de los límites
+establecidos en la normativa.
+b) c) d) e) Planificar procesos de enseñanza-aprendizaje, establecer criterios en la organización y gestión, determinar medi-
+das de atención a las diferencias individuales, ordinarias y específicas, y los recursos necesarios para asegurar la
+participación efectiva de todo el alumnado.
+Diseñar entornos de aprendizaje ajustados al alumnado, de tal manera que se detecten y minimicen las barreras
+para el aprendizaje y la participación de todos.
+Facilitar un marco de referencia estable para la mejora de la práctica educativa.
+Recoger medidas que impulsen la participación de la comunidad educativa en los procesos de transformación
+hacia una educación de calidad.
+Se elaborará, al objeto de aunar en un único documento institucional, con carácter de permanencia en el tiempo, el
+planteamiento general del centro respecto a la atención a la diversidad de su alumnado. Contemplará, al menos, los
+siguientes elementos:
+a) b) Análisis de la diversidad del alumnado que, con carácter general, se escolariza en el centro, así como de las carac-
+terísticas del entorno cercano que contribuyen a esa diversidad.
+Identificación de posibles barreras para el aprendizaje y la participación del alumnado, basadas en el análisis de
+las características del centro o entorno, organizativas, económicas, sociales, culturales, condiciones personales
+24
+
+===== PAGINA 25 =====
+
+Guía Educación Primaria
+c) del alumno u otras. Este análisis deberá permitir, además de detectar posibles barreras, establecer un marco de
+actuación cuyo objetivo sea promover y asegurar que todo el alumnado escolarizado se beneficie de la presencia,
+el aprendizaje y la participación en el centro, con criterios de calidad.
+Propuesta de medidas educativas ordinarias a nivel de centro para atender al conjunto del alumnado, articuladas a
+partir de la identidad de centro, sus posibilidades organizativas y las prácticas educativas definidas en el proyecto
+educativo.
+d) Planteamiento y determinación de medidas organizativas, curriculares y metodológicas específicas que, a nivel
+de centro y en función de los recursos disponibles, favorecen una respuesta educativa equitativa al alumnado con
+necesidad específica de apoyo educativo.
+e) Responsables de la implementación de medidas educativas, ordinarias y específicas, acordadas por el centro. En-
+tre sus funciones, se encargarán del seguimiento de las mismas, evaluación, modificación, en su caso, y propuestas
+de mejora.
+La elaboración, revisión y actualización del Plan deberá ajustarse a los principios que rigen el Decreto 23/2023 y se
+asentará en las conclusiones derivadas de los procesos de reflexión de toda la comunidad educativa. Su elaboración será
+responsabilidad del equipo directivo del centro. Contará, preferentemente, con el asesoramiento del profesor que tenga
+asignadas las funciones de orientador. Una vez diseñado, se informará a los órganos de coordinación pedagógica del
+centro, que podrán realizar propuestas a incluir en el documento definitivo. El documento, una vez finalizado, se elevará
+al claustro de profesores y al consejo escolar, que aprobarán los apartados del mismo en función de las competencias
+asignadas. Una vez aprobado, se incluirá en el proyecto educativo de centro y guiará todas las decisiones que se adopten
+en relación con la atención a la diversidad. A lo largo del curso escolar, en todo caso tras las sesiones de evaluación del
+alumnado, se revisará su aplicación por parte de los órganos de coordinación pedagógica. Al finalizar cada curso esco-
+lar, se evaluará su adecuación y se propondrán las modificaciones oportunas. Los órganos de coordinación pedagógica
+asumirán esta función, sin perjuicio de la participación del claustro y consejo escolar en los procesos valorativos que les
+corresponden.
+El profesorado, en el ejercicio de sus funciones, aplicará, concretará e incorporará a su planificación y práctica docente las
+medidas del Plan IncluYo, asegurando la atención a las diferencias individuales de todo su alumnado.
+El servicio territorial de inspección educativa supervisará la implantación efectiva de este plan, y asesorará a la dirección
+de los centros en su elaboración, revisión y actualización, y al profesorado en su aplicación efectiva, desde indicadores y
+criterios de calidad de buenas prácticas educativas.
+Las Orientaciones de la Viceconsejería de Política Educativa, de 4 de diciembre de 2023, para el diseño, elaboración y
+aplicación del Plan IncluYO,s precisan que la PGA podrá reconocer en un apartado aquellos aspectos del plan que re-
+quieran de una concreción anual. Añaden que su aplicación es tarea de todo el profesorado, por lo cual, su conocimiento
+y consulta es necesario para todo el profesorado.
+Las Orientaciones constituyen un documento muy útil para los equipos directivos de los CEIP en su labor de elaboración
+y evaluación del Plan. Sus anexos incluyen:
+–
+Ejemplos de barreras del entorno escolar que afronta el alumnado con necesidad específica de apoyo educativo
+–
+–
+–
+(anexo I).
+Un ejemplo de mapa de proceso de incorporación a un grupo de refuerzo de matemáticas en educación primaria
+(anexo II).
+Un modelo de registro de medidas educativas ordinarias (anexo III).
+Una tabla en la que se asocian las necesidades educativas del alumnado y medidas específicas susceptibles de
+aplicación (anexo IV).
+4. Evaluación del aprendizaje
+4.1. Características y procedimiento de evaluación (art. 19 del Decreto 61/2022 y art. 18 de la Orden
+130/2023)
+La evaluación del aprendizaje del alumnado será global, continua y formativa, y tendrá en cuenta el grado de desarrollo
+de las competencias específicas de cada área y la progresiva adquisición de las competencias clave de acuerdo con el
+perfil de salida establecido en el anexo I del Decreto 61/2022. Se tomarán como referentes de evaluación los criterios de
+evaluación dispuestos en el Decreto 61/2022, para cada ciclo en cada una de las áreas con la finalidad de garantizar una
+evaluación objetiva.
+25
+
+===== PAGINA 26 =====
+
+Guía Educación Primaria
+Se utilizarán técnicas e instrumentos de evaluación apropiados y proporcionados, a fin de facilitar la valoración de los
+aprendizajes de acuerdo con los criterios de evaluación establecidos. Los instrumentos de evaluación serán variados,
+accesibles y adaptados a las distintas actividades o situaciones de aprendizaje.
+Al término de los ciclos, una evaluación positiva de todas las áreas implicará un desarrollo propicio de las competencias
+específicas y, por consiguiente, de las competencias clave. La evaluación positiva de las áreas al término de la etapa su-
+pondrá la adquisición del nivel de aprendizaje esperado o perfil de salida de la Educación Primaria.
+El proceso de evaluación continua permitirá analizar los progresos y dificultades del alumnado, y ajustar la intervención
+educativa. A tales efectos, los centros celebrarán, con carácter general, sesiones de seguimiento de la evaluación del
+aprendizaje a lo largo del curso. El tutor del grupo informará a las familias sobre el resultado de las mismas. El anexo
+IV de la Orden 130/2023 dispone un modelo orientativo de acta de sesión de seguimiento de la evaluación del
+aprendizaje o evaluación continua.
+En el contexto de la evaluación continua, cuando el avance de un alumno no sea el esperado, se determinarán medidas
+de atención educativa a las diferencias individuales, ordinarias o específicas, según corresponda, dirigidas a garantizar la
+adquisición de los aprendizajes imprescindibles para continuar el proceso educativo.
+Al finalizar cada curso escolar se celebrará una única sesión de evaluación en la que se informarán y ratificarán los resulta-
+dos de la evaluación de cada una de las áreas. El tutor de cada grupo de alumnos coordinará esta sesión de evaluación. El
+equipo docente, coordinado por el tutor del grupo, se responsabilizará de los resultados que, de forma colegiada,
+se acordarán al finalizar cada curso escolar.
+Al término del primer y segundo ciclo, el profesor tutor emitirá un informe sobre el grado de desarrollo de las compe-
+tencias clave, así como de la necesidad de plantear medidas educativas de atención a las necesidades individuales del
+alumnado. Este informe será cumplimentado por el profesor tutor con la colaboración del resto de profesores que impar-
+ten docencia al alumno, y visado por el director del centro. Se adjuntará al expediente académico y, en caso de traslado
+de centro sin haber finalizado la etapa, se remitirá copia al centro en el que el alumno continúe sus estudios, a petición
+de este. El modelo de informe es el establecido en el anexo V de la Orden 130/2023.
+Al finalizar el tercer ciclo, se emitirá un informe final en el que se observarán los descriptores operativos de cada una de
+las competencias clave, según el perfil de salida dispuesto en el anexo I del Decreto 61/2022, al objeto de comprobar el
+grado de desarrollo esperado al término de la Educación Primaria en relación con las citadas competencias. El informe
+será cumplimentado por el profesor tutor con la colaboración del resto de profesores que imparten docencia al alumno,
+contará con el visto bueno del director del centro y se adjuntará al expediente académico. Una copia del mismo se entre-
+gará a los padres y otra se remitirá al centro donde el alumno continúe sus estudios de ESO, a petición de este. El modelo
+de informe es el establecido en el anexo VI de la orden 130/2023.
+En el caso del alumnado identificado con necesidades educativas especiales, los referentes para la evaluación de los
+aprendizajes serán los criterios de evaluación incluidos en las correspondientes adaptaciones curriculares, sin que este
+hecho pueda impedirles la promoción al siguiente curso o etapa.
+4.2. Resultados de la evaluación (art. 19 de la Orden 130/2023)
+Los resultados de la evaluación en la Educación Primaria, o calificaciones, se expresarán en los siguientes términos: Insu-
+ficiente (IN), Suficiente (SU), Bien (BI), Notable (NT) y Sobresaliente (SB). Se considerará evaluación negativa el resultado
+de Insuficiente y positiva todos los demás. En una escala del 1 al 10, valores inferiores al 5 se considerarán asimilados al
+resultado de Insuficiente (IN), valores iguales o superior a 5 y anteriores a 6 se identificarán con Suficiente (SF), valores
+iguales a 6 e inferiores a 7 se asimilarán a Bien (BI), valores iguales o superiores a 7 y hasta el 9 se asemejarán a la califica-
+ción de Notable (NT) y valores iguales o superiores al 9 se considerarán como resultado de Sobresaliente (SB).
+La calificación del área de Educación Artística será la media aritmética redondeada a la cifra superior de los bloques I y II
+que la integran, por lo que, para esta área, se hace necesario asociar los resultados de la evaluación de cada bloque con
+escalas numéricas, a esos efectos.
+Las calificaciones del alumnado identificado con necesidades educativas especiales al que se le hubiera aplicado una
+adaptación curricular se expresarán en los mismos términos que para el resto del alumnado.
+4.3. Objetividad de la evaluación (art. 20 de la Orden 130/2023)
+Los centros docentes informarán a las familias al comienzo de cada curso escolar de las unidades de programación
+didáctica que se abordarán en el curso, en concreto de los contenidos curriculares que se van a movilizar mediante las
+actividades o situaciones de aprendizaje, así como de los instrumentos de evaluación y criterios de calificación, y su re-
+lación con los criterios de evaluación.
+26
+
+===== PAGINA 27 =====
+
+Guía Educación Primaria
+Los centros docentes comunicarán por escrito a las familias las calificaciones de las áreas al término de cada curso esco-
+lar. Tras esa comunicación, el profesorado de las diferentes áreas estará a disposición de las familias para, mediante los
+procedimientos oportunos acordados por el centro, realizar las aclaraciones necesarias sobre las calificaciones obtenidas.
+Si tras las aclaraciones del profesorado responsable de la impartición y calificación de las áreas persistiera el desacuerdo,
+los padres del alumno podrán solicitar, ante la dirección del centro, una revisión de las calificaciones emitidas. La solicitud
+de revisión contendrá cuantas alegaciones justifiquen la disconformidad con la calificación cuestionada, y se trasladará de
+inmediato al coordinador del ciclo afectado. El coordinador de ciclo convocará a una reunión al conjunto de profesores
+del ciclo que imparte el área cuya calificación ha sido cuestionada, con independencia de que el profesorado haya parti-
+cipado en la decisión de calificación o no, y, de manera consensuada y tras revisar las unidades de programación didác-
+tica del área en cuestión, concluirán si proceden cambios en la calificación o si, por el contrario, ratifican el resultado de
+evaluación comunicado. La conclusión se redactará en un informe por parte del coordinador de ciclo, en el que constará
+si procede atender la petición de la familia o si no procede. La descripción de los hechos será detallada, se observará la
+relación entre la calificación obtenida y los criterios de evaluación correspondientes y constarán las actuaciones seguidas
+en el proceso de evaluación. El director del centro, analizado el informe redactado por el coordinador de ciclo, comu-
+nicará por escrito a las familias la decisión adoptada, de manera motivada. En el caso de atender la petición de cambio
+de calificación de las áreas, se procederá a la modificación de la calificación en el acta de evaluación, de lo que quedará
+constancia con la consignación de una diligencia que dé cuenta de la correspondiente modificación en el apartado de
+diligencias y observaciones.
+Los procedimientos de revisión de calificaciones se realizarán una vez comunicadas las calificaciones finales por escrito a
+las familias y antes de la finalización del curso académico. Los centros docentes ajustarán los tiempos, en función de su
+autonomía, para garantizar esos procedimientos.
+A lo largo del procedimiento de revisión de calificaciones, los padres podrán obtener, previa solicitud al director del cen-
+tro, copia individualizada y concreta de los documentos que condicionaron una calificación.
+En el caso de que tras el procedimiento de revisión en el centro persista el desacuerdo con las calificaciones obtenidas,
+los padres podrán presentar por escrito, en el plazo de dos días hábiles a partir de la última comunicación del director del
+centro, reclamación ante el titular de la Dirección de Área Territorial correspondiente, que resolverá al respecto, previo
+informe del Servicio Territorial de Inspección Educativa.
+4.4. Evaluación inicial (art. 21 de la Orden 130/2023)
+Los centros podrán realizar al comienzo de cada uno de los ciclos o cursos una evaluación inicial del alumnado, con el
+objetivo de identificar su nivel competencial. Esta evaluación será obligada en los casos de alumnado que se traslada
+de centro o para el alumnado de incorporación tardía al sistema educativo español. Esta evaluación tendrá un carácter
+orientador y, según criterios de necesidad y oportunidad, se informará a las familias sobre los resultados obtenidos.
+Tendrán especial interés los resultados de la evaluación inicial de las áreas de Lengua Castellana y Literatura y de Mate-
+máticas, y de Lengua Extranjera: Inglés en centros bilingües, a los efectos de acordar medidas educativas, ordinarias o
+específicas, de atención a las diferencias individuales del alumnado.
+4.5. Promoción del alumnado (art. 20 del Decreto 61/2023 y art. 22 de la Orden 130/2023)
+En la reunión de evaluación del último curso de cada ciclo, el equipo docente adoptará, de forma colegiada, las decisio-
+nes sobre la promoción del alumnado, teniendo en cuenta, con carácter prioritario, los resultados de la evaluación de los
+aprendizajes de las áreas, en especial de las áreas de Lengua Castellana y Literatura y de Matemáticas. Además, se con-
+siderarán las conclusiones de los informes de final de ciclo. La información y conclusiones del profesor tutor se tendrán
+especialmente en consideración en las decisiones de promoción.
+En el caso de la decisión de promoción de sexto curso a la ESO, el informe final de etapa orientará, a su vez, la toma de
+decisiones al respecto. El Decreto 61/2021 añade que el perfil de salida de la etapa indicado en su Anexo I orientará las
+decisiones a tomar.
+La decisión de permanencia de un año más en el mismo ciclo la adoptará el equipo docente si se considera necesaria
+para favorecer el desarrollo del alumno. Se tomará tras observar que se han aplicado, a lo largo de ese ciclo, medidas
+educativas, ordinarias y/o específicas, de atención a las diferencias individuales. De no haber aplicado medidas de
+atención a las diferencias individuales en un alumno, la decisión de permanencia de un año más en el ciclo no podrá
+adoptarse, salvo casos debidamente justificados, que contarán con el visto bueno del director del centro.
+Se elaborará un plan específico individualizado de refuerzo curricular para el alumnado que no promocione, al obje-
+to de alcanzar durante el curso de permanencia de un año más en la Educación Primaria el adecuado grado de adquisi-
+ción de las competencias específicas de cada una de las áreas en las que obtuvo una calificación negativa.
+La decisión de no promoción solo se podrá adoptar una vez durante la etapa y tendrá, en todo caso, carácter excepcional;
+podrá adoptarse una segunda vez en el caso del alumnado con necesidades educativas especiales, conforme a lo antes visto.
+27
+
+===== PAGINA 28 =====
+
+Guía Educación Primaria
+Los padres deberán participar y apoyar la evolución educativa de sus hijos o tutelados, así como conocer las decisiones
+del profesorado relativas a la evaluación de los aprendizajes y la promoción. Tendrán, además, derecho de acceso a los
+documentos oficiales de evaluación y a las pruebas y documentos de las evaluaciones que se realicen, en la parte referida
+al alumno en calidad de interesado.
+4.6. Documentos oficiales de evaluación (arts. 21 ss. del Decreto 61/2022 y arts. 23 ss. de la
+Orden 130/2023)
+Las actas de evaluación, el expediente académico, el historial académico, el informe de final de etapa y, en su caso, el informe
+personal por traslado, conforman los documentos oficiales de evaluación. El historial académico, con valor acreditativo de
+los estudios realizados, y el informe personal por traslado se consideran documentos básicos para garantizar la movilidad
+del alumnado por todo el territorio nacional. Recogerán la norma que regula el currículo en la Comunidad de Madrid. Sus
+modelos se incluyen como anexos en la Orden 130/2023.
+Los documentos oficiales de evaluación serán visados por el director del centro y llevarán las firmas del profesorado que
+en cada caso corresponda. Constará el nombre y los apellidos del firmante, así como la referencia a su cargo o atribución
+docente. Podrán ser emitidos en soporte electrónico, siempre que queden garantizadas su autenticidad, integridad y
+conservación, y se cumplan las garantías y los requisitos establecidos por la Ley Orgánica 3/2018, de 5 de diciembre, de
+Protección de Datos Personales y garantía de los derechos digitales y su normativa de desarrollo.
+La custodia y archivo de los documentos oficiales de evaluación corresponde a los centros educativos. El secretario de
+los centros públicos será el responsable de la citada custodia y archivo, así como de la emisión de las certificaciones que
+correspondan. Las Direcciones de Área Territorial adoptarán las medidas más adecuadas para su conservación y traslado
+en caso de supresión o extinción del centro.
+Los Servicios Territoriales de Inspección Educativa asesorarán y supervisarán el proceso de evaluación, con especial aten-
+ción a la cumplimentación y custodia del expediente académico.
+4.6.1. Actas de evaluación (art. 22 del Decreto 61/2022 y art. 24 de la Orden 130/2023)
+Las actas de evaluación se extenderán para cada uno de los cursos de la Educación Primaria al término del período lecti-
+vo. En ellas se incluirá la relación nominal del alumnado que compone un grupo de un determinado curso, los resultados
+de la evaluación de cada alumno en cada área impartida en ese curso, así como, en su caso, las decisiones de promoción
+en cada uno de los ciclos. Serán firmadas por el tutor del grupo y visadas por el director del centro. Carecerán de validez
+si presentan enmiendas o tachaduras. En los casos en que sea necesario hacer una modificación al texto, se extenderá,
+sin intervenir sobre dicho texto, una diligencia que dé cuenta de la correspondiente modificación.
+Los resultados de la evaluación se expresarán en los términos siguientes: Insuficiente (IN) para las calificaciones negativas
+y Suficiente (SU), Bien (BI), Notable (NT) o Sobresaliente (SB) para las calificaciones positivas Los resultados reflejados en
+las actas de evaluación se incorporarán al expediente académico del alumno.
+El modelo de acta de evaluación es el establecido en el anexo VII de la Orden 130/2023.
+4.6.2. Expediente académico del alumno (art. 23 del Decreto 61/2022 y arts. 25 de la Orden 130/2023).
+El expediente académico del alumno se abrirá al inicio de la etapa de Educación Primaria o, en su caso, en el momento
+de incorporación de un alumno a un centro educativo autorizado. Incluirá, al menos, los datos de identificación del centro
+y del alumno, entre ellos el número de identificación (NIA), resumen de escolaridad de la etapa, información relativa al
+proceso de evaluación, decisiones sobre la promoción de ciclo, medidas educativas aplicadas de atención a las diferen-
+cias individuales del alumnado, así como diligencias relacionadas con la escolarización u otras cuestiones. Se ajusta al
+modelo establecido en el anexo VIII de la Orden 130/2023.
+Al expediente académico se adjuntará, cuando proceda, la documentación que a continuación se relaciona:
+a) c) d) e) f) g) h) Informes finales de los ciclos.
+b) Informe final de etapa.
+Informes médicos y psicopedagógicos relevantes para el desarrollo educativo del alumno.
+Resolución de la medida de permanencia de un segundo año más en la etapa.
+Resolución de la medida de flexibilización de la etapa para el alumnado de altas capacidades.
+Documento acreditativo de la aplicación de medidas específicas de acceso a la evaluación, por curso.
+Documento de resultados de la evaluación de diagnóstico y, en su caso, de otras pruebas de evaluación externa
+Otra documentación generada durante el período de escolarización en el centro que incida en su trayectoria escolar.
+El expediente académico se cerrará cuando el alumno finalice su escolarización en el centro. El secretario dejará constan-
+cia con su firma de que las calificaciones en él dispuestas se corresponden con las referidas en las actas de evaluación de
+los cursos que correspondan para ese alumno. El director del centro visará el expediente académico.
+28
+
+===== PAGINA 29 =====
+
+Guía Educación Primaria
+Cada centro docente custodiará y archivará los expedientes académicos del alumnado que haya cursado estudios de
+Educación Primaria en el mismo. La inspección educativa supervisará los expedientes académicos del alumnado.
+4.6.3. Historial académico del alumno (art. 24 del Decreto 61/2022 y art. 26 de la Orden 130/2023)
+El historial académico del alumno recogerá, con valor acreditativo de los estudios realizados, sus datos identificativos, el
+resumen de la escolaridad de la etapa y los traslados de centro, las áreas cursadas en cada uno de los años académicos y
+los resultados de evaluación asociados, las decisiones sobre promoción de ciclo, las medidas educativas de atención a las
+diferencias individuales que se le han aplicado, en especial las áreas cursadas con adaptación curricular y la permanencia
+extraordinaria, la información relativa a los cambios de centro, y las que concluyan en una escolarización que difiera de la
+que corresponde a la edad cronológica, así como las fechas en las que se han producido los diferentes aspectos reseña-
+dos. Se abrirá en formato electrónico en el momento de incorporación del alumno a la Educación Primaria y se mantendrá
+en ese formato hasta su emisión al finalizar la etapa.
+Todas las páginas del historial académico deberán dejar constancia, en el apartado correspondiente, de la concordan-
+cia de los datos con los que obran en el expediente académico del alumno, la firma del secretario y el visto bueno del
+director del centro. Todas las páginas del historial académico irán numeradas con indicación de la página y del total de
+páginas del documento.
+El historial académico se entregará a los padres del alumno exclusivamente al término de la Educación Primaria. La emi-
+sión se realizará en impreso oficial específico con papel de seguridad facilitado por la dirección general competente en
+materia de Educación Primaria. La impresión se efectuará a doble cara. Podrá extenderse sin los requisitos de papel de
+seguridad si el historial académico incluye en todas sus páginas el Código de Verificación Electrónica (CVE). En el caso
+de traslado del alumno a otro centro del sistema educativo español, el historial que solicite el centro de destino se exten-
+derá, en su caso, en papel corriente.
+Una copia del historial académico se enviará al centro de Educación Secundaria en el que el alumno vaya a continuar
+sus estudios, a petición de este, circunstancia que se reflejará en el correspondiente expediente académico antes de su
+cierre. A la mencionada copia se adjuntará una copia del informe de final de etapa.
+El modelo de historial académico del alumnado de Educación Primaria es el establecido en el anexo IX de la Orden 130/2023.
+4.6.4. Informe personal por traslado (art. 25 del Decreto 61/2022 y art. 27 de la Orden 130/2023)
+El informe personal por traslado se extenderá en el caso de un traslado de centro antes de finalizar un curso escolar durante
+la escolarización en la etapa de Educación Primaria. Solicitado por el centro de destino el correspondiente informe personal
+de traslado, se remitirá junto a él una copia del historial académico. Será elaborado por el profesor tutor en colaboración con
+el profesorado de las diferentes áreas, y tendrá el visto bueno del director del centro. Contendrá información relativa al segui-
+miento de la evaluación del aprendizaje a lo largo del curso, las medidas educativas de atención a las diferencias individuales
+que se hubieran aplicado al alumno en el curso, así como todas las observaciones que se consideren oportunas relacionadas
+con el proceso educativo. El modelo de informe es el establecido en el anexo X de la Orden 130/2023.
+El centro receptor abrirá el correspondiente expediente académico tras recibir el informe personal por traslado y la copia
+del historial académico. La matriculación adquirirá carácter definitivo una vez recibida esta documentación.
+4.6.5. Movilidad del alumnado (art. 28 de la Orden 130/2023)
+Ante un cambio de centro dentro de la Comunidad de Madrid, los tutores legales del alumno solicitarán una certificación
+escolar para el traslado, que será expedida por el secretario y visada por el director del centro. Esta certificación se ajus-
+tará al modelo del anexo XI de la Orden 130/2023.
+La certificación escolar para el traslado de la Comunidad de Madrid, u otro documento que, a los mismos efectos, emitan
+el resto de comunidades autónomas, permitirá la inscripción y matriculación del alumno en el nuevo centro. La matricu-
+lación en el nuevo centro tendrá carácter definitivo una vez recibidas y constatadas las copias del historial académico y
+del informe personal por traslado. El director del centro receptor, observadas las copias anteriormente citadas, abrirá el
+correspondiente expediente académico, al que trasladará la información pertinente.
+En el caso de traslado del alumno a centros en España o en el extranjero que no impartan las enseñanzas de Educación
+Primaria del sistema educativo español, al objeto de facilitar la incorporación a enseñanzas equivalentes, el centro de
+origen emitirá una certificación académica de los años cursados por el alumno, en la que conste la referencia a la norma
+que regula la ordenación académica de la etapa. El modelo de certificación académica es el establecido en el anexo XII
+de la Orden 130/2023. En el supuesto de reincorporación del alumno al sistema educativo español para continuar su
+escolarización en la etapa de Educación Primaria, el centro en el que se matricule solicitará al último centro en el que
+estuvo escolarizado en España la copia del historial académico, al objeto de trasladar al expediente académico que en
+él se abra la información pertinente.
+29
+
+===== PAGINA 30 =====
+
+Guía Educación Primaria
+4.6.6. Diligencias cuando se cursen las enseñanzas en una lengua extranjera (disposición adicional primera de la
+Orden 130/2023)
+Los centros docentes extenderán diligencias en el apartado correspondiente del expediente y el historial académico del
+alumnado que haya cursado las enseñanzas en una lengua extranjera, según el modelo establecido en el anexo XIV de la
+Orden 130/2023. 2. Además, harán constar en el apartado diligencias y observaciones de las actas de evaluación de cada
+curso las áreas que se han impartido en una lengua extranjera, según el modelo establecido en el anexo XV de la Orden.
+4.6.7. Autenticidad, seguridad y confidencialidad (art. 26 del Decreto 61/2022 y disposición adicional segunda de la
+Orden 130/2023)
+En lo referente a la obtención de los datos personales del alumnado, a la cesión de los mismos de unos centros a otros y
+a la seguridad y confidencialidad de estos, se estará a lo dispuesto en la legislación vigente en materia de protección de
+datos de carácter personal y, en todo caso, a lo establecido en la disposición adicional vigesimotercera de la Ley Orgánica
+2/2006, de 3 de mayo.
+Los documentos oficiales de evaluación y procedimientos de validación asociados podrán sustituirse por otros equiva-
+lentes realizados por medios electrónicos, informáticos o telemáticos, siempre que quede garantizada su autenticidad,
+integridad, conservación, y se cumplan las garantías y los requisitos establecidos por la Ley Orgánica 3/2018, de 5 de
+diciembre, de Protección de Datos Personales y garantía de los derechos digitales, por la Ley 39/2015, de 1 de octubre,
+del Procedimiento Administrativo Común de las Administraciones Públicas, y por la normativa que las desarrolla.
+El expediente electrónico del alumnado estará constituido, al menos, por los datos contenidos en los documentos oficia-
+les de evaluación, y contendrá la estructura y formato que determine el Ministerio con competencia educativa.
+4.6.8. Validez de los anteriores documentos oficiales de evaluación (disposición transitoria primera de la
+Orden 130/2023)
+Los documentos oficiales de evaluación abiertos al amparo de la Orden 3622/2014, de 3 de diciembre, de la Consejería
+de Educación, Juventud y Deporte de la Comunidad de Madrid, por la que se regulan determinados aspectos de orga-
+nización y funcionamiento, así como la evaluación y los documentos de aplicación de la Educación Primaria se cerrarán
+mediante la consignación en el apartado observaciones de la diligencia recogida en el anexo XVI a la entrada en vigor
+de la Orden 130/2023. En el caso de los alumnos que cursan 2º, 4º y 6º de Educación Primaria, se procederá al cierre del
+historial académico y del expediente académico al finalizar el curso escolar 2022-2023.
+4.7. Evaluación de diagnóstico (art. 27 del Decreto 61/2022 y art. 29 de la Orden 130/2023)
+En todos los centros autorizados para impartir las enseñanzas de Educación Primaria se realizará una evaluación de diag-
+nóstico en el segundo curso del segundo ciclo que valorará las competencias adquiridas por su alumnado. Esta evalua-
+ción tendrá carácter informativo, formativo y orientador para los propios centros, para el profesorado, alumnado y sus
+familias y para el conjunto de la comunidad educativa.
+5. Autonomía de los centros
+5.1. Autonomía de los centros docentes en la organización de las enseñanzas de Educación Primaria
+(art. 28 del Decreto 61/2022 y art. 30 de la Orden 130/2023)
+En el marco del currículo, la organización de las enseñanzas y el horario lectivo semanal que se regulan en el Decreto
+61/2022, los centros docentes que impartan la etapa de Educación Primaria en la Comunidad de Madrid dispondrán de
+autonomía pedagógica, de organización y de gestión para adoptar, en concreto, las siguientes decisiones:
+a) b) c) Ampliar el horario lectivo de cualquiera de las áreas sin reducir el asignado a las demás, siempre que no suponga,
+en los centros sostenidos con fondos públicos, la imposición de aportaciones económicas a las familias ni obliga-
+ción de financiación adicional para la Administración o incremento de recursos de profesorado.
+Distribuir los contenidos y criterios de evaluación fijados para cada ciclo en cada una de las áreas.
+Decidir su oferta formativa con la incorporación a los diferentes cursos de las áreas de Tecnología y Robótica y/o
+Segunda Lengua Extranjera, con los recursos disponibles y siempre que se respete el horario mínimo del anexo
+IV del Decreto 61/2022. La decisión de incorporar una o ambas áreas a la oferta formativa del centro conllevará
+la obligación de impartir la totalidad del currículo prescriptivo de cada área incorporada. La decisión de impartir
+Segunda Lengua Extranjera se asentará en el principio de continuidad en el tiempo.
+30
+
+===== PAGINA 31 =====
+
+Guía Educación Primaria
+Los contenidos del área de Tecnología y Robótica se presentarán al alumnado, preferentemente, por el profesora-
+do que imparta el área de Ciencias de la Naturaleza. No obstante, el área también podrá impartirse por el resto del
+profesorado que cuente con la debida especialización o habilitación para impartir docencia en Educación Primaria.
+d) Determinar, en su caso, el idioma del área “Segunda Lengua Extranjera”, de entre las posibilidades que ofrece el
+currículo de dicha área.
+e) Impartir áreas o bloques de contenido, en el caso del área de Educación Artística, en el idioma del área de “Len-
+gua Extranjera: Inglés” o de “Segunda Lengua Extranjera”, a excepción de “Lengua Castellana y Literatura” y
+“Matemáticas”, sin modificación alguna del currículo establecido en el Decreto 61/2022.
+f) Diseñar e implementar métodos pedagógicos y didácticos propios.
+g) Implantar proyectos integrados.
+Además, los centros podrán modificar el horario lectivo de las áreas, siempre que se respete el horario mínimo esta-
+blecido en el anexo IV del Decreto 61/2022, y el horario mínimo semanal establecido en la Orden 130/2023. La citada
+modificación horaria requerirá autorización de la dirección general competente en materia de ordenación académica de
+Educación Primaria.
+Corresponde a los centros docentes, en virtud de su autonomía pedagógica, decidir los materiales educativos y, en su
+caso, los libros de texto que hayan de utilizarse en el proceso de enseñanza y aprendizaje. En todo caso, esa decisión
+estará sujeta al hecho de que se adapten al currículo normativamente dispuesto en el Decreto 61/2022, de acuerdo con
+lo establecido en la disposición adicional cuarta de la LOE. No podrá acordarse la sustitución de libros de texto en un
+curso escolar determinado si no han transcurrido cuatro cursos académicos desde su adopción, salvo casos excepcionales
+autorizados por el titular de la Dirección de Área Territorial, previo informe del Servicio Territorial de Inspección Educativa.
+Las Direcciones de Área Territorial, a través de los Servicios Territoriales de Inspección Educativa, supervisarán el cumpli-
+miento de lo establecido en el presente artículo al comienzo de cada curso escolar.
+5.2. Proyectos integrados (art. 13 del Decreto 61/2022 y art. 31 de la Orden 130/2023)
+El proyecto integrado se concretará en la implementación de situaciones de aprendizaje y actividades variadas que giren
+en torno a un tema de interés o eje común, de duración variable. Permitirá la reorganización de espacios y tiempos du-
+rante su desarrollo, y podrá integrar contenidos transversales y abarcar la movilización de contenidos de una o de varias
+áreas. Su carácter interdisciplinar posibilitará la participación conjunta de distintos grupos de alumnos y profesores en un
+mismo proyecto integrado en diferentes espacios de aprendizaje.
+En uso de su autonomía, los centros podrán acordar al inicio de cada curso escolar el diseño e implantación de un pro-
+yecto integrado, o de varios, siempre que se respeten las siguientes condiciones:
+a) El tiempo semanal dedicado al desarrollo de proyectos integrados respetará el intervalo de entre 0,75 y 2 horas
+b) c) d) e) f) semanales.
+De superarse la dedicación horaria semanal de 0,75 horas, los proyectos podrán abarcar hasta dos sesiones sema-
+nales de clase, continuas o discontinuas. En todo caso, se procurará que las dos sesiones en las que se desarrollen
+los proyectos integrados no coincidan con sesiones lectivas de la misma área.
+Se procurará que el horario en el que se desarrolle un proyecto integrado coincida, en parte, con tiempo del ho-
+rario de las áreas a él atribuidas.
+El calendario y la dedicación horaria de cada proyecto integrado se concretará en los propios proyectos y se refle-
+jará en los documentos de programación anual de cada centro.
+Los proyectos integrados girarán en torno a un tema común que movilice, con carácter general, contenidos de
+diferentes áreas y se dirijan a la adquisición de competencias específicas de varias áreas y, por tanto, a la consecu-
+ción de las competencias clave. En el propio proyecto constarán las áreas afectadas, los contenidos tratados, así
+como las actividades o situaciones de aprendizaje que se van a llevar a la práctica.
+A su vez, en cada proyecto integrado se observarán los instrumentos de evaluación que asegurarán una evaluación
+objetiva del aprendizaje, así como su aportación a la calificación de cada área relacionada.
+5.3. Autorización de modificación horaria de las áreas (art. 32 de la Orden 130/2023)
+La modificación horaria que resulte de la incorporación a la oferta formativa de los centros de las áreas “Tecnología y
+Robótica” y/o “Segunda Lengua Extranjera” no requerirá autorización alguna.
+El horario lectivo de los centros autorizados para impartir los programas bilingües institucionales de la Comunidad de Ma-
+drid se regirá por la normativa específica de estos programas. No obstante, siempre que se cumplan los requisitos de su
+normativa específica, los centros podrán solicitar las modificaciones del horario lectivo que se prevén en la presente orden.
+31
+
+===== PAGINA 32 =====
+
+Guía Educación Primaria
+Los centros, con independencia de lo anterior, podrán solicitar en el primer trimestre de cada curso escolar, para implan-
+tar en el siguiente, autorización para modificar el horario de las áreas, de tal manera que se incremente la dedicación
+horaria de algunas de ellas y se reduzca la de otras. Los requisitos que se deberán cumplir son los siguientes:
+a) b) Ofertar para cada uno de los cursos de la etapa las áreas establecidas en el anexo III del Decreto 61/2022.
+Respetar el horario lectivo semanal mínimo establecido en el anexo IV del Decreto 61/2022 para cada una de las
+áreas. A su vez, se respetará, en sustitución del área de “Religión”, el mismo horario para atención educativa al
+alumnado que no la curse.
+c) d) Asegurar un horario lectivo semanal mínimo de 22,5 horas en cada uno de los seis cursos que conforman la etapa.
+Impartir íntegramente el currículo prescriptivo de cada una de las áreas ofertadas por el centro, fijado en el Decre-
+to 61/2022.
+Las modificaciones de asignación horaria que se soliciten no podrán suponer, en ningún caso en los centros sostenidos
+con fondos públicos, imposición de aportaciones a las familias ni obligación de financiación adicional para la Administra-
+ción o incremento de recursos de profesorado.
+Las solicitudes de autorización de modificación horaria se dirigirán a la dirección general con competencias en ordena-
+ción académica de Educación Primaria, se formularán según modelo del anexo XIII de la Orden 130/2023. La dirección
+general competente en ordenación académica de Educación Primaria resolverá con anterioridad a la finalización del
+curso escolar y dicha resolución producirá efectos desde el siguiente curso académico. La citada resolución se notificará
+al centro educativo. A su vez, se enviará copia de la resolución a la Dirección de Área Territorial en el que este se ubique
+y, en el caso de centros privados, copia a la dirección general competente en los citados centros.
+32
+
+===== PAGINA 34 =====
+
+ANPE-Madrid
+ANPE-Madrid
+Defensor del Profesor
+C/ O’Donnell, 42 - 1o A - 28009 Madrid
+Tels. 915 213 111 y 915 214 348
+anpe@anpemadrid.es
+www.anpemadrid.es
+C/ O’Donnell, 42 - 1º A - 28009 Madrid
+Tel.: 915 220 827
+anpemadrid@eldefensordelprofesor.es
+defensordelprofesor.anpemadrid.es
+Edición noviembre 2026
