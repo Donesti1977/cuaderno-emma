@@ -10,6 +10,7 @@ import { useLearningStats, useProgressState } from "../db/hooks";
 import { recordAnswer, saveSession } from "../db/repo";
 import { findSubjectOfUnit, findUnit } from "../data/lookup";
 import type { Activity, LearningSession } from "../data/types";
+import { newId } from "../lib/ids";
 import { formatMinutes } from "../lib/dates";
 import { evaluateStickers } from "../lib/rewards";
 import {
@@ -48,7 +49,7 @@ export function SessionPage() {
 
   const resultsRef = useRef<{ activityId: string; correct: boolean }[]>([]);
   const startedAtRef = useRef(new Date());
-  const sessionIdRef = useRef(crypto.randomUUID());
+  const sessionIdRef = useRef(newId());
   const savedRef = useRef(false);
 
   useEffect(() => {
@@ -173,7 +174,7 @@ export function SessionPage() {
     resultsRef.current = [];
     savedRef.current = false;
     startedAtRef.current = new Date();
-    sessionIdRef.current = crypto.randomUUID();
+    sessionIdRef.current = newId();
   }
 
   function confirmExit() {

@@ -7,6 +7,7 @@ import type {
   ProfileSettings,
   SkillProgress,
 } from "../data/types";
+import { newId } from "../lib/ids";
 import { updateSkillProgress } from "../lib/srs";
 import { db } from "./db";
 
@@ -26,7 +27,7 @@ export async function createProfile(
   grade: Grade,
 ): Promise<Profile> {
   const profile: Profile = {
-    id: crypto.randomUUID(),
+    id: newId(),
     name: name.trim() || "Emma",
     grade,
     avatar: "capybara",
