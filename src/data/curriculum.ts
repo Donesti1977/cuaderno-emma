@@ -586,6 +586,2290 @@ const soonUnit = (
   activities: [],
 });
 
+/** Unidad lista con contenido: habilidades y actividades para practicar. */
+const readyUnit = (
+  id: string,
+  subjectId: Subject["id"],
+  order: number,
+  term: string,
+  title: string,
+  subtitle: string,
+  description: string,
+  skills: Skill[],
+  activities: Activity[],
+): Unit => ({
+  id,
+  grade: 3,
+  subjectId,
+  order,
+  term,
+  title,
+  subtitle,
+  description,
+  status: "ready",
+  skills,
+  activities,
+});
+
+/* --------------------------------------------------------------------------
+   Matemáticas · 3º · Tema 2 — La suma y la resta
+   -------------------------------------------------------------------------- */
+
+const m3u2Skills: Skill[] = [
+  {
+    id: "m3-u2-sumarc",
+    name: "Sumar números de varias cifras",
+    short: "Sumar números",
+    description: "Sumar en columnas números de hasta 4 cifras, con llevadas.",
+  },
+  {
+    id: "m3-u2-restarc",
+    name: "Restar números de varias cifras",
+    short: "Restar",
+    description: "Restar números de varias cifras, con préstamo.",
+  },
+  {
+    id: "m3-u2-llevadas",
+    name: "Las llevadas",
+    short: "Llevadas",
+    description: "Sumar y restar con llevadas, comprobando antes.",
+  },
+  {
+    id: "m3-u2-problemas",
+    name: "Problemas de suma y resta",
+    short: "Problemas",
+    description: "Leer el problema, quedarse con los datos y operar.",
+  },
+];
+
+const m3u2Activities: Activity[] = [
+  choice(
+    "m3-u2-a01",
+    "m3-u2-sumarc",
+    1,
+    "¿Cuánto es 347 + 258?",
+    ["605", "525", "604", "524"],
+    0,
+    "347 + 258: 347 + 200 = 547; 547 + 58 = 605.",
+  ),
+  input(
+    "m3-u2-a02",
+    "m3-u2-sumarc",
+    2,
+    "Haz esta suma: 2.345 + 1.478.",
+    ["3823"],
+    "2.345 + 1.478 = 3.823.",
+  ),
+  input(
+    "m3-u2-a03",
+    "m3-u2-restarc",
+    1,
+    "Una biblioteca tiene 2.400 libros. Prestas 1.350. ¿Cuántos quedan?",
+    ["1050"],
+    "2.400 − 1.350 = 1.050 libros.",
+  ),
+  match(
+    "m3-u2-a04",
+    "m3-u2-sumarc",
+    1,
+    "Une cada suma con su resultado.",
+    [
+      ["342 + 158", "500"],
+      ["402 + 96", "498"],
+      ["900 + 5.400", "6.300"],
+    ],
+    "342 + 158 = 500; 402 + 96 = 498; 900 + 5.400 = 6.300.",
+  ),
+  choice(
+    "m3-u2-a05",
+    "m3-u2-sumarc",
+    2,
+    "¿Cuánto falta para llegar a 900 desde 342?",
+    ["558", "548", "557", "668"],
+    0,
+    "900 − 342 = 558.",
+  ),
+  input(
+    "m3-u2-a06",
+    "m3-u2-restarc",
+    2,
+    "De una pieza de 8.400 metros, cortamos 2.750. ¿Cuántos metros quedan?",
+    ["5650"],
+    "8.400 − 2.750 = 5.650 metros.",
+  ),
+  input(
+    "m3-u2-a07",
+    "m3-u2-llevadas",
+    2,
+    "Suma y da la vuelta: 1.020 + 890 = __",
+    ["1910", "1.910"],
+    "1.020 + 890 = 1.910.",
+  ),
+  input(
+    "m3-u2-a08",
+    "m3-u2-llevadas",
+    3,
+    "Miguel tiene 2.485 euros, Ana 1.625. ¿Cuánto dinero tienen juntos?",
+    ["4110"],
+    "2.485 + 1.625 = 4.110 euros.",
+  ),
+  input(
+    "m3-u2-a09",
+    "m3-u2-llevadas",
+    2,
+    "Suma y revisa: 1.350 + 2.140 = __",
+    ["3490", "3.490"],
+    "1.350 + 2.140 = 3.490.",
+  ),
+  match(
+    "m3-u2-a10",
+    "m3-u2-restarc",
+    1,
+    "Une cada resta con su resultado.",
+    [
+      ["600 − 120", "480"],
+      ["900 − 500", "400"],
+      ["2.000 − 1.000", "1.000"],
+    ],
+    "600 − 120 = 480; 900 − 500 = 400; 2.000 − 1.000 = 1.000.",
+  ),
+  choice(
+    "m3-u2-a11",
+    "m3-u2-problemas",
+    1,
+    "En la aula hay 25 niños. Entran 10 más. ¿Cuántos hay ahora?",
+    ["35", "25", "15", "45"],
+    0,
+    "25 + 10 = 35 niños.",
+  ),
+  input(
+    "m3-u2-a12",
+    "m3-u2-problemas",
+    2,
+    "La familia recibió 5.000 euros, gastó 2.450. ¿Cuánto tiene aún?",
+    ["2550"],
+    "5.000 − 2.450 = 2.550 euros.",
+  ),
+  input(
+    "m3-u2-a13",
+    "m3-u2-problemas",
+    3,
+    "La tienda tenía 120 máscaras. Vende 80. ¿Cuántas quedan?",
+    ["40"],
+    "120 − 80 = 40 máscaras.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Matemáticas · 3º · Tema 3 — La multiplicación
+   -------------------------------------------------------------------------- */
+
+const m3u3Skills: Skill[] = [
+  {
+    id: "m3-u3-tablasc",
+    name: "Las tablas de multiplicar",
+    short: "Tablas de multiplicar",
+    description: "Saber de memoria las tablas del 1 al 10.",
+  },
+  {
+    id: "m3-u3-dobletriple",
+    name: "El doble y el triple",
+    short: "Doble y triple",
+    description: "Sumar un número a sí mismo una o dos veces.",
+  },
+  {
+    id: "m3-u3-terminos",
+    name: "Los términos de la multiplicación",
+    short: "Los términos",
+    description: "Multiplicando × multiplicador = producto.",
+  },
+  {
+    id: "m3-u3-problemas",
+    name: "Problemas de multiplicación",
+    short: "Problemas",
+    description: "Leer el problema y multiplicar lo que hay.",
+  },
+];
+
+const m3u3Activities: Activity[] = [
+  choice(
+    "m3-u3-a01",
+    "m3-u3-tablasc",
+    1,
+    "¿Cuánto es 7 × 6?",
+    ["40", "42", "48", "36"],
+    1,
+    "7 × 6: 7, 14, 21, 28, 35, 42.",
+  ),
+  choice(
+    "m3-u3-a02",
+    "m3-u3-tablasc",
+    2,
+    "¿Cuánto es 3 × 25?",
+    ["75", "95", "105", "78"],
+    0,
+    "3 × 25 = 75: 75 es el triple de 25.",
+  ),
+  input(
+    "m3-u3-a03",
+    "m3-u3-tablasc",
+    1,
+    "El triple de 14 es __.",
+    ["42"],
+    "14 + 14 + 14 = 42.",
+  ),
+  match(
+    "m3-u3-a04",
+    "m3-u3-tablasc",
+    1,
+    "Une cada multiplicación con su resultado.",
+    [
+      ["3 × 4 =", "12"],
+      ["5 × 9 =", "45"],
+      ["2 × 7 =", "14"],
+    ],
+    "3 × 4 = 12; 5 × 9 = 45; 2 × 7 = 14.",
+  ),
+  input(
+    "m3-u3-a05",
+    "m3-u3-dobletriple",
+    2,
+    "Calcula el doble de 347.",
+    ["694"],
+    "347 + 347 = 694.",
+  ),
+  input(
+    "m3-u3-a06",
+    "m3-u3-dobletriple",
+    2,
+    "El triple de 120 es __.",
+    ["360"],
+    "120 × 3 = 360.",
+  ),
+  input(
+    "m3-u3-a07",
+    "m3-u3-dobletriple",
+    2,
+    "El doble de 118 es __.",
+    ["236"],
+    "118 × 2 = 236.",
+  ),
+  choice(
+    "m3-u3-a08",
+    "m3-u3-terminos",
+    2,
+    "¿Cuál es el resultado de 9 × 6?",
+    ["54", "63", "45", "58"],
+    0,
+    "9 × 6: 9, 18, 27, 36, 45, 54.",
+  ),
+  input(
+    "m3-u3-a09",
+    "m3-u3-terminos",
+    2,
+    "Había 6 cajas con 8 manzanas cada una. ¿Cuántas manzanas hay en total?",
+    ["48"],
+    "6 × 8 = 48 manzanas.",
+  ),
+  match(
+    "m3-u3-a10",
+    "m3-u3-terminos",
+    1,
+    "Une cada multiplicación con su resultado.",
+    [
+      ["2 × 3", "6"],
+      ["8 × 8", "64"],
+      ["4 × 6", "24"],
+    ],
+    "2 × 3 = 6; 8 × 8 = 64; 4 × 6 = 24.",
+  ),
+  input(
+    "m3-u3-a11",
+    "m3-u3-terminos",
+    3,
+    "Un ascensor sube 6 pisos por ronda. ¿Cuántos pisos sube en 5 rondas?",
+    ["30"],
+    "6 × 5 = 30 pisos.",
+  ),
+  input(
+    "m3-u3-a12",
+    "m3-u3-problemas",
+    2,
+    "El cuaderno cuesta 9 euros y necesito 3 de ellos. ¿Cuánto dinero necesito?",
+    ["27"],
+    "9 × 3 = 27 euros.",
+  ),
+  input(
+    "m3-u3-a13",
+    "m3-u3-problemas",
+    2,
+    "Juan siembra 4 semillas cada día durante una semana. ¿Cuántas semillas siembra en 7 días?",
+    ["28"],
+    "4 × 7 = 28 semillas.",
+  ),
+  input(
+    "m3-u3-a14",
+    "m3-u3-problemas",
+    2,
+    "Había 5 cajas con 3 manuales cada una. ¿Cuántos manuales hay en total?",
+    ["15"],
+    "5 × 3 = 15 manuales.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Matemáticas · 3º · Tema 4 — Multiplicar por una cifra
+   -------------------------------------------------------------------------- */
+
+const m3u4Skills: Skill[] = [
+  {
+    id: "m3-u4-multipic",
+    name: "Multiplicar por una cifra",
+    short: "Multiplicar",
+    description: "Multiplicar un número por una cifra de 1 a 9.",
+  },
+  {
+    id: "m3-u4-llevadas",
+    name: "Multiplicaciones con llevadas",
+    short: "Llevadas",
+    description: "Multiplicar con llevadas entre columnas.",
+  },
+  {
+    id: "m3-u4-cerosfin",
+    name: "Ceros al final",
+    short: "Ceros",
+    description: "Multiplicar números que acaban en ceros: 2.100 × 3 = 6.300.",
+  },
+];
+
+const m3u4Activities: Activity[] = [
+  choice(
+    "m3-u4-a01",
+    "m3-u4-multipic",
+    1,
+    "¿Cuánto es 15 × 3?",
+    ["45", "35", "55", "47"],
+    0,
+    "15 × 3: 15, 30, 45.",
+  ),
+  input(
+    "m3-u4-a02",
+    "m3-u4-multipic",
+    2,
+    "26 × 4 = __.",
+    ["104"],
+    "26 × 4 = 104.",
+  ),
+  input(
+    "m3-u4-a03",
+    "m3-u4-multipic",
+    1,
+    "Haz: 7 × 6 = __.",
+    ["42"],
+    "7 × 6 = 42.",
+  ),
+  input(
+    "m3-u4-a04",
+    "m3-u4-multipic",
+    2,
+    "2.145 × 2 = __.",
+    ["4290"],
+    "2.145 × 2 = 4.290.",
+  ),
+  choice(
+    "m3-u4-a05",
+    "m3-u4-llevadas",
+    2,
+    "¿Cuánto es 34 × 8?",
+    ["262", "272", "362", "252"],
+    1,
+    "34 × 8: 240 + 32 = 272.",
+  ),
+  match(
+    "m3-u4-a06",
+    "m3-u4-llevadas",
+    1,
+    "Une cada multiplicación con su resultado.",
+    [
+      ["12 × 3", "36"],
+      ["45 × 2", "90"],
+      ["10 × 7", "70"],
+    ],
+    "12 × 3 = 36; 45 × 2 = 90; 10 × 7 = 70.",
+  ),
+  input(
+    "m3-u4-a07",
+    "m3-u4-llevadas",
+    3,
+    "¿Cuánto es 347 × 2?",
+    ["694"],
+    "347 × 2 = 694.",
+  ),
+  input(
+    "m3-u4-a08",
+    "m3-u4-cerosfin",
+    2,
+    "Calcula: 2.100 × 3 = __.",
+    ["6300"],
+    "2.100 × 3 = 6.300.",
+  ),
+  input(
+    "m3-u4-a09",
+    "m3-u4-cerosfin",
+    2,
+    "5.000 × 8 = __.",
+    ["40000"],
+    "5.000 × 8 = 40.000.",
+  ),
+  input(
+    "m3-u4-a10",
+    "m3-u4-cerosfin",
+    3,
+    "Rita lee 8 páginas al día. ¿Cuántas páginas lee en una semana?",
+    ["56"],
+    "8 × 7 = 56 páginas.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Matemáticas · 3º · Tema 5 — La división
+   -------------------------------------------------------------------------- */
+
+const m3u5Skills: Skill[] = [
+  {
+    id: "m3-u5-reparto",
+    name: "División como reparto",
+    short: "Repartir",
+    description: "Dividir un total en partes iguales: 600 entre 3 son 200.",
+  },
+  {
+    id: "m3-u5-exacta",
+    name: "División exacta e inexacta",
+    short: "Exacta e inexacta",
+    description: "Cuando no cabe igual, hablamos del resto.",
+  },
+  {
+    id: "m3-u5-problemas",
+    name: "Problemas de reparto",
+    short: "Problemas",
+    description: "Entender el problema y dividir lo que hay.",
+  },
+];
+
+const m3u5Activities: Activity[] = [
+  choice(
+    "m3-u5-a01",
+    "m3-u5-reparto",
+    1,
+    "¿Cuánto es 600 ÷ 3?",
+    ["200", "300", "150", "180"],
+    0,
+    "600 entre 3: 200, 200, 200.",
+  ),
+  input(
+    "m3-u5-a02",
+    "m3-u5-reparto",
+    2,
+    "Reparte 45 naranjas en 5 cajas. ¿Cuántas naranjas hay en cada caja?",
+    ["9"],
+    "45 ÷ 5 = 9 naranjas por caja.",
+  ),
+  input(
+    "m3-u5-a03",
+    "m3-u5-reparto",
+    1,
+    "Tres amigos se reparten 120 euros. ¿Cuánto dinero recibe cada uno?",
+    ["40"],
+    "120 ÷ 3 = 40 euros.",
+  ),
+  match(
+    "m3-u5-a04",
+    "m3-u5-reparto",
+    1,
+    "Une cada división con su resultado.",
+    [
+      ["12 ÷ 4", "3"],
+      ["72 ÷ 8", "9"],
+      ["100 ÷ 2", "50"],
+    ],
+    "12 ÷ 4 = 3; 72 ÷ 8 = 9; 100 ÷ 2 = 50.",
+  ),
+  input(
+    "m3-u5-a05",
+    "m3-u5-exacta",
+    2,
+    "¿Qué resto queda al dividir 51 entre 6?",
+    ["3"],
+    "51 entre 6: 8 cabe 6 veces, queda 3.",
+  ),
+  choice(
+    "m3-u5-a06",
+    "m3-u5-exacta",
+    2,
+    "¿Cuál es el resultado de 84 ÷ 12?",
+    ["7", "8", "6", "10"],
+    0,
+    "84 ÷ 12 = 7.",
+  ),
+  input(
+    "m3-u5-a07",
+    "m3-u5-exacta",
+    3,
+    "Un libro de 12 páginas lo leemos en 4 días. ¿Cuántas páginas leemos cada día?",
+    ["3"],
+    "12 ÷ 4 = 3 páginas.",
+  ),
+  input(
+    "m3-u5-a08",
+    "m3-u5-problemas",
+    2,
+    "Reparte 2.000 euros entre 5 hermanos. ¿Cuánto recibe cada hermano?",
+    ["400"],
+    "2.000 ÷ 5 = 400 euros.",
+  ),
+  input(
+    "m3-u5-a09",
+    "m3-u5-problemas",
+    3,
+    "En una biblioteca hay 512 libros y 8 estanterías iguales. ¿Cuántos libros hay en cada estantería?",
+    ["64"],
+    "512 ÷ 8 = 64 libros.",
+  ),
+  input(
+    "m3-u5-a10",
+    "m3-u5-problemas",
+    2,
+    "Cocina reparte 24 sándwiches en 6 bolsas. ¿Cuántos sándwiches tiene cada bolsa?",
+    ["4"],
+    "24 ÷ 6 = 4 sándwiches.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Matemáticas · 3º · Temas 11 y 12 — Rectas, ángulos y polígonos
+   -------------------------------------------------------------------------- */
+
+const m3u6Skills: Skill[] = [
+  {
+    id: "m3-u6-rectas",
+    name: "Rectas, líneas y segmentos",
+    short: "Rectas",
+    description: "Dibujar y nombrar rectas, líneas y segmentos.",
+  },
+  {
+    id: "m3-u6-angulos",
+    name: "Ángulos rectos, agudos y obtusos",
+    short: "Ángulos",
+    description: "Medir y clasificar ángulos por su medida.",
+  },
+  {
+    id: "m3-u6-poligono",
+    name: "Polígonos",
+    short: "Polígonos",
+    description: "Nombrar polígonos por su número de lados.",
+  },
+  {
+    id: "m3-u6-circunf",
+    name: "Radio y diámetro",
+    short: "Radio y diámetro",
+    description: "El radio es la mitad del diámetro de una circunferencia.",
+  },
+  {
+    id: "m3-u6-simetria",
+    name: "El eje de simetría",
+    short: "Simetría",
+    description: "Fíjate si una figura sigue su forma al girarla o replicarla.",
+  },
+];
+
+const m3u6Activities: Activity[] = [
+  choice(
+    "m3-u6-a01",
+    "m3-u6-rectas",
+    1,
+    "¿Cuántos lados tiene un triángulo?",
+    ["3", "4", "5", "6"],
+    0,
+    "Un triángulo tiene 3 lados.",
+  ),
+  input(
+    "m3-u6-a02",
+    "m3-u6-rectas",
+    2,
+    "El perímetro de un cuadrado de 5 cm de lado es __ cm.",
+    ["20"],
+    "5 × 4 = 20 cm.",
+  ),
+  match(
+    "m3-u6-a03",
+    "m3-u6-rectas",
+    1,
+    "Une cada figura con su número de lados.",
+    [
+      ["Triángulo", "3 lados"],
+      ["Pentágono", "5 lados"],
+      ["Hexágono", "6 lados"],
+    ],
+    "Triángulo: 3 lados; pentágono: 5 lados; hexágono: 6 lados.",
+  ),
+  choice(
+    "m3-u6-a04",
+    "m3-u6-angulos",
+    1,
+    "¿Cuál de estos ángulos es recto?",
+    ["90°", "30°", "160°", "180°"],
+    0,
+    "El ángulo recto mide 90°.",
+  ),
+  input(
+    "m3-u6-a05",
+    "m3-u6-angulos",
+    2,
+    "¿Cuánto mide un ángulo recto?",
+    ["90"],
+    "Un ángulo recto mide 90°.",
+  ),
+  input(
+    "m3-u6-a06",
+    "m3-u6-angulos",
+    2,
+    "Mides un ángulo de 90°. ¿A qué tipo de ángulo corresponde?",
+    ["recto"],
+    "Un ángulo de 90° es recto.",
+  ),
+  choice(
+    "m3-u6-a07",
+    "m3-u6-poligono",
+    1,
+    "¿Cuántos lados tiene un cuadrado?",
+    ["3", "4", "5", "6"],
+    1,
+    "Un cuadrado tiene 4 lados.",
+  ),
+  choice(
+    "m3-u6-a08",
+    "m3-u6-poligono",
+    2,
+    "¿Cuántos lados tiene un hexágono?",
+    ["4", "5", "6", "7"],
+    2,
+    "Un hexágono tiene 6 lados.",
+  ),
+  input(
+    "m3-u6-a09",
+    "m3-u6-poligono",
+    2,
+    "El perímetro de un rectángulo de 7 cm de largo y 4 cm de ancho es __ cm.",
+    ["22"],
+    "2 × (7 + 4) = 22 cm.",
+  ),
+  input(
+    "m3-u6-a10",
+    "m3-u6-circunf",
+    2,
+    "El radio de una circunferencia de 10 cm de diámetro es __ cm.",
+    ["5"],
+    "El radio es la mitad del diámetro: 10 ÷ 2 = 5.",
+  ),
+  input(
+    "m3-u6-a11",
+    "m3-u6-circunf",
+    3,
+    "El diámetro de una circunferencia de 12 cm de radio mide __ cm.",
+    ["24"],
+    "El diámetro es dos radios: 12 × 2 = 24.",
+  ),
+  match(
+    "m3-u6-a12",
+    "m3-u6-circunf",
+    1,
+    "Une cada figura con su número de lados.",
+    [
+      ["Cuadrado", "4 lados iguales"],
+      ["Triángulo", "3 lados"],
+      ["Hexágono", "6 lados"],
+    ],
+    "Cuadrado: 4 lados; triángulo: 3 lados; hexágono: 6 lados.",
+  ),
+  choice(
+    "m3-u6-a13",
+    "m3-u6-simetria",
+    1,
+    "¿Tiene un triángulo equilátero ejes de simetría?",
+    ["Sí", "No", "Dos", "Una"],
+    0,
+    "Un triángulo equilátero tiene 3 ejes de simetría.",
+  ),
+  input(
+    "m3-u6-a14",
+    "m3-u6-simetria",
+    2,
+    "Dibuja una recta y pon un punto sobre ella; ese punto es un __.",
+    ["extremo"],
+    "Un punto sobre una recta es un extremo de ella.",
+  ),
+  match(
+    "m3-u6-a15",
+    "m3-u6-simetria",
+    1,
+    "Une cada figura con su número de ejes de simetría.",
+    [
+      ["Cuadrado", "4 ejes de simetría"],
+      ["Rombo", "2 ejes de simetría"],
+      ["Equilátero", "3 ejes de simetría"],
+    ],
+    "Cuadrado: 4 ejes; rombo: 2 ejes; triángulo equilátero: 3 ejes.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Lengua Castellana · 3º · Tema 1 — Narración y primeras palabras
+   -------------------------------------------------------------------------- */
+
+const l3u1Skills: Skill[] = [
+  {
+    id: "l3-u1-punto",
+    name: "El punto",
+    short: "El punto",
+    description: "Sabes dónde acaba la oración: al final del punto.",
+  },
+  {
+    id: "l3-u1-mayuscula",
+    name: "La mayúscula",
+    short: "Mayúsculas",
+    description: "Empieza las oraciones y los nombres propios con mayúsculas.",
+  },
+  {
+    id: "l3-u1-letra",
+    name: "La letra",
+    short: "La letra",
+    description: "Conoce las letras del alfabeto: cada una tiene un nombre y forma.",
+  },
+  {
+    id: "l3-u1-abecedario",
+    name: "El abecedario",
+    short: "El abecedario",
+    description: "El orden de las letras de la a a la z.",
+  },
+  {
+    id: "l3-u1-narrar",
+    name: "Narrar historias",
+    short: "Narrar",
+    description: "Contar historias a nuestro alrededor en orden.",
+  },
+];
+
+const l3u1Activities: Activity[] = [
+  match(
+    "l3-u1-a01",
+    "l3-u1-punto",
+    1,
+    "Une cada oración con su forma correcta: punto al final.",
+    [
+      ["El sol sale temprano", "El sol sale temprano."],
+      ["La casa es grande", "La casa es grande."],
+      ["Hoy es lunes", "Hoy es lunes."],
+    ],
+    "Cada oración termina con un punto.",
+  ),
+  choice(
+    "l3-u1-a02",
+    "l3-u1-punto",
+    2,
+    "¿Dónde se escribe el punto?",
+    ["Al final de la oración", "En el medio", "Al principio", "Sin punto"],
+    0,
+    "El punto termina la oración.",
+  ),
+  input(
+    "l3-u1-a03",
+    "l3-u1-punto",
+    2,
+    "Escribe la oración con punto final: 'el perro ladra'",
+    ["El perro ladra."],
+    "La oración termina con un punto.",
+  ),
+  match(
+    "l3-u1-a04",
+    "l3-u1-mayuscula",
+    1,
+    "Une cada frase con su escritura correcta.",
+    [
+      ["maría trajo la lista", "María trajo la lista."],
+      ["sara sorprendió a juan", "Sara sorprendió a Juan."],
+      ["el cojo el coche de mi papá", "El cojo el coche de mi papá."],
+    ],
+    "Los nombres propios llevan mayúsculas: María, Sara, Juan, Papá.",
+  ),
+  input(
+    "l3-u1-a05",
+    "l3-u1-mayuscula",
+    2,
+    "Escribe con mayúscula el nombre de la capital: madrid",
+    ["Madrid"],
+    "Madrid es un nombre propio: lleva mayúsculas.",
+  ),
+  input(
+    "l3-u1-a06",
+    "l3-u1-mayuscula",
+    2,
+    "Escribe con mayúscula el nombre de una persona: pedro",
+    ["Pedro"],
+    "Pedro es un nombre: lleva mayúsculas.",
+  ),
+  choice(
+    "l3-u1-a07",
+    "l3-u1-letra",
+    1,
+    "¿Qué letra aparece en la palabra «nombre»?",
+    ["n", "o", "b", "m"],
+    0,
+    "La palabra nombre empieza por la letra n.",
+  ),
+  input(
+    "l3-u1-a08",
+    "l3-u1-letra",
+    2,
+    "¿Cuántas letras tiene la palabra «lengua»?",
+    ["6"],
+    "l-e-n-g-u-a: son 6 letras.",
+  ),
+  match(
+    "l3-u1-a09",
+    "l3-u1-letra",
+    1,
+    "Une cada letra con su nombre.",
+    [
+      ["A", "la primera letra del abecedario"],
+      ["E", "la primera vocal del abecedario"],
+      ["Z", "la última letra del abecedario"],
+    ],
+    "A, E y Z son letras del abecedario con nombre propio.",
+  ),
+  choice(
+    "l3-u1-a10",
+    "l3-u1-abecedario",
+    1,
+    "¿Qué letra sigue a la «L» en el abecedario?",
+    ["M", "N", "O", "P"],
+    0,
+    "Después de L viene M.",
+  ),
+  input(
+    "l3-u1-a11",
+    "l3-u1-abecedario",
+    2,
+    "¿Cuántas letras tiene el abecedario?",
+    ["26"],
+    "El alfabeto tiene 26 letras de la a a la z.",
+  ),
+  match(
+    "l3-u1-a12",
+    "l3-u1-abecedario",
+    1,
+    "Une cada parte del abecedario con su nombre.",
+    [
+      ["a b c", "el inicio del abecedario"],
+      ["m n o", "la mitad del abecedario"],
+      ["x y z", "el final del abecedario"],
+    ],
+    "El abecedario empieza con «a» y termina con «z».",
+  ),
+  match(
+    "l3-u1-a13",
+    "l3-u1-narrar",
+    2,
+    "Une cada tema con una frase que lo cuente.",
+    [
+      ["el mar", "Miro a los peces en el mar"],
+      ["la playa", "Juego arena con mis amigos"],
+      ["el bosque", "Busco huellas de animales"],
+    ],
+    "Narramos cómo funciona el mundo que nos rodea.",
+  ),
+  input(
+    "l3-u1-a14",
+    "l3-u1-narrar",
+    2,
+    "Describe tu paisaje favorito en una frase:",
+    ["Vivo cerca del mar: es un pueblo de casas blancas."],
+    "Narra algo que te guste saber de tu entorno.",
+  ),
+  input(
+    "l3-u1-a15",
+    "l3-u1-narrar",
+    3,
+    "Escribe dos frases que narren cómo llegaste hoy a la escuela:",
+    ["Salí casa y fui al colegio caminando."],
+    "Empieza por el pasado y narra paso a paso lo que hiciste.",
+  ),
+  match(
+    "l3-u1-a16",
+    "l3-u1-narrar",
+    2,
+    "Une cada tema con una frase que lo cuente.",
+    [
+      ["el desierto", "Veo tortugas lentas en la arena"],
+      ["el mundo", "Llamo a mis amigos para jugar"],
+      ["mi abuelo", "Cuento una historia de barco"],
+    ],
+    "Contamos historias que crecen dentro de nosotros.",
+  ),
+  input(
+    "l3-u1-a17",
+    "l3-u1-narrar",
+    1,
+    "Escribe una frase sobre tu primera semana de curso:",
+    ["Esta semana he estrenado el cuaderno de Emma."],
+    "Narra con una frase lo que te hizo sentir.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Lengua Castellana · 3º · Tema 2 · Ortografía — La sílaba tónica
+   -------------------------------------------------------------------------- */
+
+const l3u2Skills: Skill[] = [
+  {
+    id: "l3-u2-silaba",
+    name: "La sílaba tónica",
+    short: "Sílaba tónica",
+    description: "Saber en qué sílaba se pone la tilde de una palabra.",
+  },
+  {
+    id: "l3-u2-guion",
+    name: "El guion",
+    short: "El guion",
+    description: "Separar palabras con guiones: tot-o, car-ru-sello.",
+  },
+  {
+    id: "l3-u2-sinonimos",
+    name: "Los sinónimos",
+    short: "Sinónimos",
+    description: "Palabras que significan lo mismo: casa y hogar.",
+  },
+  {
+    id: "l3-u2-anecdota",
+    name: "Contar una anécdota",
+    short: "Anécdota",
+    description:
+      "Contar algo que pasó: empezar por qué, qué pasó, terminar con algo.",
+  },
+];
+
+const l3u2Activities: Activity[] = [
+  input(
+    "l3-u2-a01",
+    "l3-u2-silaba",
+    2,
+    "¿En qué sílaba está la tilde de «café»?",
+    ["caf"],
+    "Café: la tilde va en la sílaba «caf».",
+  ),
+  input(
+    "l3-u2-a02",
+    "l3-u2-silaba",
+    2,
+    "¿Dónde está la tilde de «árbol»?",
+    ["árbol"],
+    "Árbol: la tilde está en la primera sílaba.",
+  ),
+  input(
+    "l3-u2-a03",
+    "l3-u2-silaba",
+    3,
+    "¿Dónde está la tilde de «sofía»?",
+    ["fí"],
+    "Sofía: la tilde va en la sílaba «fí».",
+  ),
+  choice(
+    "l3-u2-a04",
+    "l3-u2-guion",
+    1,
+    "¿Cómo se escribe «perro» con guiones?",
+    ["p-er-ro", "per-ro", "pér-ro", "perr-o"],
+    0,
+    "El guion separa las sílabas: PER-RO.",
+  ),
+  input(
+    "l3-u2-a05",
+    "l3-u2-guion",
+    2,
+    "Separa en guiones: «el árbol de mi patio»",
+    ["el ár-bol de mi pa-tio"],
+    "Sílabas: ár-bol, pa-tio.",
+  ),
+  match(
+    "l3-u2-a06",
+    "l3-u2-guion",
+    1,
+    "Une cada palabra con su separación:",
+    [
+      ["casa", "ca-sa"],
+      ["elefante", "e-le-fan-te"],
+      ["pelota", "pe-lo-ta"],
+    ],
+    "Separamos en sílabas: ca-sa, e-le-fan-te, pe-lo-ta.",
+  ),
+  choice(
+    "l3-u2-a07",
+    "l3-u2-sinonimos",
+    2,
+    "¿Cuál de estas palabras es un sinónimo de «bueno»?",
+    ["bien", "malo", "amargo", "caliente"],
+    0,
+    "Bien y bueno significan lo mismo.",
+  ),
+  input(
+    "l3-u2-a08",
+    "l3-u2-sinonimos",
+    2,
+    "¿Qué palabra significa lo mismo que «casa»?",
+    ["hogar"],
+    "Casa y hogar significan lo mismo.",
+  ),
+  match(
+    "l3-u2-a09",
+    "l3-u2-sinonimos",
+    1,
+    "Une cada palabra con su sinónimo:",
+    [
+      ["casa", "hogar"],
+      ["bonito", "hermoso"],
+      ["fácil", "sencillo"],
+    ],
+    "Sinónimos: casa/hogar, bonito/hermoso, fácil/sencillo.",
+  ),
+  input(
+    "l3-u2-a10",
+    "l3-u2-sinonimos",
+    3,
+    "Escribe un sinónimo de «fácil»:",
+    ["sencillo"],
+    "Fácil y sencillo significan lo mismo.",
+  ),
+  choice(
+    "l3-u2-a11",
+    "l3-u2-anecdota",
+    1,
+    "¿Cuántas partes tiene una anécdota?",
+    ["Dos", "Tres", "Cinco", "Una sola"],
+    1,
+    "Empezar, qué pasó, terminar.",
+  ),
+  input(
+    "l3-u2-a12",
+    "l3-u2-anecdota",
+    2,
+    "Escribe una anécdota de tu primer día de curso:",
+    ["Primer día: entré a la clase con miedo, pero me hice amigos."],
+    "Una anécdota comienza contando cómo fue el día.",
+  ),
+  match(
+    "l3-u2-a13",
+    "l3-u2-anecdota",
+    2,
+    "Une cada parte de la anécdota con su función:",
+    [
+      ["Empecé", "dije qué pasaba?"],
+      ["Llegamos", "a la escuela"],
+      ["Me equivoqué", "en una respuesta"],
+    ],
+    "Una anécdota: inicio, desarrollo y final.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Inglés — Stater unit · Repaso (Unit 0)
+   -------------------------------------------------------------------------- */
+
+const i3u0Skills: Skill[] = [
+  {
+    id: "i3-u0-alphabet",
+    name: "The alphabet",
+    short: "The alphabet",
+    description: "The letters A to Z: write the first letter of each.",
+  },
+  {
+    id: "i3-u0-objects",
+    name: "School objects",
+    short: "School objects",
+    description: "The notebook, the book, the pencil, the rubber and the crayon.",
+  },
+  {
+    id: "i3-u0-transport",
+    name: "Transport",
+    short: "Transport",
+    description: "The plane, the car, the boat, the bicycle, the train and the bus.",
+  },
+  {
+    id: "i3-u0-fruit",
+    name: "Fruit",
+    short: "Fruit",
+    description: "The banana, the apple and the strawberry.",
+  },
+  {
+    id: "i3-u0-animals",
+    name: "Animals",
+    short: "Animals",
+    description: "The dog, the giraffe, the elephant, the peacock, the duck and the snake.",
+  },
+  {
+    id: "i3-u0-weekdays",
+    name: "Days of the week",
+    short: "Days of the week",
+    description: "Monday to Sunday, in order.",
+  },
+];
+
+const i3u0Activities: Activity[] = [
+  choice(
+    "i3-u0-a01",
+    "i3-u0-alphabet",
+    1,
+    "What letter comes after A?",
+    ["B", "C", "D", "A"],
+    0,
+    "The letter after A is B.",
+  ),
+  input(
+    "i3-u0-a02",
+    "i3-u0-alphabet",
+    2,
+    "Write the first letter of «pencil»:",
+    ["p"],
+    "The first letter of pencil is P.",
+  ),
+  match(
+    "i3-u0-a03",
+    "i3-u0-alphabet",
+    1,
+    "Une cada letra con su posición: «a» es la primera, «z» es la última.",
+    [
+      ["a", "first letter"],
+      ["b", "second letter"],
+      ["z", "last letter"],
+    ],
+    "The alphabet starts with a and ends with z.",
+  ),
+  choice(
+    "i3-u0-a04",
+    "i3-u0-objects",
+    1,
+    "Which is a school object? (a) car (b) book",
+    ["book", "car", "tree", "street"],
+    1,
+    "The book is a school object.",
+  ),
+  input(
+    "i3-u0-a05",
+    "i3-u0-objects",
+    2,
+    "The teacher says: «Give me your ___» — draw a rubber.",
+    ["rubber"],
+    "A rubber is an object to erase mistakes.",
+  ),
+  input(
+    "i3-u0-a06",
+    "i3-u0-objects",
+    1,
+    "The ___ is used to write: pencil or pen.",
+    ["pencil"],
+    "The pencil is used to write.",
+  ),
+  choice(
+    "i3-u0-a07",
+    "i3-u0-transport",
+    1,
+    "Which of these goes in the water? (a) plane (b) boat",
+    ["plane", "boat", "train", "car"],
+    1,
+    "The boat is in the water.",
+  ),
+  input(
+    "i3-u0-a08",
+    "i3-u0-transport",
+    2,
+    "The ___ has two wheels: bicycle.",
+    ["bicycle"],
+    "The bicycle has two wheels.",
+  ),
+  input(
+    "i3-u0-a09",
+    "i3-u0-transport",
+    2,
+    "The ___ is a vehicle with a roof; «train» goes by rails.",
+    ["train"],
+    "The train goes by the rails.",
+  ),
+  choice(
+    "i3-u0-a10",
+    "i3-u0-fruit",
+    1,
+    "Which fruit is red? (a) banana (b) apple",
+    ["apple", "banana", "tree", "orange"],
+    1,
+    "The apple is red.",
+  ),
+  input(
+    "i3-u0-a11",
+    "i3-u0-fruit",
+    2,
+    "The apple is a fruit: it is ___.",
+    ["red"],
+    "The apple is red.",
+  ),
+  input(
+    "i3-u0-a12",
+    "i3-u0-fruit",
+    2,
+    "The ___ is yellow: banana.",
+    ["banana"],
+    "The banana is yellow.",
+  ),
+  choice(
+    "i3-u0-a13",
+    "i3-u0-animals",
+    1,
+    "Which animal is tall? (a) giraffe (b) dog",
+    ["giraffe", "dog", "cat", "snake"],
+    0,
+    "The giraffe is tall.",
+  ),
+  input(
+    "i3-u0-a14",
+    "i3-u0-animals",
+    2,
+    "The ___ is a big animal with a long neck: giraffe.",
+    ["giraffe"],
+    "The giraffe has a long neck.",
+  ),
+  input(
+    "i3-u0-a15",
+    "i3-u0-animals",
+    2,
+    "Elephants are very ___.",
+    ["big"],
+    "Elephants are very big.",
+  ),
+  match(
+    "i3-u0-a16",
+    "i3-u0-weekdays",
+    1,
+    "Une cada día de la semana con su nombre: «monday» es el primer día.",
+    [
+      ["monday", "first day of the week"],
+      ["friday", "last day of the week"],
+      ["sunday", "weekend"],
+    ],
+    "Monday, Friday and Sunday.",
+  ),
+  input(
+    "i3-u0-a17",
+    "i3-u0-weekdays",
+    2,
+    "Today is Monday. Tomorrow is ___.",
+    ["Tuesday"],
+    "After Monday comes Tuesday.",
+  ),
+  input(
+    "i3-u0-a18",
+    "i3-u0-weekdays",
+    1,
+    "One weekend day is ___.",
+    ["Saturday", "Sunday"],
+    "Weekend days are Saturday and Sunday.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Inglés — Unit 1 · Do you...? (The Library)
+   -------------------------------------------------------------------------- */
+
+const i3u1Skills: Skill[] = [
+  {
+    id: "i3-u1-read",
+    name: "Do you read books?",
+    short: "Reading books",
+    description: "Ask and answer: yes, I do. No, I don't.",
+  },
+  {
+    id: "i3-u1-library",
+    name: "Library vocabulary",
+    short: "Library words",
+    description: "Words: comic, notebook, diary, computer...",
+  },
+  {
+    id: "i3-u1-dvd",
+    name: "watching DVDs",
+    short: "watching DVDs",
+    description: "Videos: DVD, comic, notebook.",
+  },
+  {
+    id: "i3-u1-questions",
+    name: "Questions with do you?",
+    short: "Questions",
+    description: "Questions and answers with «do you».",
+  },
+];
+
+const i3u1Activities: Activity[] = [
+  choice(
+    "i3-u1-a01",
+    "i3-u1-read",
+    1,
+    "Do you read books?",
+    ["Yes, I do", "No, I don't", "Yes, I can", "No, I do"],
+    0,
+    "Yes, I do: I like reading books.",
+  ),
+  input(
+    "i3-u1-a02",
+    "i3-u1-read",
+    2,
+    "What do you do at the library?",
+    ["watch DVDs"],
+    "I watch DVDs at the library.",
+  ),
+  match(
+    "i3-u1-a03",
+    "i3-u1-read",
+    1,
+    "Une cada pregunta con su respuesta:",
+    [
+      ["Do you read books?", "Yes, I do."],
+      ["Do you watch DVDs?", "No, I don't."],
+      ["Do you read magazines?", "Yes, I read magazines."],
+    ],
+    "Answers with yes, I do or no, I don't.",
+  ),
+  input(
+    "i3-u1-a04",
+    "i3-u1-library",
+    2,
+    "A ___ is a book of stories.",
+    ["comic"],
+    "A comic is a book of stories.",
+  ),
+  input(
+    "i3-u1-a05",
+    "i3-u1-library",
+    2,
+    "We look for information in the ___.",
+    ["computer"],
+    "We use the computer in the library.",
+  ),
+  match(
+    "i3-u1-a06",
+    "i3-u1-library",
+    1,
+    "Une cada palabra con su uso:",
+    [
+      ["notebook", "write your homework"],
+      ["diary", "write your news"],
+      ["dictionary", "find words"],
+    ],
+    "Library words help us use books.",
+  ),
+  input(
+    "i3-u1-a07",
+    "i3-u1-dvd",
+    2,
+    "In the library I ___ DVDs.",
+    ["watch"],
+    "At the library we watch DVDs together.",
+  ),
+  choice(
+    "i3-u1-a08",
+    "i3-u1-dvd",
+    2,
+    "What do you watch on Friday?",
+    ["a DVD", "a magazine", "a book", "a comic"],
+    0,
+    "I watch a DVD on Friday.",
+  ),
+  input(
+    "i3-u1-a09",
+    "i3-u1-questions",
+    3,
+    "What do you do at the library? Write: I ___ my homework.",
+    ["do"],
+    "«Do your homework» — I do my homework.",
+  ),
+  choice(
+    "i3-u1-a10",
+    "i3-u1-questions",
+    1,
+    "Do you have a diary?",
+    ["Yes, I do", "No, I don't", "Yes, I have", "No, I have"],
+    0,
+    "I do have a diary.",
+  ),
+  input(
+    "i3-u1-a11",
+    "i3-u1-questions",
+    2,
+    "A ___ is a notebook where you write your homework.",
+    ["diary"],
+    "A diary is a place to write.",
+  ),
+  match(
+    "i3-u1-a12",
+    "i3-u1-questions",
+    2,
+    "Une cada pregunta con su respuesta:",
+    [
+      ["Do you like to read?", "Yes, I do."],
+      ["Do you like to write?", "No, I don't."],
+      ["Do you like the library?", "Yes, I love the library."],
+    ],
+    "Questions with do you and short answers.",
+  ),
+  input(
+    "i3-u1-a14",
+    "i3-u1-dvd",
+    2,
+    "You ___ DVDs at the library: watch.",
+    ["watch"],
+    "You watch DVDs at the library.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Inglés — Unit 2 · I like... (Animal Park)
+   -------------------------------------------------------------------------- */
+
+const i3u2Skills: Skill[] = [
+  {
+    id: "i3-u2-likes",
+    name: "I like, love and don't like",
+    short: "Likes",
+    description: "Ask and answer: do you like bears? I like bears, I love lions, I don't like snakes.",
+  },
+  {
+    id: "i3-u2-favourites",
+    name: "Favourite animals",
+    short: "Favourite animals",
+    description: "What is your favourite animal? I like butterflies and cats.",
+  },
+  {
+    id: "i3-u2-describe",
+    name: "Describe animals",
+    short: "Describe animals",
+    description: "Describe the animal: it eats, it is, it flies, it jumps.",
+  },
+  {
+    id: "i3-u2-eats",
+    name: "It eats",
+    short: "It eats",
+    description: "Say what the animal eats: it eats meat, fish, grass, fruit.",
+  },
+];
+
+const i3u2Activities: Activity[] = [
+  choice(
+    "i3-u2-a01",
+    "i3-u2-likes",
+    1,
+    "Do you like bears?",
+    ["Yes, I do", "No, I don't", "Yes, I like", "No, I like"],
+    0,
+    "Yes, I do: bears are animals.",
+  ),
+  input(
+    "i3-u2-a02",
+    "i3-u2-likes",
+    2,
+    "I like to feed the __: ducks and geese.",
+    ["ducks"],
+    "We like to feed the ducks.",
+  ),
+  input(
+    "i3-u2-a03",
+    "i3-u2-likes",
+    3,
+    "Do you like butterflies? I ___ butterflies.",
+    ["love"],
+    "I love butterflies.",
+  ),
+  choice(
+    "i3-u2-a04",
+    "i3-u2-favourites",
+    1,
+    "What is your favourite animal?",
+    ["elephant", "giraffe", "tiger", "zebra"],
+    0,
+    "My favourite animal is the elephant.",
+  ),
+  input(
+    "i3-u2-a05",
+    "i3-u2-favourites",
+    2,
+    "My favourite animal is the __.",
+    ["tiger"],
+    "The tiger is my favourite animal.",
+  ),
+  input(
+    "i3-u2-a06",
+    "i3-u2-favourites",
+    2,
+    "Do you like butterflies? I ___ butterflies.",
+    ["love"],
+    "I love butterflies.",
+  ),
+  match(
+    "i3-u2-a07",
+    "i3-u2-describe",
+    1,
+    "Une cada animal con su descripción:",
+    [
+      ["The tiger", "It is orange and black."],
+      ["The whale", "It is big and grey."],
+      ["The kangaroo", "It jumps and hops."],
+    ],
+    "Describe the animal with its colours and actions.",
+  ),
+  choice(
+    "i3-u2-a08",
+    "i3-u2-describe",
+    2,
+    "Which animal eats meat?",
+    ["lion", "duck", "cows", "tree"],
+    0,
+    "The lion eats meat.",
+  ),
+  input(
+    "i3-u2-a09",
+    "i3-u2-describe",
+    2,
+    "This animal: it is small and lives in trees. It eats insects: ___.",
+    ["it", "the animal"],
+    "Describe with: it is, it eats.",
+  ),
+  input(
+    "i3-u2-a10",
+    "i3-u2-eats",
+    2,
+    "The ___ eats fish.",
+    ["seal"],
+    "The seal eats fish.",
+  ),
+  input(
+    "i3-u2-a11",
+    "i3-u2-eats",
+    2,
+    "The ___ eats apples.",
+    ["bear"],
+    "The bear eats apples.",
+  ),
+  input(
+    "i3-u2-a12",
+    "i3-u2-eats",
+    3,
+    "The kangaroo eats: ___.",
+    ["grass"],
+    "The kangaroo eats grass.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Inglés — Unit 3 · Can you...? (The Olympics)
+   -------------------------------------------------------------------------- */
+
+const i3u3Skills: Skill[] = [
+  {
+    id: "i3-u3-can",
+    name: "Can you...?",
+    short: "Can you",
+    description: "Ask and answer: can you swim? Yes, I can. No, I can't.",
+  },
+  {
+    id: "i3-u3-sports",
+    name: "Sports and abilities",
+    short: "Sports",
+    description: "Play football, play tennis, swim, run, jump, do judo.",
+  },
+  {
+    id: "i3-u3-equipment",
+    name: "What you need to play",
+    short: "Equipment",
+    description: "To ride a bike you need a bike and a helmet.",
+  },
+];
+
+const i3u3Activities: Activity[] = [
+  choice(
+    "i3-u3-a01",
+    "i3-u3-can",
+    1,
+    "Can you swim?",
+    ["Yes, I can", "No, I can't", "Yes, I do", "No, I do"],
+    0,
+    "Yes, I can: swimming is easy.",
+  ),
+  input(
+    "i3-u3-a02",
+    "i3-u3-can",
+    2,
+    "Can you swim?",
+    ["Yes, I can"],
+    "Answer with: yes, I can or no, I can't.",
+  ),
+  input(
+    "i3-u3-a03",
+    "i3-u3-can",
+    3,
+    "Can you do gymnastics?",
+    ["No, I can't"],
+    "I can't do gymnastics well.",
+  ),
+  choice(
+    "i3-u3-a04",
+    "i3-u3-sports",
+    1,
+    "What sport can you do?",
+    ["play football", "eat pizza", "wash the dishes", "do homework"],
+    0,
+    "Play football is a sport.",
+  ),
+  input(
+    "i3-u3-a05",
+    "i3-u3-sports",
+    2,
+    "I can run. I can __.",
+    ["jump", "dance"],
+    "I can run and I can jump.",
+  ),
+  input(
+    "i3-u3-a06",
+    "i3-u3-sports",
+    2,
+    "I can swim. I can __.",
+    ["run", "jump"],
+    "I can swim and I can run.",
+  ),
+  input(
+    "i3-u3-a07",
+    "i3-u3-sports",
+    2,
+    "I play tennis: ___",
+    ["play"],
+    "Play tennis is a sport.",
+  ),
+  input(
+    "i3-u3-a08",
+    "i3-u3-equipment",
+    2,
+    "To __ a bike you need a bike and a helmet: ride a bike.",
+    ["ride"],
+    "To ride a bike you need a bike and a helmet.",
+  ),
+  input(
+    "i3-u3-a09",
+    "i3-u3-equipment",
+    2,
+    "To play tennis you need: ___.",
+    ["a racket"],
+    "To play tennis you need a racket.",
+  ),
+  match(
+    "i3-u3-a10",
+    "i3-u3-equipment",
+    1,
+    "Une cada deporte con lo que necesitas:",
+    [
+      ["play football", "a ball"],
+      ["ride a bike", "a bike and a helmet"],
+      ["play basketball", "a hoop and a ball"],
+    ],
+    "You need equipment for each sport.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Ciencias de la Naturaleza · 3º · Tema 1 · Seres vivos — El cuerpo humano
+   -------------------------------------------------------------------------- */
+
+const n3u1Skills: Skill[] = [
+  {
+    id: "n3-u1-vida",
+    name: "Las etapas de la vida",
+    short: "Etapas de la vida",
+    description: "Ser bebé, niño, adulto o anciano: cada etapa tiene sus cambios.",
+  },
+  {
+    id: "n3-u1-huesos",
+    name: "Los huesos",
+    short: "Huesos",
+    description: "Hay 206 huesos; el fémur es el más grande.",
+  },
+  {
+    id: "n3-u1-musculos",
+    name: "Los músculos",
+    short: "Músculos",
+    description: "Dos que movemos el cuerpo: el tríceps y el bíceps.",
+  },
+  {
+    id: "n3-u1-columna",
+    name: "La columna vertebral",
+    short: "Columna",
+    description: "Segmentos: cuello (7), tórax (12), lumbar (5) y acróstico (5).",
+  },
+  {
+    id: "n3-u1-sentidos",
+    name: "Los sentidos",
+    short: "Sentidos",
+    description: "Vista, audición, olfato, gusto y tacto.",
+  },
+];
+
+const n3u1Activities: Activity[] = [
+  choice(
+    "n3-u1-a01",
+    "n3-u1-vida",
+    1,
+    "¿Cuántas etapas tiene la vida de un ser humano?",
+    ["Dos", "Tres", "Cuatro", "Seis"],
+    2,
+    "Etapas de la vida: bebé, niño, adulto y anciano.",
+  ),
+  input(
+    "n3-u1-a02",
+    "n3-u1-vida",
+    2,
+    "La edad adulta es desde ___ años.",
+    ["18"],
+    "A partir de los 18 años es adulto.",
+  ),
+  match(
+    "n3-u1-a03",
+    "n3-u1-vida",
+    1,
+    "Une cada etapa de la vida con una acción:",
+    [
+      ["niño", "juega en el parque"],
+      ["adulto", "trabaja y tiene familia"],
+      ["anciano", "recuerda y comparte"],
+    ],
+    "La vida consta de etapas: bebé, niño, adulto y anciano.",
+  ),
+  choice(
+    "n3-u1-a04",
+    "n3-u1-huesos",
+    1,
+    "¿Cómo se llama el hueso más grande del cuerpo?",
+    ["el fémur", "el cráneo", "la espalda", "la rodilla"],
+    0,
+    "El fémur es el hueso más grande: es una pierna.",
+  ),
+  input(
+    "n3-u1-a05",
+    "n3-u1-huesos",
+    2,
+    "El fémur mide unos ___ cm en un niño de 10 años.",
+    ["30"],
+    "El fémur tiene unos 30 cm.",
+  ),
+  match(
+    "n3-u1-a06",
+    "n3-u1-huesos",
+    1,
+    "Une cada hueso con su función:",
+    [
+      ["el fémur", "lleva el cuerpo sobre las piernas"],
+      ["el cráneo", "protege el cerebro"],
+      ["la costilla", "protege el pulmón"],
+    ],
+    "Huesos con función de protección y soporte.",
+  ),
+  choice(
+    "n3-u1-a07",
+    "n3-u1-musculos",
+    1,
+    "¿Qué dos músculos mueven los brazos?",
+    ["El tríceps y el bíceps", "Los hombros", "El torcedor", "El pectoral"],
+    0,
+    "El tríceps y el bíceps son los dos principales.",
+  ),
+  input(
+    "n3-u1-a08",
+    "n3-u1-musculos",
+    2,
+    "El bíceps es un músculo del ___.",
+    ["brazo"],
+    "El bíceps está en el brazo y se extiende de hombro a codo.",
+  ),
+  input(
+    "n3-u1-a09",
+    "n3-u1-musculos",
+    3,
+    "¿Cuántos huesos tiene el cuerpo humano?",
+    ["206"],
+    "El cuerpo humano tiene 206 huesos.",
+  ),
+  input(
+    "n3-u1-a10",
+    "n3-u1-columna",
+    1,
+    "La columna tiene ___ segmentos: cuello y tórax.",
+    ["dos"],
+    "Segmentos: cuello, tórax, lumbar y acróstico.",
+  ),
+  match(
+    "n3-u1-a11",
+    "n3-u1-columna",
+    1,
+    "Une cada parte de la columna con sus segmentos:",
+    [
+      ["cuello", "7 segmentos"],
+      ["tórax", "12 segmentos"],
+      ["lumbar", "5 segmentos"],
+    ],
+    "Llamamos acróstico al segmento inferior.",
+  ),
+  input(
+    "n3-u1-a12",
+    "n3-u1-columna",
+    2,
+    "El tórax tiene ___ segmentos.",
+    ["12"],
+    "El tórax tiene 12 segmentos.",
+  ),
+  choice(
+    "n3-u1-a13",
+    "n3-u1-sentidos",
+    1,
+    "¿Qué sentido usas para ver?",
+    ["la vista", "el oído", "el olfato", "el tacto"],
+    0,
+    "La vista nos permite ver los colores y las formas.",
+  ),
+  input(
+    "n3-u1-a14",
+    "n3-u1-sentidos",
+    2,
+    "El ___ eres el que probaste el chocolate:",
+    ["paladar"],
+    "El paladar es el sentido del gusto.",
+  ),
+  match(
+    "n3-u1-a15",
+    "n3-u1-sentidos",
+    1,
+    "Une cada sentido con su función:",
+    [
+      ["la vista", "ver los colores y las formas"],
+      ["el oído", "escuchar las palabras"],
+      ["el olfato", "cocinar con aroma"],
+      ["el tacto", "sentir la piel"],
+    ],
+    "Cinco sentidos para conocer el mundo.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Ciencias de la Naturaleza · 3º · Tema 2 · Salud — La alimentación
+   -------------------------------------------------------------------------- */
+
+const n3u2Skills: Skill[] = [
+  {
+    id: "n3-u2-nutrientes",
+    name: "Nutrientes",
+    short: "Nutrientes",
+    description: "Calorías: carbohidratos, proteínas y grasa; fibra; vitaminas.",
+  },
+  {
+    id: "n3-u2-salud",
+    name: "Dieta sana",
+    short: "Dieta sana",
+    description: "Frutas, verduras, proteína y cereales; agua; cinco fichas.",
+  },
+  {
+    id: "n3-u2-conservacion",
+    name: "Conservación de alimentos",
+    short: "Conservación",
+    description: "Refrigerar, congelar, hervir; no dejar al aire.",
+  },
+  {
+    id: "n3-u2-grasas",
+    name: "Las grasas",
+    short: "Las grasas",
+    description: "La grasa es un nutriente y da energía, pero hay que moderarla.",
+  },
+];
+
+const n3u2Activities: Activity[] = [
+  choice(
+    "n3-u2-a01",
+    "n3-u2-nutrientes",
+    1,
+    "¿Qué nutriente das energía cuando corres?",
+    ["las proteínas", "el carbohidrato", "las vitaminas", "la fibra"],
+    1,
+    "El carbohidrato es la energía del cuerpo.",
+  ),
+  input(
+    "n3-u2-a02",
+    "n3-u2-nutrientes",
+    2,
+    "La proteína se necesita para: ___.",
+    ["crecer y reparar"],
+    "La proteína repara el cuerpo y crece la altura.",
+  ),
+  input(
+    "n3-u2-a03",
+    "n3-u2-nutrientes",
+    2,
+    "Los granos son ricos en ___: carbohidratos.",
+    ["carbohidratos"],
+    "Los cereales son fuente de carbohidratos.",
+  ),
+  match(
+    "n3-u2-a04",
+    "n3-u2-nutrientes",
+    1,
+    "Une cada nutriente con su función:",
+    [
+      ["la fibra", "mejorar la digestión"],
+      ["la proteína", "reponer el cuerpo"],
+      ["el carbohidrato", "darte energía"],
+    ],
+    "Nutrientes: carbohidrato, proteína y fibra.",
+  ),
+  choice(
+    "n3-u2-a05",
+    "n3-u2-salud",
+    1,
+    "¿Cuántos grupos de alimentos puedes comer hoy?",
+    ["Cinco", "Tres", "Siete", "Diez"],
+    0,
+    "Los cinco grupos: frutas, verduras, cereales, proteína y lácteos.",
+  ),
+  input(
+    "n3-u2-a06",
+    "n3-u2-salud",
+    2,
+    "Las frutas y verduras son ricas en ___: vitaminas.",
+    ["vitaminas"],
+    "Las frutas y verduras son la fuente de vitaminas.",
+  ),
+  input(
+    "n3-u2-a07",
+    "n3-u2-salud",
+    3,
+    "Una dieta sana incluye: ___ y agua.",
+    ["frutas y verduras"],
+    "Cinco grupos: frutas, verduras, cereales, proteína y lácteos.",
+  ),
+  match(
+    "n3-u2-a08",
+    "n3-u2-conservacion",
+    1,
+    "Une cada método de conservación con su uso:",
+    [
+      ["congelar", "conservar 3 semanas"],
+      ["hervir", "matar los microbios"],
+      ["refrigerar", "conservar 3 días"],
+    ],
+    "Refrigerar, congelar y hervir conservan los alimentos.",
+  ),
+  input(
+    "n3-u2-a09",
+    "n3-u2-conservacion",
+    2,
+    "Para conservar los panes, ponlos en ___.",
+    ["una tela", "un pote o bolsa"],
+    "Los panes se conservan en un pote o bolsa, no al aire.",
+  ),
+  input(
+    "n3-u2-a10",
+    "n3-u2-grasas",
+    2,
+    "La grasa también es un nutriente: ___.",
+    ["darte energía"],
+    "Las grasas dan energía, pero se moderan.",
+  ),
+  input(
+    "n3-u2-a11",
+    "n3-u2-grasas",
+    3,
+    "Las grasas se encuentran en: ___.",
+    ["el aceite y el cerdo"],
+    "Las grasas están en aceites, carnes grasas y derramas.",
+  ),
+  input(
+    "n3-u2-a14",
+    "n3-u2-conservacion",
+    3,
+    "Para conservar los panes, puedes usar ___.",
+    ["una tela", "un pote"],
+    "Los panes se conservan en un pote o bolsa, no al aire.",
+  ),
+  input(
+    "n3-u2-a15",
+    "n3-u2-grasas",
+    2,
+    "Las grasas también son energía: ___.",
+    ["darte energía"],
+    "Las grasas dan energía, pero se moderan.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Ciencias Sociales · 3º · Tema 1 · El sistema solar — El planeta Tierra
+   -------------------------------------------------------------------------- */
+
+const s3u1Skills: Skill[] = [
+  {
+    id: "s3-u1-tierra",
+    name: "La Tierra",
+    short: "La Tierra",
+    description: "El planeta azul con continentes y océanos.",
+  },
+  {
+    id: "s3-u1-rotacion",
+    name: "La rotación",
+    short: "La rotación",
+    description: "La Tierra da una vuelta en 24 horas.",
+  },
+  {
+    id: "s3-u1-luna",
+    name: "La Luna",
+    short: "La Luna",
+    description: "Da cambios de fase: luna nueva, creciente y plena.",
+  },
+];
+
+const s3u1Activities: Activity[] = [
+  choice(
+    "s3-u1-a01",
+    "s3-u1-tierra",
+    1,
+    "¿Cómo se llama el planeta azul?",
+    ["La Tierra", "Júpiter", "Marte", "Venus"],
+    0,
+    "La Tierra es el planeta azul.",
+  ),
+  input(
+    "s3-u1-a02",
+    "s3-u1-tierra",
+    2,
+    "La Tierra tiene ___ océanos.",
+    ["cuatro"],
+    "El Pacífico, el Atlántico, el Índico y el Ártico.",
+  ),
+  match(
+    "s3-u1-a03",
+    "s3-u1-tierra",
+    1,
+    "Une cada océano con su nombre:",
+    [
+      ["El Pacífico", "el océano más grande"],
+      ["El Atlántico", "el océano rojo y azul"],
+      ["El Índico", "el océano al este de África"],
+    ],
+    "La Tierra tiene cinco océanos.",
+  ),
+  choice(
+    "s3-u1-a04",
+    "s3-u1-rotacion",
+    1,
+    "¿Cuántas horas tarda la Tierra en dar una vuelta?",
+    ["12", "24", "48", "72"],
+    1,
+    "La Tierra da una vuelta en 24 horas.",
+  ),
+  input(
+    "s3-u1-a05",
+    "s3-u1-rotacion",
+    2,
+    "La rotación de la Tierra es ___ horas.",
+    ["24"],
+    "La Tierra da una vuelta en 24 horas.",
+  ),
+  input(
+    "s3-u1-a06",
+    "s3-u1-rotacion",
+    3,
+    "El giro de la Tierra hace que veamos el ___ cada día.",
+    ["Sol"],
+    "Gracias a la rotación vemos el Sol.",
+  ),
+  choice(
+    "s3-u1-a07",
+    "s3-u1-luna",
+    2,
+    "¿Cómo se llama la fase de la Luna cuando no se ve?",
+    ["Luna nueva", "Creciente", "Mengana", "Plena"],
+    0,
+    "La luna nueva es la fase que no se ve.",
+  ),
+  input(
+    "s3-u1-a08",
+    "s3-u1-luna",
+    3,
+    "La fase ___ de la Luna es ___: plena.",
+    ["plena", "llena"],
+    "La fase plena es llena de luz.",
+  ),
+  match(
+    "s3-u1-a09",
+    "s3-u1-luna",
+    1,
+    "Une cada fase con su característica:",
+    [
+      ["luna nueva", "no se ve"],
+      ["creciente", "se ve aumentando"],
+      ["plena", "se ve más grande"],
+    ],
+    "Fases de la Luna: nueva, creciente, plena y mengana.",
+  ),
+];
+
+/* --------------------------------------------------------------------------
+   Ciencias Sociales · 3º · Tema 2 · Geografía — Orientación y mapas
+   -------------------------------------------------------------------------- */
+
+const s3u2Skills: Skill[] = [
+  {
+    id: "s3-u2-mapas",
+    name: "Los mapas",
+    short: "Los mapas",
+    description: "Un mapa es un dibujo del mundo en miniatura.",
+  },
+  {
+    id: "s3-u2-planos",
+    name: "Los planos",
+    short: "Los planos",
+    description: "Dibujar la posición de una casa: plano de una habitación.",
+  },
+  {
+    id: "s3-u2-brújulas",
+    name: "Las brújulas",
+    short: "Las brújulas",
+    description: "El norte es el punto de referencia: siempre está hacia arriba.",
+  },
+  {
+    id: "s3-u2-orientarse",
+    name: "Cómo orientarse",
+    short: "Orientarse",
+    description: "Si el norte es hacia arriba, el sur está hacia abajo.",
+  },
+];
+
+const s3u2Activities: Activity[] = [
+  choice(
+    "s3-u2-a01",
+    "s3-u2-mapas",
+    1,
+    "¿Qué es un mapa?",
+    ["Un dibujo del mundo en miniatura", "Un cuaderno", "Una calculadora", "Un niño"],
+    0,
+    "Un mapa es un dibujo del mundo en miniatura.",
+  ),
+  input(
+    "s3-u2-a02",
+    "s3-u2-mapas",
+    2,
+    "El norte siempre se representa ___ en el mapa.",
+    ["hacia arriba"],
+    "El norte aparece en la parte superior de los mapas.",
+  ),
+  match(
+    "s3-u2-a03",
+    "s3-u2-mapas",
+    1,
+    "Une cada dirección con su dirección en el mapa:",
+    [
+      ["norte", "en la parte superior del mapa"],
+      ["sur", "en la parte inferior del mapa"],
+      ["este", "a la derecha del mapa"],
+    ],
+    "El norte aparece en la parte superior de los mapas.",
+  ),
+  choice(
+    "s3-u2-a04",
+    "s3-u2-planos",
+    1,
+    "¿Qué es un plano?",
+    ["Un dibujo de la habitación", "Un libro", "Un juguete", "Un dibujo del mundo"],
+    0,
+    "El plano de una casa muestra la forma de cada habitación.",
+  ),
+  input(
+    "s3-u2-a05",
+    "s3-u2-planos",
+    2,
+    "En el plano de mi casa, mi habitación está ___ del salón.",
+    ["a la izquierda"],
+    "Dibuja el plano de tu habitación para encontrar dónde está.",
+  ),
+  input(
+    "s3-u2-a06",
+    "s3-u2-planos",
+    3,
+    "El plano de mi casa muestra ___ habitaciones: dos.",
+    ["dos"],
+    "Dibuja el plano de tu casa con todas las habitaciones.",
+  ),
+  input(
+    "s3-u2-a07",
+    "s3-u2-brújulas",
+    2,
+    "Cuando la brújula apunta al norte, buscas ___ para orientarte: el norte.",
+    ["el norte"],
+    "La brújula marca dónde está el norte.",
+  ),
+  match(
+    "s3-u2-a08",
+    "s3-u2-brújulas",
+    1,
+    "Une cada dirección con su uso de la brújula:",
+    [
+      ["norte", "el punto de referencia"],
+      ["sur", "lo contrario del norte"],
+      ["este", "la derecha"],
+    ],
+    "La brújula marca dónde está el norte.",
+  ),
+  input(
+    "s3-u2-a09",
+    "s3-u2-brújulas",
+    3,
+    "Si la aguja de la brújula te dice «norte», miras ___: hacia el norte.",
+    ["hacia el norte"],
+    "El norte es donde apunta la brújula.",
+  ),
+  input(
+    "s3-u2-a10",
+    "s3-u2-orientarse",
+    2,
+    "Para orientarte, fíjate en el ___: el norte.",
+    ["norte"],
+    "El norte siempre está en la parte superior de los mapas.",
+  ),
+  input(
+    "s3-u2-a11",
+    "s3-u2-orientarse",
+    2,
+    "El norte es un punto ___: en la parte superior del mapa.",
+    ["en la parte superior del mapa"],
+    "El norte se representa hacia arriba en los mapas.",
+  ),
+  match(
+    "s3-u2-a12",
+    "s3-u2-orientarse",
+    1,
+    "Une cada dirección con su dirección:",
+    [
+      ["norte", "en la parte superior del mapa"],
+      ["sur", "en la parte inferior del mapa"],
+      ["este", "a la derecha del mapa"],
+    ],
+    "El norte aparece en la parte superior de los mapas.",
+  ),
+];
+
 const subjects: Subject[] = [
   {
     id: "matematicas",
@@ -600,7 +2884,7 @@ const subjects: Subject[] = [
     studyable: true,
     units: [
       mathUnit,
-      soonUnit(
+      readyUnit(
         "mat-3-u2-suma-resta",
         "matematicas",
         2,
@@ -608,8 +2892,10 @@ const subjects: Subject[] = [
         "La suma y la resta",
         "Tema 2 · Operaciones",
         "Sumas y restas con llevadas, paréntesis y la calculadora.",
+        m3u2Skills,
+        m3u2Activities,
       ),
-      soonUnit(
+      readyUnit(
         "mat-3-u3-multiplicacion",
         "matematicas",
         3,
@@ -617,8 +2903,10 @@ const subjects: Subject[] = [
         "La multiplicación",
         "Tema 3 · Operaciones",
         "Las tablas, el doble, el triple y los términos de la multiplicación.",
+        m3u3Skills,
+        m3u3Activities,
       ),
-      soonUnit(
+      readyUnit(
         "mat-3-u4-multiplicar",
         "matematicas",
         4,
@@ -626,8 +2914,10 @@ const subjects: Subject[] = [
         "Multiplicar por una cifra",
         "Tema 4 · Operaciones",
         "Multiplicaciones sin llevar, llevando y con ceros al final.",
+        m3u4Skills,
+        m3u4Activities,
       ),
-      soonUnit(
+      readyUnit(
         "mat-3-u5-division",
         "matematicas",
         5,
@@ -635,8 +2925,10 @@ const subjects: Subject[] = [
         "La división",
         "Tema 5 · Operaciones",
         "Reparto, división exacta e inexacta y problemas de reparto.",
+        m3u5Skills,
+        m3u5Activities,
       ),
-      soonUnit(
+      readyUnit(
         "mat-3-u6-geometria",
         "matematicas",
         6,
@@ -644,6 +2936,8 @@ const subjects: Subject[] = [
         "Rectas, ángulos y polígonos",
         "Temas 11 y 12 · Geometría",
         "Rectas, ángulos, polígonos, circunferencia y simetría.",
+        m3u6Skills,
+        m3u6Activities,
       ),
     ],
     tools: [
@@ -666,10 +2960,10 @@ const subjects: Subject[] = [
     color: "#a9672f",
     soft: "#f3e3d3",
     icon: "pen",
-    status: "soon",
+    status: "ready",
     studyable: true,
     units: [
-      soonUnit(
+      readyUnit(
         "len-3-u1-narracion",
         "lengua",
         1,
@@ -677,8 +2971,10 @@ const subjects: Subject[] = [
         "Narración y primeras palabras",
         "Tema 1 · Lectura y escritura",
         "El punto y la mayúscula, la letra y la sílaba, el abecedario y una narración.",
+        l3u1Skills,
+        l3u1Activities,
       ),
-      soonUnit(
+      readyUnit(
         "len-3-u2-silaba",
         "lengua",
         2,
@@ -686,6 +2982,8 @@ const subjects: Subject[] = [
         "La sílaba tónica",
         "Tema 2 · Ortografía",
         "La sílaba tónica, el guion, los sinónimos y cómo contar una anécdota.",
+        l3u2Skills,
+        l3u2Activities,
       ),
     ],
   },
@@ -698,10 +2996,10 @@ const subjects: Subject[] = [
     color: "#2f6f99",
     soft: "#d9e8f1",
     icon: "speak",
-    status: "soon",
+    status: "ready",
     studyable: true,
     units: [
-      soonUnit(
+      readyUnit(
         "ing-3-u0-welcome",
         "ingles",
         1,
@@ -709,8 +3007,10 @@ const subjects: Subject[] = [
         "Welcome back",
         "Starter unit · Repaso",
         "The alphabet, school objects, transport, fruit, animals and the days of the week.",
+        i3u0Skills,
+        i3u0Activities,
       ),
-      soonUnit(
+      readyUnit(
         "ing-3-u1-library",
         "ingles",
         2,
@@ -718,8 +3018,10 @@ const subjects: Subject[] = [
         "The Library",
         "Unit 1 · Do you...?",
         "Do you read books? Yes, I do. Library vocabulary and present simple questions.",
+        i3u1Skills,
+        i3u1Activities,
       ),
-      soonUnit(
+      readyUnit(
         "ing-3-u2-animals",
         "ingles",
         3,
@@ -727,8 +3029,10 @@ const subjects: Subject[] = [
         "Animal Park",
         "Unit 2 · I like...",
         "Do you like bears? Favourite animals, food and descriptions.",
+        i3u2Skills,
+        i3u2Activities,
       ),
-      soonUnit(
+      readyUnit(
         "ing-3-u3-olympics",
         "ingles",
         4,
@@ -736,6 +3040,8 @@ const subjects: Subject[] = [
         "The Olympics",
         "Unit 3 · Can you...?",
         "Sports, abilities and the equipment you need to play.",
+        i3u3Skills,
+        i3u3Activities,
       ),
     ],
   },
@@ -748,10 +3054,10 @@ const subjects: Subject[] = [
     color: "#4c8356",
     soft: "#dcebdd",
     icon: "leaf",
-    status: "soon",
+    status: "ready",
     studyable: true,
     units: [
-      soonUnit(
+      readyUnit(
         "nat-3-u1-cuerpo",
         "naturales",
         1,
@@ -759,8 +3065,10 @@ const subjects: Subject[] = [
         "El cuerpo humano",
         "Tema 1 · Seres vivos",
         "Las etapas de la vida, los huesos, los músculos, la columna y los sentidos.",
+        n3u1Skills,
+        n3u1Activities,
       ),
-      soonUnit(
+      readyUnit(
         "nat-3-u2-alimentacion",
         "naturales",
         2,
@@ -768,6 +3076,8 @@ const subjects: Subject[] = [
         "La alimentación",
         "Tema 2 · Salud",
         "Nutrientes, dieta sana, conservación de alimentos y grasas.",
+        n3u2Skills,
+        n3u2Activities,
       ),
     ],
   },
@@ -780,10 +3090,10 @@ const subjects: Subject[] = [
     color: "#2f7b76",
     soft: "#d7ece9",
     icon: "globe",
-    status: "soon",
+    status: "ready",
     studyable: true,
     units: [
-      soonUnit(
+      readyUnit(
         "soc-3-u1-tierra",
         "sociales",
         1,
@@ -791,8 +3101,10 @@ const subjects: Subject[] = [
         "El planeta Tierra",
         "Tema 1 · El sistema solar",
         "La Tierra, la rotación, la traslación y la Luna.",
+        s3u1Skills,
+        s3u1Activities,
       ),
-      soonUnit(
+      readyUnit(
         "soc-3-u2-mapas",
         "sociales",
         2,
@@ -800,6 +3112,8 @@ const subjects: Subject[] = [
         "Orientación y mapas",
         "Tema 2 · Geografía",
         "Mapas, planos, brújulas y cómo orientarnos.",
+        s3u2Skills,
+        s3u2Activities,
       ),
     ],
   },
@@ -832,29 +3146,6 @@ const subjects: Subject[] = [
         "Planos y orientación",
         "Tema 2 · Plástica",
         "Planos, maquetas y composiciones con cartulinas y pinturas.",
-      ),
-    ],
-  },
-  {
-    id: "ef",
-    name: "Educación Física",
-    shortName: "Ed. Física",
-    description:
-      "Moverse, coordinarse y cuidar el cuerpo. Sin pantallas de por medio.",
-    color: "#6f7b35",
-    soft: "#e8ecd7",
-    icon: "run",
-    status: "soon",
-    studyable: false,
-    units: [
-      soonUnit(
-        "ef-3-u1-movimiento",
-        "ef",
-        1,
-        "Primer trimestre",
-        "Movimiento y juego",
-        "Tema 1 · Cuerpo y movimiento",
-        "Juegos de coordinación, equilibrio y hábitos saludables.",
       ),
     ],
   },

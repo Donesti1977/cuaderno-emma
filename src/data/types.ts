@@ -8,8 +8,7 @@ export type SubjectId =
   | "ingles"
   | "naturales"
   | "sociales"
-  | "artistica"
-  | "ef";
+  | "artistica";
 
 export type Difficulty = 1 | 2 | 3;
 

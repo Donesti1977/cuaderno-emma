@@ -140,8 +140,5 @@ describe("búsquedas", () => {
       curriculum.subjects.find((subject) => subject.id === "artistica")
         ?.studyable,
     ).toBe(false);
-    expect(curriculum.subjects.find((subject) => subject.id === "ef")?.studyable).toBe(
-      false,
-    );
   });
 });

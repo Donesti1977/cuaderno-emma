@@ -22,7 +22,6 @@ const subjectIdSchema = z.enum([
   "naturales",
   "sociales",
   "artistica",
-  "ef",
 ]);
 
 const statusSchema = z.enum(["ready", "soon"]);
